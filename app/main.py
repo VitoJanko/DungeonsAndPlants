@@ -6,8 +6,8 @@ from app import views
 
 @app.route("/test/")
 def home_view():
-        return "<h1>Welcome to Geeks for Geeks</h1>"
+    return "<h1>Welcome to Geeks for Geeks</h1>"
 
 @app.route("/time")
-def home_view():
-        return "<h1>Welcome to Geeks for Geeks 22</h1>"
+def diff_name():
+    return "<h1>Welcome to Geeks for Geeks 22</h1>"
