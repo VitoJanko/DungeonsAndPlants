@@ -1,0 +1,59 @@
+
+
+      <div class="plant">
+        <div class="plant_background"></div>
+        <img class="plant_image" src = "{{ url_for('static', filename='/images/v2_5.png') }}">
+        <span class="card_name">Thunder Flower</span>
+        <div class="ability_lower">
+          <span class="ability_usecase">Drawn during thunderstorm</span>
+          <span class="ability_desc">Each 6 seconds, for 1 minute, a lightning hits the flower
+            (if possible), dealing 1d12 to all creatures in 5 ft radius. </span>
+        </div>
+        <div class="ability_upper">
+          <span class="ability_desc">If the spell deals thunder/lightning damage, roll two
+            additional dice of the same type. </span>
+          <span class="ability_usecase">Used as a spell casting component</span>
+        </div>
+        <div class="plant_border"></div>
+        <div class="remove_plant" onclick="delete_node(event)"></div>
+      </div>
+
+
+      <div class="plant">
+        <div class="plant_background"></div>
+        <img class="plant_image" src = "{{ url_for('static', filename='/images/v4_38.png') }}">
+        <span class="card_name">Good-Luck Lily Pad</span>
+        <div class="ability_lower">
+          <span class="ability_usecase">Alchemist kit. 10g materials</span>
+          <span class="ability_desc">When doused with a special substance, enlarges into a
+            boat that can carry one creature (medium or smaller). Loses previous
+            benefit.
+          </span>
+        </div>
+        <div class="ability_upper">
+           <span class="ability_desc">When carried, it gives +1 to nature skill. </span>
+           <span class="ability_usecase">Carried</span>
+        </div>
+        <div class="plant_border"></div>
+        <div class="remove_plant" onclick="delete_node(event)"></div>
+      </div>
+
+      <div class="plant">
+        <div class="plant_background"></div>
+        <img class="plant_image" src = "{{ url_for('static', filename='/images/v7_65.png') }}">
+        <span class="card_name">White Lotus</span>
+        <div class="ability_upper">
+          <span class="ability_desc">A recognizing sign
+            of a political or criminal organization (at DM's discretion).
+          </span>
+          <span class="ability_usecase">Carried</span>
+        </div>
+        <div class="ability_lower">
+          <span class="ability_usecase">Carried. Sharpened. Dried (3 days)</span>
+          <span class="ability_desc">The stem of this flower can be dried and
+             sharpened into a small dagger.
+          </span>
+        </div>
+        <div class="plant_border"></div>
+        <div class="remove_plant" onclick="delete_node(event)"></div>
+      </div>

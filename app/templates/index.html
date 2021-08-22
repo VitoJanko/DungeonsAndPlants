@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Rosarivo&display=swap" rel="stylesheet" />
+  <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+  <title>Dungeons and plants</title>
+</head>
+
+
+
+<body>
+  <script src="{{ url_for('static', filename='js/new_plant.js') }}"></script>
+  <div class="herbarium">
+
+    <div class=title_div>
+      <p class="title">Herbarium</p>
+    </div>
+
+    <div  id="plant_container">
+
+    </div>
+  </div>
+
+  <div class="rules">
+    <div class="title_div">
+      <p class="title">Rules</p>
+    </div>
+    <div class="rule_div">
+      <button type="button" class="plant_search" onclick="read_form()">
+        Search for plants!
+      </button>
+
+      <p id="hand_full" class="hand"></p>
+
+      <form name=radios>
+        <div style="padding: 1em">
+          Terrain:
+          <input type="radio" id="terrain1"
+           name="terrain" value="Forest">
+          <label class="radio">Forest</label>
+
+          <input type="radio" id="terrain2"
+           name="terrain" value="Plains" checked="checked">
+          <label class="radio">Plains</label>
+
+          <input type="radio" id="terrain3"
+           name="terrain" value="Mountain">
+          <label class="radio">Mountain</label>
+
+          <input type="radio" id="terrain4"
+           name="terrain" value="Cave">
+          <label class="radio">Cave</label>
+
+          <input type="radio" id="terrain5"
+           name="terrain" value="Coast">
+          <label class="radio">Coast</label>
+        </div>
+        <div style="padding: 1em">
+            Profficiency:
+            <input type="radio" id="proff1"
+             name="proff" value="0">
+            <label class="radio">0</label>
+
+            <input type="radio" id="proff2"
+             name="proff" value="2">
+            <label class="radio">2</label>
+
+            <input type="radio" id="proff3"
+             name="proff" value="3">
+            <label  class="radio">3</label>
+
+            <input type="radio" id="proff4"
+             name="proff" value="4"  checked="checked">
+            <label  class="radio">4</label>
+
+            <input type="radio" id="proff5"
+             name="proff" value="5">
+            <label class="radio">5</label>
+
+            <input type="radio" id="proff6"
+             name="proff" value="6">
+            <label class="radio">6</label>
+          </div>
+        </form>
+      <div class="rule_text">
+
+        <p>Once per day, you may search for a plant: draw one card from
+        the deck.</p>
+
+        <p> Every plant has a proficiency rating and can live in one or more
+        habitats. You can only get plant cards that have a proficiency rating
+        equal or lower to your herbalism proficiency and only those that
+        can grow in your current habitat. </p>
+
+        <p>You cannot have more plants than your herbalism proficiency
+        (or minimum of 1). If you are actively preparing one plant, that plant
+        does not count towards your maximum hand size. The herbalist can give
+        any plant to any other creature in their group, but it still counts
+        towards his hand size until used (the herbalist is still caring
+        for the plant).  </p>
+
+        <p>Most cards have two modes of possible use. The first one usually
+        gives an immediate effect, while the other one needs preparation time,
+        equipment and/or expensive materials. The materials can be bought in
+        any alchemy shop for the listed price. Unless stated otherwise,
+        the plant is consumed by the use of either mode.
+        The time required for different preparation procedures is listed below,
+        but might be overruled by the text on card. </p>
+
+        <p>
+        <b>Consumed:</b> One action. <br />
+        <b>Applied on skin or weapon:</b>  10 minutes.  <br />
+        <b>Planted:</b>  One hour.  <br />
+        <b>Inhaled:</b>  One action for the creature that is carrying the plant,
+        passive effect for any other creature to which the effect might apply. <br />
+        <b>Prepared</b>  (Alchemy kit, Dried, cut, Carved, Trimmed, etc): One day.
+        You need to expand one short rest to actively perform the task,
+        but must wait until the end of a long rest until you can use it
+        (it is passively drying for example). If the card states that the procedure is
+        longer, the short rest must be used each day. Only one plant can be prepared
+        any given day. <br />
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

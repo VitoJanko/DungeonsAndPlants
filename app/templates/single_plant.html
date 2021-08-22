@@ -1,0 +1,17 @@
+<div class="plant">
+  <div class="plant_background"></div>
+  <img class="plant_image" src = "{{ url_for('static', filename='/images/'+plant_image) }}">
+  <span class="card_name">{{plant_name}}</span>
+  <div class="ability_lower">
+    <span class="ability_usecase">{{plant_t2a}}</span>
+    <span class="ability_desc">{{plant_t2b}}
+    <span class="flavour">{{plant_flavour}}
+    </span>
+  </div>
+  <div class="ability_upper">
+     <span class="ability_desc">{{plant_t1b}}</span>
+     <span class="ability_usecase">{{plant_t1a}}</span>
+  </div>
+  <div class="plant_border"></div>
+  <div class="remove_plant" onclick="delete_node(event)"></div>
+</div>

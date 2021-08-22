@@ -1,0 +1,4 @@
+name, proff;forest;plains;mountain;cave;coast;t1a;t1b;t2a;t2b;image;flavour;event
+Black chili;0;False;True;False;False;False;Consumed;Has a very spicy taste.;Combines with Corpse flower;Creates a rare spice, that sells for 50g.;black_chili.jpg;;
+Wild rose;0;True;True,True;True;True;;Intrinsically beautiful.;;;wild_rose.jpg;Sometimes a flower is just a flower.;   
+Medical leaves;2;True;False;False;True;False;Bonus action;Stabilizes an unconscious creature.;Alchemy kit. 1g material;Creates a healing potion.;athelas.jpg;;
