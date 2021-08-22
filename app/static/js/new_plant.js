@@ -58,7 +58,7 @@ function fetch_plant(terrain, proff){
   let address = window.location.href;
   let getUrl = window.location;
   let baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-  alert(baseUrl)
+  //alert(baseUrl)
   fetch(baseUrl+'/generate_plant?terrain='+terrain+"&proff="+proff)
   .then(response => response.text())
   .then(data => add_node(data));
