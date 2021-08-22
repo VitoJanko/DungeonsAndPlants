@@ -31,6 +31,8 @@ function create_node(){
 function is_hand_size_valid(proff){
   let container = document.getElementById("plant_container");
   let hand_size = container.childElementCount;
+  if (proff==0)
+    proff=1;
   return hand_size < proff
 }
 
