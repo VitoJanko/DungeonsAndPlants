@@ -56,7 +56,9 @@ function read_form(){
 
 function fetch_plant(terrain, proff){
   let address = window.location.href;
-  fetch(address+'/generate_plant?terrain='+terrain+"&proff="+proff)
+  let getUrl = window.location;
+  let baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  fetch(baseUrl+'/generate_plant?terrain='+terrain+"&proff="+proff)
   .then(response => response.text())
   .then(data => add_node(data));
 }
