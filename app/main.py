@@ -42,4 +42,4 @@ def generate_plant():
                             plant_t1b=selected["t1b"],
                             plant_t2a=selected["t2a"],
                             plant_t2b=selected["t2b"],
-                            plant_flavour=selected["Flavour"]
+                            plant_flavour=selected["Flavour"])
