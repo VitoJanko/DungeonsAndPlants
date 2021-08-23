@@ -1,0 +1,11 @@
+<div class="plant">
+  <div class="plant_background"></div>
+  <img class="plant_image" src = "{{ url_for('static', filename='/images/'+plant_image) }}">
+  <span class="card_name">{{"EVENT: " +plant_name}}</span>
+  <div class="ability_upper">
+     <span class="event_desc">{{plant_event}}</span>
+  </div>
+  <div class="plant_border"></div>
+  <div class="remove_plant" onclick="delete_node(event)"></div>
+  <div class="complete_event" onclick= "resolvePlant(event, {{"'"+plant_name+"'"}} )"></div>
+</div>

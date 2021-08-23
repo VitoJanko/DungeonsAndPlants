@@ -87,3 +87,19 @@ function createElementFromHTML(htmlString) {
   // Change this to div.childNodes to support multiple top-level nodes
   return div.firstChild;
 }
+
+function replacePlant(event, htmlString){
+  //alert(htmlString)
+  let target = event.target.parentNode;
+  let element = createElementFromHTML(htmlString);
+  target.parentNode.replaceChild(element, target);
+}
+
+function resolvePlant(event, name){
+  let address = window.location.href;
+  let getUrl = window.location;
+  let baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  fetch(baseUrl+'/generate_plant?terrain=Forest&proff=2&plant_name='+name)
+  .then(response => response.text())
+  .then(data => replacePlant(event, data));
+}
