@@ -58,6 +58,7 @@ def generate_plant():
                             plant_t1b=selected["t1b"],
                             plant_t2a=selected["t2a"],
                             plant_t2b=selected["t2b"],
+                            profficiency=selected["Profficiency"],
                             plant_flavour=selected["Flavour"]
                             )
 
@@ -70,6 +71,7 @@ def generate_plant():
                             plant_name=selected["Name"],
                             plant_image=selected["Image"],
                             plant_event=selected["Event"],
+                            profficiency=selected["Profficiency"],
                             plant_resolved=plant_template
                             )
     return event_template

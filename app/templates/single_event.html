@@ -1,7 +1,24 @@
 <div class="plant">
   <div class="plant_background"></div>
   <img class="plant_image" src = "{{ url_for('static', filename='/images/'+plant_image) }}">
-  <span class="card_name">{{"EVENT: " +plant_name}}</span>
+
+  <span name= "title" class="card_name"
+  {% if profficiency==0 %}
+    style= "text-decoration-color: gray;"
+  {% elif profficiency==2 %}
+    style= "text-decoration-color: black;"
+  {% elif profficiency==3 %}
+    style= "text-decoration-color: #329132;"
+  {% elif profficiency==4 %}
+    style= "text-decoration-color: #4d53f8;"
+  {% elif profficiency==5 %}
+    style= "text-decoration-color: #9f4bbd;"
+  {% elif profficiency==6 %}
+    style= "text-decoration-color: #f2ae1b;"
+  {% endif %}
+  >{{"EVENT: " +plant_name}}</span>
+
+
   <div class="ability_upper">
      <span class="event_desc">{{plant_event}}</span>
   </div>

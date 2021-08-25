@@ -7,9 +7,19 @@ function test(times){
      }
 }
 
+function extractName(string){
+  if (string.includes("EVENT:")){
+    let name = string.substring(7)
+    return name
+    //alert(name)
+  }
+  return string
+}
 
 function delete_node(event){
   let container = event.target.parentElement;
+  let name = extractName(container.querySelector('[name="title"]').innerHTML);
+  deletePlant(name)
   container.remove();
 }
 
@@ -63,13 +73,20 @@ function fetch_plant(terrain, proff){
   //alert(baseUrl)
   fetch(baseUrl+'/generate_plant?terrain='+terrain+"&proff="+proff)
   .then(response => response.text())
-  .then(data => add_node(data));
+  .then(data => add_plant(data));
+}
+
+function add_plant(data){
+  let element = add_node(data)
+  let name = extractName(element.querySelector('[name="title"]').innerHTML);
+  savePlant(name)
 }
 
 function add_node(node_string){
   let container = document.getElementById("plant_container");
   let element = createElementFromHTML(node_string);
   container.prepend(element);
+  return element
 }
 
 function get_checked(group){
@@ -102,4 +119,94 @@ function resolvePlant(event, name){
   fetch(baseUrl+'/generate_plant?terrain=Forest&proff=2&plant_name='+name)
   .then(response => response.text())
   .then(data => replacePlant(event, data));
+}
+
+function fetchSpecificPlant(name){
+  if (name.length<=1)
+    return
+  let address = window.location.href;
+  let getUrl = window.location;
+  let baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  fetch(baseUrl+'/generate_plant?terrain=Forest&proff=2&plant_name='+name)
+  .then(response => response.text())
+  .then(data => add_node(data));
+}
+
+function currentCards(){
+  let current = ""
+  let storage = localStorage.getItem("card");
+  if (storage !== null)
+    current = storage
+  return current
+}
+
+function savePlant(name){
+  let current = currentCards()
+  current += ";"+name
+  localStorage.setItem("card", current);
+}
+
+function deletePlant(name){
+  let current = currentCards()
+  let plants = current.split(";");
+  let result = ""
+  for (let i=0; i<plants.length; i++){
+    let plant = plants[i]
+    if (plant == name){
+      name = "placeholder" // No further copies will be removed
+    }
+    else{
+      result +=  ";"+plant
+    }
+  }
+  localStorage.setItem("card", result);
+}
+
+function deleteAllPlants(name){
+  localStorage.removeItem("card");
+}
+
+function loadPlants(){
+  let current = currentCards()
+  //alert(current)
+  let plants = current.split(";");
+  plants.forEach(fetchSpecificPlant);
+}
+
+function loadAll(){
+  loadSettings()
+  //savePlant("Berry")
+  //savePlant("Tentacle Weed")
+  //deleteAllPlants()
+  loadPlants()
+  //
+}
+
+function loadSettings(){
+  let form = document.forms.radios;
+  let terrains = form.elements.terrain;
+  let proffs = form.elements.proff;
+  let terrain = localStorage.getItem("terrain");
+  let proff = localStorage.getItem("proff");
+  if (terrain !== null)
+    setSettings(terrains, terrain)
+  if (proff !== null)
+    setSettings(proffs, proff)
+}
+
+function setSettings(group, value){
+  for (let radio of group){
+    if (radio.value == value)
+      radio.checked = true
+  }
+}
+
+function saveSettings(){
+  let form = document.forms.radios;
+  let terrains = form.elements.terrain;
+  let proffs = form.elements.proff;
+  let terrain = get_checked(terrains);
+  let proff = get_checked(proffs);
+  localStorage.setItem("proff", proff);
+  localStorage.setItem("terrain", terrain);
 }

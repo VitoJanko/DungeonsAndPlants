@@ -152,6 +152,8 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: left;
+  text-decoration: underline;
+  text-decoration-color: blue;
 }
 .plant_border {
   width: 637px;
