@@ -78,11 +78,15 @@ function fetch_plant(terrain, proff){
 
 function add_plant(data){
   let element = add_node(data)
+  if (element === null)
+    return;
   let name = extractName(element.querySelector('[name="title"]').innerHTML);
   savePlant(name)
 }
 
 function add_node(node_string){
+  if (node_string.length <=1)
+    return;
   let container = document.getElementById("plant_container");
   let element = createElementFromHTML(node_string);
   container.prepend(element);

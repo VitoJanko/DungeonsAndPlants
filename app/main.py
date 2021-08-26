@@ -49,7 +49,10 @@ def generate_plant():
     selected = plants_relevant.sample().iloc[0]
 
     if name_arg is not None:
-        selected = plants_all[(plants_all["Name"]==name_arg)].iloc[0]
+        selected = plants_all[(plants_all["Name"]==name_arg)]
+        if len(selected) == 0:
+            return ""
+        selected = selected.iloc[0]
 
     plant_template = render_template("single_plant.html",
                             plant_name=selected["Name"],
