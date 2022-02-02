@@ -177,8 +177,8 @@ After a week, you can collect 1 goodberry (see Druid) per day. Bush lasts for 1 
 
 \subsection{Four-leaf clover}
 \small\emph{Plains, Mountain} \\ 
-\paragraph{Squish, Bonus action}
-After any roll, but before seeing the result, squish the four-leaf clover to add +1 to the die.
+\paragraph{Squish}
+After any roll, but before before you know if it succeeds or fails, squish the four-leaf clover to add +1 to the result.
 
 \subsection{Oily shrubbery}
 \small\emph{Plains, Mountain} \\ 
@@ -221,7 +221,7 @@ They pass by you, almost indistinguishable from snowflakes. Can only be captured
 \paragraph{Carried}
 The first time you would be surprised in combat, negate the 'surprised' status and consume this plant. 
 \paragraph{Alchemy kit, 50g materials}
-You may release this plant to summon a snowstorm that reduces visibility of all creatures in 120 feet radius to 10ft (but has no other effect). 
+You may release this plant to summon a snowstorm that reduces visibility of all creatures in 120 feet radius to 10ft. 
 
 \subsection{Warmth-Seeker}
 \small\emph{Arctic} \\ 
@@ -230,6 +230,13 @@ This flower always grows turned to the nearest fire, regardless of its distance.
 \begin{DndReadAloud}
 It doesn't point north, but you are not trying to find north.
 \end{DndReadAloud}
+
+\subsection{Northern Evergreen}
+\small\emph{Arctic, Mountain} \\ 
+\paragraph{Branch carried}
+Your hair and facial hair grow with five times their natural speed. 
+\paragraph{Distilled, Alchemy kit}
+A potion widely regarded as a cure for baldness that can be sold for up to 5g. The alchemy guild classifies it as a scam. 
 
 \section{Proficiency +3}
 
@@ -293,9 +300,9 @@ Emits bright light. Can be sold for 100g to collectors.
 \subsection{Poison Leaves}
 \small\emph{Arctic, Forest, Plains, Mountain, Cave} \\ 
 \paragraph{Consumed}
-Const. 10 save or inflicts poisonous condition that lasts for 1 hour.
+Con (DC 10) save or inflicts poisonous condition that lasts for 1 hour.
 \paragraph{Alchemy lab (X days, 20X materials)}
-Liquid with Const. 14+X save or inflicts poisonous condition for X hours and X d8 damage.
+Liquid with Con (DC 15) save or inflicts poisonous condition for X hours and X d8 damage.
 
 \subsection{Once-in-the-lifetime Pumpkin}
 \small\emph{Forest, Plains} \\ 
@@ -346,7 +353,7 @@ The fire expands in size 3 fold in all directions. All touched by this fire rece
 \subsection{Half-White, Half-Black Flower}
 \small\emph{Arctic, Forest, Plains} \\ 
 \paragraph{If collected during the day}
-The next time you deal radiant damage increase it by d12. The next time you receive necrotic damage, reduce it by d12.
+The next time you deal radiant damage increase it by d12. The next time you receive necrotic damage, reduce it by d12 (1 day).
 \paragraph{If collected during the night}
 The next time you deal necrotic damage increase it by d12. The next time you receive radiant damage, reduce it by d12 (1 day).
 
@@ -389,6 +396,11 @@ A potion that can be used to gain 2d8 temporary hit points for 10 minutes.
 Acts as a thrown dagger, dealing 2d4 cold damage on hit. 
 \paragraph{Trimmed}
 Acts as a sword dealing 3d6 cold damage on hit. Shatters on first miss, dealing 1d4 cold damage to the wielder.  
+
+\subsection{Exploding Pinecones}
+\small\emph{Arctic, Forest} \\ 
+\paragraph{Ignited, Thrown, (5 pinecones total)}
+Throw an additional d4 when making the ranged attack. On 4, pinecone deals 2d4+2 damage on hit, and ignites the target. On 3, it deals 1d4+1 on hit. On 2, deals 1 damage. On 1, it explodes in your hand, dealing you 1d4 damage.  
 
 \section{Proficiency +4}
 
@@ -502,7 +514,14 @@ It requires both blood and snow to grow. Fortunately, its life cycle provides bo
 \paragraph{Encounter}
 The moss reflects your image. After a few seconds the image emerges with the player's exact stats, hostile, and controlled by the DM. It returns to moss if not defeated.
 \noindent
-Your hand can cross the moss into its own pocket dimension. You may place a small non-magical item (or up to 100 gold) into it. A day later you may retrieve two copies out it (the moss is destroyed in the process). 
+Your hand can cross the moss into its own pocket dimension. You may place a small non-magical item (or up to 100 gold) into it. A day later you may retrieve two copies out it. The moss is destroyed in the process. 
+
+\subsection{Snow-White Blossom}
+\small\emph{Arctic, Plains, Mountain} \\ 
+\paragraph{Eaten immediately after collecting}
+The next time you would fail an (Int) or (Wis) saving throw you succeed instead (6h).
+\paragraph{Applied on skin immediately after collecting}
+The next time you would fail a (Str) or (Con) saving throw you succeed instead (6h).
 
 \section{Proficiency +5}
 

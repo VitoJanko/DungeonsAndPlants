@@ -48,8 +48,10 @@ def generate_plant():
     plants_relevant = plants_all[(plants_all[terrain]) & (plants_all["Profficiency"]<=int(proff))]
     selected = plants_relevant.sample().iloc[0]
 
+    #print("Just arrived", name_arg)
     if name_arg is not None:
         selected = plants_all[(plants_all["Name"]==name_arg)]
+        #print(len(selected))
         if len(selected) == 0:
             return ""
         selected = selected.iloc[0]
