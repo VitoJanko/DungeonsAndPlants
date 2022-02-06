@@ -217,7 +217,7 @@ function saveSettings(){
 
 function toggle_credits(){
   let container = document.getElementById("credits");
-  if (container.style.display == "none")
+  if (container.style.display == "none" || container.style.display == "")
      container.style.display = "block";
   else{
      container.style.display = "none";}
