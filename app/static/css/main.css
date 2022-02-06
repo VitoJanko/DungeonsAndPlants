@@ -230,6 +230,19 @@ body {
   text-align: left;
 }
 
+.credits_div {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-size: 16px;
+  padding: 1em;
+  opacity: 1;
+  text-align: left;
+  display: none;
+}
+
 .remove_plant {
   width: 30px;
   height: 30px;

@@ -214,3 +214,11 @@ function saveSettings(){
   localStorage.setItem("proff", proff);
   localStorage.setItem("terrain", terrain);
 }
+
+function toggle_credits(){
+  let container = document.getElementById("credits");
+  if (container.style.display == "none")
+     container.style.display = "block";
+  else{
+     container.style.display = "none";}
+ }
