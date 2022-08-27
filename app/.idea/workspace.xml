@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1044f12a-f905-43ec-b1cf-4089007fae94" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/plants_latex-checkpoint.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/to_latex-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/main-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ipynb_checkpoints/views-checkpoint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plants_latex.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../to_latex.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plant_list.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../plant_list.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../validation.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../validation.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="24V8SOBMzKAGS1nZW39LMFa9HTr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1044f12a-f905-43ec-b1cf-4089007fae94" name="Default Changelist" comment="" />
+      <created>1643704394861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643704394861</updated>
+    </task>
+    <servers />
+  </component>
+</project>

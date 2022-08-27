@@ -1,0 +1,31 @@
+\documentclass[letterpaper,twocolumn,openany,nodeprecatedcode]{dndbook}
+
+
+\usepackage[english]{babel}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[singlelinecheck=false]{caption}
+\usepackage{lipsum}
+\usepackage{listings}
+\usepackage{shortvrb}
+\usepackage{stfloats}
+
+\captionsetup[table]{labelformat=empty,font={sf,sc,bf,},skip=0pt}
+
+\MakeShortVerb{|}
+
+\lstset{%
+  basicstyle=\ttfamily,
+  language=[LaTeX]{TeX},
+  breaklines=true,
+}
+
+\title{The Dark \LaTeX{} \\
+\large An Example of the dndbook Class}
+\author{The rpgTeX Team}
+\date{2019/07/18}
+
+\begin{document}
+
+\chapter{Plant list}
