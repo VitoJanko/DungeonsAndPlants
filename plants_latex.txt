@@ -73,7 +73,7 @@ Acts as 10 ft of rope.
 \subsection{Crystal Flower}
 \small\emph{Arctic, Cave} \\ 
 \paragraph{Inspiring}
-Your first roll after collecing this petal, has an additional +1 modifier.
+Your first roll after collecting this petal, has an additional +1 modifier.
 \begin{DndReadAloud}
 Life from stone should not exist. And yet...
 \end{DndReadAloud}
@@ -95,6 +95,26 @@ A feast for some. Famine for others.
 \small\emph{Arctic, Cave, Coast} \\ 
 \noindent
 Bitter taste, but can be chewed for hours.
+
+\subsection{Barrel Cactus}
+\small\emph{} \\ 
+\noindent
+Full of drinkable juice.
+\begin{DndReadAloud}
+Some say it rolls towards water when no one is watching.
+\end{DndReadAloud}
+
+\subsection{Scorching Grass}
+\small\emph{Plains} \\ 
+\noindent
+A large patch of dry grass, hot to the touch.
+\paragraph{Sewn into clothing}
++1 stealth when in the same biome.
+
+\subsection{Desert Jasmine}
+\small\emph{} \\ 
+\paragraph{Applied on skin}
+You smell nice until the end of the day.
 
 \section{Proficiency +2}
 
@@ -127,12 +147,12 @@ Cures common cold.
 \paragraph{Dried}
 An alchemistic ingredient that sells for 1g.
 
-\subsection{Dry Thumbleweed}
+\subsection{Dry Tumbleweed}
 \small\emph{Plains, Coast} \\ 
 \paragraph{Encounter}
-A thumbleweed rolls past you. You may catch it with a Dex. skill check DC 12.
+A tumbleweed rolls past you. You may catch it with a DC 12 Dexterity skill check.
 \paragraph{Ignited, Thrown}
-Each creature in the 60 ft. line must make a Dex. DC 12 saving throw. A creature takes 2d6+3 fire damage on a failed save. Flammable targets ignite.
+Each creature in the 60 ft. line must make a DC 12 Dex saving throw. A creature takes 2d6+3 fire damage on a failed save. Flammable targets ignite.
 
 \subsection{Corpse Flower}
 \small\emph{Cave} \\ 
@@ -144,7 +164,7 @@ Creates a rare spice, that sells for 50g.
 \subsection{Bell Bush}
 \small\emph{Forest, Plains, Mountain, Coast} \\ 
 \paragraph{Planted}
-Ten flowers that can be planted in an area. Stepping on them makes a loud sound (DC 14 dex save).
+Ten flowers that can be planted in an area. Stepping on them makes a loud sound (DC 14 Dexterity saving throw).
 \paragraph{Dried (2 days)}
 A bag of seeds that makes a loud noise when thrown, all creatures in 10 ft radius go deaf for 15 seconds.
 
@@ -166,7 +186,7 @@ Hope you don't mind the smell.
 \subsection{Tea Leaves}
 \small\emph{Forest, Plains, Mountain} \\ 
 \paragraph{Prepare tea}
-Roll d4. On 4, recover one step of exhaustion. On 3, get a distant memory (ask DM for a past event). On 2, recover 5 hp. On 1, fall asleep.
+Roll d4. On 4, recover one step of exhaustion. On 3, recover 5 hp. On 2, remember a childhood memory. On 1, fall asleep.
 
 \subsection{Goodberry Bush}
 \small\emph{Forest, Plains, Mountain} \\ 
@@ -178,7 +198,7 @@ After a week, you can collect 1 goodberry (see Druid) per day. Bush lasts for 1 
 \subsection{Four-leaf clover}
 \small\emph{Plains, Mountain, Coast} \\ 
 \paragraph{Squish}
-After any roll, but before before you know if it succeeds or fails, squish the four-leaf clover to add +1 to the result.
+After any roll, but before you know if it succeeds or fails, squish the four-leaf clover to add +1 to the result.
 
 \subsection{Oily shrubbery}
 \small\emph{Plains, Mountain, Coast} \\ 
@@ -197,7 +217,7 @@ The Dandelion light raises high into the air and emits yellow light like a flare
 \subsection{Spotted Mushroom}
 \small\emph{Forest} \\ 
 \paragraph{Eaten}
-Roll Const. DC 12. On success become inspired by the dish, get advantage on the first roll you make in the next 30 minutes. On failure you have heavy digestion problems for the next 12 hours.
+Roll DC 12 Constitution. On success become inspired by the dish, get advantage on the first roll you make in the next 30 minutes. On failure you have heavy digestion problems for the next 12 hours.
 
 \subsection{10 Feet Branch}
 \small\emph{Arctic, Forest, Plains} \\ 
@@ -217,11 +237,11 @@ An elementary snare for small animals.
 \subsection{Snow Seeds}
 \small\emph{Arctic} \\ 
 \paragraph{Encounter}
-They pass by you, almost indistinguishable from snowflakes. Can only be captured by the most perceptive (Perception, DC 20).
+They pass by you, almost indistinguishable from snowflakes. Can only be captured by the most perceptive (DC 20 Perception).
 \paragraph{Consumed}
 The first time you would be surprised in combat, negate the 'surprised' status and consume this plant (24h).
 \paragraph{Alchemy kit, 50g materials}
-You may release this plant to summon a snowstorm that reduces visibility of all creatures in 30 ft. radius to 5 ft. (1 min).
+You may release this plant to summon a snowstorm that reduces visibility of all creatures in 30 ft. radius to 10 ft. (1 min).
 
 \subsection{Warmth-Seeker}
 \small\emph{Arctic} \\ 
@@ -238,6 +258,43 @@ Your hair and facial hair grow with five times their natural speed.
 \paragraph{Distilled, Alchemy kit}
 A potion widely regarded as a cure for baldness that can be sold for up to 5g. The alchemy guild classifies it as a scam.
 
+\subsection{Needler}
+\small\emph{} \\ 
+\paragraph{Stick its spikes into the ground}
+Any creature that steps on them (5 ft. area) takes 1 piercing damage.
+\paragraph{Eat the spikes}
+Over the next four hours all sunburns and heat exhaustion fade away. You take 1 piercing damage whenever you make a step.
+
+\subsection{Hard-shelled Beans}
+\small\emph{Plains, Coast} \\ 
+\paragraph{Chewed}
+Roll Const. DC 15. On success, acts as one food ration. On failure, take 1d4 damage.
+\paragraph{Left in water (7 days)}
+Softens and can be used as three food rations.
+
+\subsection{Pheromoner}
+\small\emph{} \\ 
+\paragraph{First 7 days}
+Its smell attracts a constant swarm of insects.
+\paragraph{After 7 days}
+Its smell repels insects in a 15 ft. radius.
+
+\subsection{Unidentifiable Scrub}
+\small\emph{Plains, Mountain, Coast} \\ 
+\paragraph{Boil in water and drink}
+Roll Nature: On 18+, recover 1d6d hp, on 14+ you enjoy a delicious and unique tea. On 6 or less, it’s a poison that covers you in rashes.
+\begin{DndReadAloud}
+Its really hard to guess which it is.
+\end{DndReadAloud}
+
+\subsection{Stump Canal}
+\small\emph{Arctic} \\ 
+\noindent
+Forms a forking underground tube with multiple tree-stump-like visible ends in a 50 miles area. Any sound made at one end, transfers perfectly to all other ends. 
+\begin{DndReadAloud}
+We do not know who else may be listening.
+\end{DndReadAloud}
+
 \section{Proficiency +3}
 
 
@@ -251,7 +308,7 @@ When doused with a special substance, enlarges into a boat that can carry one cr
 \subsection{Thorned Nectar}
 \small\emph{Plains} \\ 
 \paragraph{Consume}
-DC 14 wisdom saving throw or become aggressive against all targets. Lose any social restraint. (1 minute)
+DC 14 Wisdom saving throw or become aggressive against all targets. Lose any social restraint. (1 min)
 \paragraph{Peel, Inhale}
 When peeling receive 1d4 damage. All who inhale (10 feet radius) get Calm emotion cast on them.
 
@@ -267,7 +324,7 @@ In addition to the previous effect, gain darkvision for 4 hours.
 \paragraph{3 charges, Consume 1 charge}
 For the next day, become immune to poison.
 \paragraph{Name a specific poison, Consume all charges}
-Roll a Const saving throw DC 15, on success become permanently immune to the named poison. Else become poisoned by it.
+Roll a DC 15 Con saving throw, on success become permanently immune to the named poison. Else become poisoned by it.
 
 \subsection{Amortentia}
 \small\emph{Plains} \\ 
@@ -281,7 +338,7 @@ Roll a Const saving throw DC 15, on success become permanently immune to the nam
 \paragraph{Carried}
 Counts as a simple weapon that only the herbalist is proficient with.
 \paragraph{Consumed}
-Dex 6 to eat. If successful, you can breath underwater for 1 hour, else take 1d4 damage.
+DC 6 Dexterity to eat. If successful, you can breath underwater for 1 hour, else take 1d4 damage.
 
 \subsection{Spreading Roots}
 \small\emph{Forest, Plains} \\ 
@@ -300,9 +357,9 @@ Emits bright light. Can be sold for 100g to collectors.
 \subsection{Poison Leaves}
 \small\emph{Arctic, Forest, Plains, Mountain, Cave, Coast} \\ 
 \paragraph{Consumed}
-Con (DC 10) save or inflicts poisonous condition that lasts for 1 hour.
+DC 10 Constitution saving throw or inflicts poisonous condition that lasts for 1 hour.
 \paragraph{Alchemy lab (X days, 20X materials)}
-Liquid with Con (DC 15) save or inflicts poisonous condition for X hours and X d8 damage.
+Liquid with DC 15 Constitution saving throw or inflicts poisonous condition for X hours and Xd8 damage.
 
 \subsection{Once-in-the-lifetime Pumpkin}
 \small\emph{Forest, Plains, Coast} \\ 
@@ -319,14 +376,14 @@ Create a dish that heals for 4d4 hp.
 \subsection{Ghost Melon}
 \small\emph{Cave} \\ 
 \paragraph{Applied on weapon}
-+1 to hit and +1 dmg to undead.
++1 to hit and +1 damage to undead (24h).
 \paragraph{Squish}
-You can see all undead in 60ft radius, even through walls. Make a Wisdom skill check, on 12 or lower, all undead in 60ft radius see you.
+You can see all undead in 60 ft. radius, even through walls. Make a Wisdom skill check, on 12 or lower, all undead in 60 ft. radius see you.
 
 \subsection{Lightning Flower}
 \small\emph{Forest, Plains} \\ 
 \paragraph{Encounter}
-As you touch the flower, a lightning bolt strikes you from the clear sky. Dex saving throw DC 12 or take d12 thunder damage.
+As you touch the flower, a lightning bolt strikes you from the clear sky. DC 12 Dexterity saving throw or take 1d12 thunder damage.
 \paragraph{Used as a spell casting component}
 If the spell deals thunder/lightning damage, roll two additional dice of the same type.
 \paragraph{Drawn during a thunder}
@@ -387,7 +444,7 @@ A medium armor, AC 15 + Dex (max 2).
 \small\emph{Arctic} \\ 
 \paragraph{Carried}
 Continually whispers secrets in a language no one understands.
-\paragraph{Boil the root}
+\paragraph{Boil the root (3 days)}
 A potion that can be used to gain 2d6 temporary hit points for 10 minutes.
 
 \subsection{Enchanted Branch}
@@ -401,6 +458,47 @@ Acts as a sword dealing 3d6 cold damage on hit. Shatters on first miss, dealing 
 \small\emph{Arctic, Forest} \\ 
 \paragraph{Ignited, Thrown, (5 pinecones total)}
 Throw an additional d4 when making the ranged attack. On 4, pinecone deals 2d4+2 damage on hit, and ignites the target. On 3, it deals 1d4+1 on hit. On 2, deals 1 damage. On 1, it explodes in your hand, dealing you 1d4 damage.
+
+\subsection{False Hope}
+\small\emph{} \\ 
+\paragraph{Encounter}
+On a night with the full moon this plant will start blooming, and the domain of the living and the dead will intertwine around it. You may return to this location then.
+\paragraph{Bury an item belonging to a dead creature}
+A ghost of that creature appears and you may have a 30-minute conversation with it. The next time you fall unconscious, start with two failed death-saving throws. 
+\begin{DndReadAloud}
+Those who seek the company of the dead, often unexpectedly find it. 
+\end{DndReadAloud}
+
+\subsection{Date of Love}
+\small\emph{Forest} \\ 
+\noindent
+Two dates grow on a tree. If two creatures willingly eat one each, they will not find anyone else attractive until the same date next year. Can be sold. 
+
+\subsection{Baobab Tower}
+\small\emph{} \\ 
+\paragraph{Encounter}
+The air in the area around the tree is distorted so that it looks much closer than it really is. If you try to reach it, walk 4 hours towards it. Roll Survival, DC 10: on failure the tree is an illusion, on success, you find it, but forget the way back.
+\paragraph{Trace roots (1 day)}
+The roots of this tree form a map of the local area. 
+\paragraph{Carve (3 days)}
+The upper part of the tree is hollow and can be carved into a lookout tower, fitting 5 medium creatures.  
+
+\subsection{Blood in the Wind}
+\small\emph{Plains} \\ 
+\paragraph{Encounter}
+The tree is surrounded by a constant spiraling wind, carrying razor sharp leaves. If you approach it, throw Dex. DC 18. On success you reach the trunk, on failure take 1d4 damage and repeat the throw (until you succeed or fall unconscious).
+\paragraph{Collect a piece of the bark}
+You may use it to cast “Control winds” spell once. 
+\paragraph{Follow the tunnel at its roots}
+Leads to a secret location at DMs discretion. 
+
+\subsection{Shadow Peyote}
+\small\emph{Mountain} \\ 
+\paragraph{Ground, dried (7 days), smoked}
+Share a pipe with this leaf in a social gathering with the locals. Roll Con. DC 12: On success you earn their respect, on failure fall asleep. 
+\begin{DndReadAloud}
+Now you are one of us. 
+\end{DndReadAloud}
 
 \section{Proficiency +4}
 
@@ -420,28 +518,28 @@ In an hour after being planted, it grows 100 feet in height. After a month bears
 \subsection{Hallucinogenic Mushroom}
 \small\emph{Coast} \\ 
 \paragraph{Consumed}
-Your vision blurs. Const 10 saving throw or disadvantage of all rolls. Dispels on any damage taken. (1 hour)
+Your vision blurs. DC 10 Constitution saving throw or disadvantage on all rolls. Dispels on any damage taken. (1 hour)
 \paragraph{Alchemy kit, 10g materials, Consumed}
-Halucination begins. On Wisdom roll 18, cast Commune spell. All other rolls automatically fail. Dispels on any damage taken. (1 hour)
+Halucination begins. On DC 18 Wisdom, cast Commune spell. All other rolls automatically fail. Dispels on any damage taken. (1 hour)
 
 \subsection{Soothing Petals}
 \small\emph{Arctic, Forest, Mountain} \\ 
 \paragraph{Consumed}
 +4 against intimidation and fear effects (10 minutes).
 \paragraph{Dried (3 days), Consumed}
-Const. 14 or the target immediately falls asleep (6 hours). Dispels on any damage taken.
+DC 14 Constitution or the target immediately falls asleep (6 hours). Dispels on any damage taken.
 
 \subsection{Euphoric Grapes}
 \small\emph{Forest, Plains, Coast} \\ 
 \paragraph{Consumed}
-+8 to charisma when doing public speeches (1 minute).
++8 to Charisma when doing public speeches (1 minute).
 \paragraph{Dried (3 days), Consumed}
-You have a 3 d12 inspiration dies that you can use on any throw made by you or your allies (1 day).
+You have 3 d12 inspiration dice that you can use on any throw made by you or your allies (1 day).
 
 \subsection{Corn of Doom}
-\small\emph{Plains, Coast} \\ 
+\small\emph{} \\ 
 \paragraph{Consumed}
-Looks like regular corn. If consumed attempt a Const saving throw DC 15 and take 6d6 fire dmg on failure.
+Looks like regular corn. If consumed attempt a DC 15 Constitution saving throw and take 6d6 fire dmg on failure.
 \paragraph{Dried (1 week), Ignited}
 If ignited, the corn explodes, dealing 6d6 to all creatures in a 5 feet radius and half the damage to all creatures in 10 feet radius.
 
@@ -450,7 +548,7 @@ If ignited, the corn explodes, dealing 6d6 to all creatures in a 5 feet radius a
 \paragraph{Consumed}
 Removes one point of exhaustion.
 \paragraph{Alchemy kit (3 days), Inhaled (10 ft range)}
-Do a (Con) saving throw. On less than 18, fall asleep, on less than 14 forget all events of the past hour.
+Attempt a Constitution saving throw. On less than 18, fall asleep, on less than 14 forget all events of the past hour.
 
 \subsection{Head in the Clouds}
 \small\emph{Arctic, Forest, Plains, Mountain, Cave, Coast} \\ 
@@ -483,7 +581,7 @@ You gain Supreme healing potion.
 \subsection{Scrying Beans}
 \small\emph{Forest, Plains, Coast} \\ 
 \paragraph{Consumed}
-Get 3 divination dies for the rest of the day (look up Divination wizard - Portent).
+Get 3 divination dice for the rest of the day (look up Divination wizard - Portent).
 \paragraph{Burned}
 Cast Scrying spell.
 
@@ -495,14 +593,14 @@ Your skin hardens and thorns cover your body. Choose two effects from the list: 
 \subsection{Neck Breaker}
 \small\emph{Mountain} \\ 
 \paragraph{Encounter}
-The Neck Breaker Plant grows out of a thin peak, surrounded by a 100 feet deep and 30 feet wide pit. The pit is invisible and appears as solid terrain. When this card is drawn make DC 18 perception check or start falling in the pit.
+The Neck Breaker Plant grows out of a thin peak, surrounded by a 100 feet deep and 30 feet wide pit. The pit is invisible and appears as solid terrain. When this card is drawn make DC 18 Perception check or start falling in the pit.
 \paragraph{Planted}
 Wherever the plant is currently planted it emits the Hallucinatory Terrain effect centered around it (of the herbalist choice). The plant can be moved and replanted at a different place.
 
 \subsection{Red on White}
 \small\emph{Arctic} \\ 
 \paragraph{Encounter}
-When attempting to collect the thorny flower, make a Dex (DC 16) saving throw and take 3d12 damage on a failed save, or half as much damage on a successful one.
+When attempting to collect the thorny flower, make a DC 16 Dexterity saving throw and take 3d12 damage on a failed save, or half as much damage on a successful one.
 \paragraph{Consumed}
 For the next 24h you can only step on snow or fall unconscious (1 hour) failing to do so. You do not leave tracks, have +10 stealth, and any melee attacks against surprised creatures are automatically critical hits.
 \begin{DndReadAloud}
@@ -519,9 +617,35 @@ Your hand can cross the moss into its own pocket dimension. You may place a non-
 \subsection{Snow-White Blossom}
 \small\emph{Arctic, Plains, Mountain} \\ 
 \paragraph{Eaten immediately after collecting}
-The next time you would fail an (Int) or (Wis) saving throw you succeed instead (6h).
+The next time you would fail an Int or Wis saving throw you succeed instead (6h).
 \paragraph{Applied on skin immediately after collecting}
-The next time you would fail a (Str) or (Con) saving throw you succeed instead (6h).
+The next time you would fail a Str or Con saving throw you succeed instead (6h).
+
+\subsection{The Forbidden Fruit}
+\small\emph{Cave} \\ 
+\paragraph{Consumed}
+Gain +4 to Int. until the end of the day. If you fail an Int. check or saving throw during this time, this bonus becomes -4, and lasts one week, instead. 
+\begin{DndReadAloud}
+Only the wise know how much they do not know.
+\end{DndReadAloud}
+
+\subsection{Desert Siren}
+\small\emph{} \\ 
+\paragraph{Encounter}
+An irresistible song lures you towards the plant, and you soon find yourself trapped in the quicksand, and slowly start sinking in. Quicksand surrounds 30 ft. area around the plant.
+\paragraph{Consumed}
+You ignore penalties for difficult terrain when walking on sand and are unaffected by the sun’s heat. 
+\paragraph{Alchemy kit, 500g materials, refine into oil}
+When this oil is applied to a melee weapon, its next three attacks melt opponent’s armor, reducing their AC by 1 each hit.
+
+\subsection{Vanisher}
+\small\emph{Arctic, Cave} \\ 
+\paragraph{Encounter}
+Collecting the spores requires massive manual dexterity. Roll Slight of hand, DC 18. On failure, the spores fall on you and you become invisible, unable to speak, cast spells or attack for 24 hours. Discard this plant.
+\paragraph{Spores used as a spellcasting component}
+The spell is invisible until it reaches the target. 
+\paragraph{Spores added when forging a weapon}
+The weapon becomes permanently invisible. 
 
 \section{Proficiency +5}
 
@@ -545,7 +669,7 @@ Potion. After exactly 6 hours, if the creature that consumed this potion has 100
 \paragraph{Consumed}
 If willing, transform into a random beast for 10 minutes (DM chooses).
 \paragraph{Alchemy kit, 100g materials, Inhaled}
-All creatures in 30 ft radius that inhale the smoke have to succeed at DC 15 Wisdom saving throw or transform into random beasts.
+All creatures in 30 ft radius that inhale the smoke make DC 15 Wis saving throw or transform into random beasts (10 min).
 
 \subsection{Blood Algae}
 \small\emph{Coast} \\ 
@@ -594,16 +718,30 @@ You gain +10 to movement speed, cannot be paralyzed or petrified and +3 to all t
 \subsection{Eternal Blizzard}
 \small\emph{Arctic} \\ 
 \paragraph{Encounter}
-There is a 1 sq. mile region always covered in snowstorms. Any creature within it gets visibility reduced to 5 ft and takes 2d4 damage at the end of each of their turns. Any spot within is equally likely as the plant location. There may be monsters hiding in the storm (at DM discretion).
+There is a 1 sq. mile region always covered in snowstorms. Any creature within it gets visibility reduced to 5 ft and takes 1d4 damage at the end of each of their turns. Any spot within is equally likely as the plant location. There may be monsters hiding in the storm (at DM discretion).
 \paragraph{Permanent}
 The snowstorm stops. You become immune to cold damage.  Whenever you are attacked by a non-magical source while standing in the snow, you may use your reaction to evade it. When doing so, your body melts into the snow and re-appears from snow in an un-occupied spot in 10 ft radius.
 
 \subsection{Parasite Mushroom}
 \small\emph{Arctic, Forest, Plains} \\ 
 \paragraph{Planted in skin}
-At the end of each day make a Wis (DC 10) saving throw and get 3 points of exhaustion on failure.
+At the end of each day make a DC 10 Wisdom saving throw and get 3 points of exhaustion on failure.
 \paragraph{Planted for 7 days}
-Until removed, all other (Wis) saving throws automatically succeed. Previous effect still applies.
+Until removed, all other Wisdom saving throws automatically succeed. Previous effect still applies.
+
+\subsection{Last Stand}
+\small\emph{Cave} \\ 
+\paragraph{Inhaled}
+All sleeping creatures in 15 ft. radius get instantly awake and can’t get back to sleep for the next 4 hours. 
+\paragraph{Alchemy kit, 100g materials, Consumed}
+Regain all hit points. Gain 30 movement speed and advantage on all attacks. At the end of every turn gain a point of exhaustion. (6 turns)
+
+\subsection{Burning Temptation}
+\small\emph{} \\ 
+\paragraph{Encounter}
+You must remain seated uninterrupted for six days. Every day the plant tempts you to move: by offering you food (Str, DC 5), water (Con, DC 8), inflicting thorny pain (Dex, DC 11), telling lies (Int, DC 14), false promises (Cha DC, 17) and offering real riches (Wis, DC 20).
+\paragraph{Permanent}
+The tale of this trial becomes widespread and many start considering you a spiritual leader. You may cast the following spells at will (3 times/day): Skywrite, Charm person, Command, Calm Emotions and Fear. 
 
 \section{Proficiency +6}
 
