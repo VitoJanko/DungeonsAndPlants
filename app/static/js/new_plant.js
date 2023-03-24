@@ -66,6 +66,18 @@ function read_form(){
     fetch_plant(terrain, proff)
 }
 
+function read_form_b(){
+  let form = document.forms.radiosB;
+  let terrains = form.elements.terrain;
+  let proffs = form.elements.proff;
+  let terrain = get_checked(terrains);
+  let proff = get_checked(proffs);
+  let has_hand_space = is_hand_size_valid(proff)
+  handle_warning(has_hand_space)
+  if (has_hand_space)
+    fetch_plant(terrain, proff)
+}
+
 function fetch_plant(terrain, proff){
   let address = window.location.href;
   let getUrl = window.location;
