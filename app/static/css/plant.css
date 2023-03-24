@@ -1,0 +1,180 @@
+.plant {
+  width: 641px;
+  height: 329px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3em;
+}
+
+.plant_image {
+  width: 255px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 2px solid rgba(0,0,0,1);
+  border-top-left-radius: 39px;
+  border-top-right-radius: 39px;
+  border-bottom-left-radius: 39px;
+  border-bottom-right-radius: 39px;
+  overflow: hidden;
+}
+
+.ability_desc {
+  width: 337px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 32px;
+  left: 1px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.event_desc {
+  width: 337px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 1px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+.flavour {
+  width: 337px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 32px;
+  left: 1px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-style: italic;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+.ability_usecase {
+  width: 337px;
+  color: rgba(88,24,13,1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
+
+
+
+.plant_background {
+  width: 637px;
+  height: 320px;
+  background: url("../images/v7_64.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(0,0,0,1);
+  border-top-left-radius: 41px;
+  border-top-right-radius: 41px;
+  border-bottom-left-radius: 41px;
+  border-bottom-right-radius: 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+
+.ability_lower {
+  width: 337px;
+  height: 103px;
+  opacity: 1;
+  position: absolute;
+  top: 189px;
+  left: 284px;
+  overflow: hidden;
+}
+
+.ability_upper {
+  width: 337px;
+  height: 98px;
+  opacity: 1;
+  position: absolute;
+  top: 85px;
+  left: 283px;
+  overflow: visible;
+}
+
+.card_name {
+  width: 337px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 34px;
+  left: 283px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 24px;
+  opacity: 1;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+.plant_border {
+  width: 637px;
+  height: 320px;
+  background: rgba(196,196,196,0);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 3px solid rgba(0,0,0,1);
+  border-top-left-radius: 41px;
+  border-top-right-radius: 41px;
+  border-bottom-left-radius: 41px;
+  border-bottom-right-radius: 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.name {
+  color: #fff;
+}
+
+
+.remove_plant {
+  width: 30px;
+  height: 30px;
+  background: url("../images/delete.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 610px;
+  border-radius: 100%;
+}
+
+.complete_event {
+  width: 30px;
+  height: 30px;
+  background: url("../images/confirm2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 100%;
+}

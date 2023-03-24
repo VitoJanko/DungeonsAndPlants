@@ -4,234 +4,324 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Rosarivo&display=swap" rel="stylesheet" />
   <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
-  <title>Dungeons and plants</title>
+  <link href="{{ url_for('static', filename='css/plant.css') }}" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/sample_icon.ico') }}">
+  <title>Dungeons and Plants</title>
 </head>
 
 
 
 <body onload="loadAll()">
   <script src="{{ url_for('static', filename='js/new_plant.js') }}"></script>
-  <div class="herbarium">
 
-    <div class=title_div>
-      <p class="title">Herbarium</p>
-    </div>
+  <div class="container">
 
-    <div  id="plant_container">
+    <div class="rules">
+      <div class="title_div">
+        <p class="title">Rules</p>
+      </div>
+      <div class="rule_div">
+        <div class="only_wide">
+          <button type="button" class="plant_search" onclick="read_form()">
+            Search for plants!
+          </button>
 
-    </div>
-  </div>
+          <p id="hand_full" class="hand"></p>
 
-  <div class="rules">
-    <div class="title_div">
-      <p class="title">Rules</p>
-    </div>
-    <div class="rule_div">
-      <button type="button" class="plant_search" onclick="read_form()">
-        Search for plants!
-      </button>
+          <form name=radios onclick="saveSettings()">
+            <div style="padding: 1em">
+              Terrain:
+              <input type="radio" id="terrain1"
+               name="terrain" value="Forest">
+              <label class="radio">Forest</label>
 
-      <p id="hand_full" class="hand"></p>
+              <input type="radio" id="terrain2"
+               name="terrain" value="Plains">
+              <label class="radio">Plains</label>
 
-      <form name=radios onclick="saveSettings()">
-        <div style="padding: 1em">
-          Terrain:
-          <input type="radio" id="terrain1"
-           name="terrain" value="Forest">
-          <label class="radio">Forest</label>
+              <input type="radio" id="terrain4"
+               name="terrain" value="Cave">
+              <label class="radio">Cave</label>
 
-          <input type="radio" id="terrain2"
-           name="terrain" value="Plains">
-          <label class="radio">Plains</label>
+              <input type="radio" id="terrain3"
+               name="terrain" value="Mountain">
+              <label class="radio">Mountain</label>
 
-          <input type="radio" id="terrain4"
-           name="terrain" value="Cave">
-          <label class="radio">Cave</label>
+              <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
 
-          <input type="radio" id="terrain3"
-           name="terrain" value="Mountain">
-          <label class="radio">Mountain</label>
+              <input type="radio" id="terrain5"
+               name="terrain" value="Coast">
+              <label class="radio">Coast</label>
 
-          <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+              <input type="radio" id="terrain6"
+               name="terrain" value="Arctic">
+              <label class="radio">Arctic</label>
 
-          <input type="radio" id="terrain5"
-           name="terrain" value="Coast">
-          <label class="radio">Coast</label>
+              <input type="radio" id="terrain7"
+               name="terrain" value="Arid">
+              <label class="radio">Arid</label>
 
-          <input type="radio" id="terrain6"
-           name="terrain" value="Arctic">
-          <label class="radio">Arctic</label>
+              <input type="radio" id="terrain8"
+               name="terrain" value="Tropics">
+              <label class="radio">Tropics</label>
 
-          <input type="radio" id="terrain7"
-           name="terrain" value="Arid">
-          <label class="radio">Arid</label>
+              <input type="radio" id="terrain9"
+               name="terrain" value="Urban" checked="checked">
+              <label class="radio">Urban</label>
 
-          <input type="radio" id="terrain8"
-           name="terrain" value="Tropics" checked="checked">
-          <label class="radio">Tropics</label>
+            </div>
+            <div style="padding: 1em"  onclick="saveSettings()">
+                Proficiency:
+                <input type="radio" id="proff1"
+                 name="proff" value="0">
+                <label class="radio">0</label>
 
-        </div>
-        <div style="padding: 1em"  onclick="saveSettings()">
-            Proficiency:
-            <input type="radio" id="proff1"
-             name="proff" value="0">
-            <label class="radio">0</label>
+                <input type="radio" id="proff2"
+                 name="proff" value="2">
+                <label class="radio">2</label>
 
-            <input type="radio" id="proff2"
-             name="proff" value="2">
-            <label class="radio">2</label>
+                <input type="radio" id="proff3"
+                 name="proff" value="3">
+                <label  class="radio">3</label>
 
-            <input type="radio" id="proff3"
-             name="proff" value="3">
-            <label  class="radio">3</label>
+                <input type="radio" id="proff4"
+                 name="proff" value="4"  checked="checked">
+                <label  class="radio">4</label>
 
-            <input type="radio" id="proff4"
-             name="proff" value="4"  checked="checked">
-            <label  class="radio">4</label>
+                <input type="radio" id="proff5"
+                 name="proff" value="5">
+                <label class="radio">5</label>
 
-            <input type="radio" id="proff5"
-             name="proff" value="5">
-            <label class="radio">5</label>
-
-            <input type="radio" id="proff6"
-             name="proff" value="6">
-            <label class="radio">6</label>
+                <input type="radio" id="proff6"
+                 name="proff" value="6">
+                <label class="radio">6</label>
+              </div>
+            </form>
           </div>
-        </form>
-      <div class="rule_text">
+        <div class="rule_text">
 
-        <p>Once per day, you may search for a plant: draw one card from
-        the deck.</p>
+          <p>Once per day, you may search for a plant: draw one card from
+          the deck.</p>
 
-        <p> Every plant has a proficiency rating and can live in one or more
-        habitats. You can only get plant cards that have a proficiency rating
-        equal or lower to your herbalism proficiency and only those that
-        can grow in your current habitat. </p>
+          <p> Every plant has a proficiency rating and can live in one or more
+          habitats. You can only get plant cards that have a proficiency rating
+          equal or lower to your herbalism proficiency and only those that
+          can grow in your current habitat. </p>
 
-        <p>You cannot have more plants than your herbalism proficiency
-        (or minimum of 1). The herbalist can give
-        any plant to any other creature in their group, but it still counts
-        towards his hand size until used (the herbalist is still caring
-        for the plant).  </p>
+          <p>You cannot have more plants than your herbalism proficiency
+          (or minimum of 1). The herbalist can give
+          any plant to any other creature in their group, but it still counts
+          towards his hand size until used (the herbalist is still caring
+          for the plant).  </p>
 
-        <p>Most cards have two modes of possible use. The first one usually
-        gives an immediate effect, while the other one needs preparation time,
-        equipment and/or expensive materials. The materials can be bought in
-        any alchemy shop for the listed price. Unless stated otherwise,
-        the plant is consumed by the use of either mode.
-        The time required for different preparation procedures is listed below,
-        but might be overruled by the text on card. </p>
+          <p>Most cards have two modes of possible use. The first one usually
+          gives an immediate effect, while the other one needs preparation time,
+          equipment and/or expensive materials. The materials can be bought in
+          any alchemy shop for the listed price. Unless stated otherwise,
+          the plant is consumed by the use of either mode.
+          The time required for different preparation procedures is listed below,
+          but might be overruled by the text on card. </p>
 
-        <p>
-        <b>Consumed:</b> One action. <br />
-        <b>Applied on skin or weapon:</b>  10 minutes.  <br />
-        <b>Planted:</b>  One hour.  <br />
-        <b>Inhaled:</b>  One action for the creature that is carrying the plant,
-        passive effect for any other creature to which the effect might apply. <br />
-        <b>Prepared</b>  (Alchemy kit, Dried, cut, Carved, Trimmed, etc): One day.
-        You need to expand one short rest to actively perform the task,
-        but must wait until the end of a long rest until you can use it
-        (it is passively drying for example). If the card states that the procedure is
-        longer, the short rest must be used each day. Only one plant can be prepared
-        any given day. <br />
-        </p>
+          <p>
+          <b>Consumed:</b> One action. <br />
+          <b>Applied on skin or weapon:</b>  10 minutes.  <br />
+          <b>Planted:</b>  One hour.  <br />
+          <b>Inhaled:</b>  One action for the creature that is carrying the plant,
+          passive effect for any other creature to which the effect might apply. <br />
+          <b>Prepared</b>  (Alchemy kit, Dried, cut, Carved, Trimmed, etc): One day.
+          You need to expand one short rest to actively perform the task,
+          but must wait until the end of a long rest until you can use it
+          (it is passively drying for example). If the card states that the procedure is
+          longer, the short rest must be used each day. Only one plant can be prepared
+          any given day. <br />
+          </p>
 
-        <p><b>Events:</b> Some plants trigger an event when you try to collect them.
-          If you successfully resolve the event, press the "check" button in the
-         upper left corner. If you fail to do so (e.g., you flee the encounter
-         or cannot reach the plant) discard the card. </p>
+          <p><b>Events:</b> Some plants trigger an event when you try to collect them.
+            If you successfully resolve the event, press the "check" button in the
+           upper left corner. If you fail to do so (e.g., you flee the encounter
+           or cannot reach the plant) discard the card. </p>
+        </div>
+
+        <div>
+          <button type="button" class="plant_search" onclick="toggle_credits()">
+          Show credits
+          </button>
+        </div>
+
+        <div class = "credits_div" id="credits">
+           <b>Website created</b> by Vito Janko <br /> <br />
+          <b> Image authors </b><br />
+          <b>Black Chilli</b> by The Chilly Factory <br />
+          <b>Wild Rose</b> by LightField Studios <br />
+          <b>Medical Leaves</b> by John Howe <br />
+          <b>Berry</b> by Jennifer Latham <br />
+          <b>Fast-growing Ivy</b> by Waternomics <br />
+          <b>Carrot</b> by Yulia <br />
+          <b>Sturdy Vine</b> by Soulstice <br />
+          <b>Gas-filled Pumpkin</b> by Colton Sturgeon <br />
+          <b>White Lotus</b> by Mvtstockshot <br />
+          <b>Shaking Chestnuts</b> by Puwadol Paradon <br />
+          <b>Dry Thumbleweed</b> by Mary Lou Saxon <br />
+          <b>Corpse Flower</b> by Henrik Ishihara <br />
+          <b>Bell Bush</b> by Greg Miles <br />
+          <b>Animal Nip</b> by Fruition Seeds <br />
+          <b>Copycat Fertilizer</b> by Congerdesign <br />
+          <b>Tea Leaves</b> by Asgar Rahimov <br />
+          <b>Goodberry Bush</b> by PaulinoGardens <br />
+          <b>Oily shrubbery</b> by Carolyn French <br />
+          <b>Dandelion Light</b> by Romolo Tavani <br />
+          <b>Spotted Mushroom</b> by MoermanP <br />
+          <b>Good-Luck Lily Pad</b> by Nora Good <br />
+          <b>Thorned Nectar</b> by Superfoodly <br />
+          <b>Nightshade</b> by WILDLIFE GmbH <br />
+          <b>Homeopathic Mold</b> by Dee Bamford <br />
+          <b>Amortentia</b> by i8ra2-ketabk <br />
+          <b>Tentacle Weed</b> by Sanjaybengani <br />
+          <b>Spreading Roots</b> by Lovelypeace <br />
+          <b>Living Ice Crystal</b> by Carolyn Ramirez <br />
+          <b>Poison Leaves</b> by Paul Burpitt <br />
+          <b>Once-in-the-lifetime Pumpkin</b> by Amyhunterdesigns <br />
+          <b>Truffles</b> by Valentyn75 <br />
+          <b>Ghost Melon</b> by Zog <br />
+          <b>Lightning Flower</b> by Brent Shavnore <br />
+          <b>Pale-blue Flower</b> by Sarah Bradbrook <br />
+          <b>Salamander Flower</b> by Misha <br />
+          <b>Half-White, Half-Black Flower</b> by Alamy Stock Photo <br />
+          <b>Power-infused Thistle</b> by Peter Milota Jr <br />
+          <b>Harmonica Fruit</b> by Tominiko974 <br />
+          <b>Cryptic beans</b> by Alice Ballard <br />
+          <b>Oak bark</b> by Trustees of the British Museum <br />
+          <b>Invasive Plant</b> by Alamy Stock Photo <br />
+          <b>Tree of Paradise</b> by Ferdinand Ladera <br />
+          <b>Hallucinogenic Mushroom</b> by Getty Images <br />
+          <b>Soothing Petals</b> by Valera <br />
+          <b>Euphoric Grapes</b> by Megha Shivane <br />
+          <b>Corn of Doom</b> by Mojpe <br />
+          <b>Night Tulip</b> by pikist (royalty free website) <br />
+          <b>Head in the Clouds</b> by Jonathan Foerster <br />
+          <b>Strawman Bush</b> by Anan Kaewkhammul <br />
+          <b>Heart of the Forest</b> by thalion-art <br />
+          <b>Tear of a Goddess</b> by higyou <br />
+          <b>Tree of the Living Death</b> by Cat Burton <br />
+          <b>Fevered Dream</b> by  Hayden Williams <br />
+          <b>Blood Algae</b> by Petr Lerch <br />
+          <b>Scrying Beans</b> by Aleksey <br />
+          <b>Assimilation Plant</b> by aduantasu.com <br />
+          <b>Neck Breaker</b> by Gulsanam Shrestha <br />
+          <b>Immortal Lily</b> by UIDownload <br />
+          <b>Bond Breaker</b> by wallpaperacces <br />
+          <b>Symbiotic Death</b> by Amphitere <br />
+          <b>Oceans Test</b> by ISTOCK <br />
+          <b>Thiefs Dream</b> by  Dirk Wiersma <br />
+          <b>Giant Scales</b> by Wizards of the Coast <br />
+          <b>Sturdy Undergrowth</b> by Janine Baldwin <br />
+          <b>Snow Seeds</b> by Adam Gryko <br />
+          <b>Ancient Root</b> by Pikist <br />
+          <b>Warmth-Seeker</b> by Retro Lenses <br />
+          <b>Enchanted Branch</b> by Awen Fine Art Prints <br />
+          <b>Red on White</b> by peakpx <br />
+          <b>Mirror Moss</b> by Pixabay <br />
+          <b>Eternal Blizzard</b> by Mandy Disher <br />
+          <b>Parasite Mushroom</b> by u/CommonSchemeForYou <br />
+          <b>Firewood</b> by SydneyFirewood <br />
+          <b>Cached Nuts</b> by gyro <br />
+          <b>Dark Leaves</b> by Prince Abid <br />
+          <b>Exploding Pinecones</b> by Aaron Regez <br />
+          <b>Northern Evergreen</b> by Audrone Kelpsaite <br />
+          <b>Snow-White Blossom</b> by Susan Isakson <br />
+        </div>
       </div>
-
-      <div>
-        <button type="button" class="plant_search" onclick="toggle_credits()">
-        Show credits
-        </button>
-      </div>
-
-      <div class = "credits_div" id="credits">
-         <b>Website created</b> by Vito Janko <br /> <br />
-        <b> Image authors </b><br />
-        <b>Black Chilli</b> by The Chilly Factory <br />
-        <b>Wild Rose</b> by LightField Studios <br />
-        <b>Medical Leaves</b> by John Howe <br />
-        <b>Berry</b> by Jennifer Latham <br />
-        <b>Fast-growing Ivy</b> by Waternomics <br />
-        <b>Carrot</b> by Yulia <br />
-        <b>Sturdy Vine</b> by Soulstice <br />
-        <b>Gas-filled Pumpkin</b> by Colton Sturgeon <br />
-        <b>White Lotus</b> by Mvtstockshot <br />
-        <b>Shaking Chestnuts</b> by Puwadol Paradon <br />
-        <b>Dry Thumbleweed</b> by Mary Lou Saxon <br />
-        <b>Corpse Flower</b> by Henrik Ishihara <br />
-        <b>Bell Bush</b> by Greg Miles <br />
-        <b>Animal Nip</b> by Fruition Seeds <br />
-        <b>Copycat Fertilizer</b> by Congerdesign <br />
-        <b>Tea Leaves</b> by Asgar Rahimov <br />
-        <b>Goodberry Bush</b> by PaulinoGardens <br />
-        <b>Oily shrubbery</b> by Carolyn French <br />
-        <b>Dandelion Light</b> by Romolo Tavani <br />
-        <b>Spotted Mushroom</b> by MoermanP <br />
-        <b>Good-Luck Lily Pad</b> by Nora Good <br />
-        <b>Thorned Nectar</b> by Superfoodly <br />
-        <b>Nightshade</b> by WILDLIFE GmbH <br />
-        <b>Homeopathic Mold</b> by Dee Bamford <br />
-        <b>Amortentia</b> by i8ra2-ketabk <br />
-        <b>Tentacle Weed</b> by Sanjaybengani <br />
-        <b>Spreading Roots</b> by Lovelypeace <br />
-        <b>Living Ice Crystal</b> by Carolyn Ramirez <br />
-        <b>Poison Leaves</b> by Paul Burpitt <br />
-        <b>Once-in-the-lifetime Pumpkin</b> by Amyhunterdesigns <br />
-        <b>Truffles</b> by Valentyn75 <br />
-        <b>Ghost Melon</b> by Zog <br />
-        <b>Lightning Flower</b> by Brent Shavnore <br />
-        <b>Pale-blue Flower</b> by Sarah Bradbrook <br />
-        <b>Salamander Flower</b> by Misha <br />
-        <b>Half-White, Half-Black Flower</b> by Alamy Stock Photo <br />
-        <b>Power-infused Thistle</b> by Peter Milota Jr <br />
-        <b>Harmonica Fruit</b> by Tominiko974 <br />
-        <b>Cryptic beans</b> by Alice Ballard <br />
-        <b>Oak bark</b> by Trustees of the British Museum <br />
-        <b>Invasive Plant</b> by Alamy Stock Photo <br />
-        <b>Tree of Paradise</b> by Ferdinand Ladera <br />
-        <b>Hallucinogenic Mushroom</b> by Getty Images <br />
-        <b>Soothing Petals</b> by Valera <br />
-        <b>Euphoric Grapes</b> by Megha Shivane <br />
-        <b>Corn of Doom</b> by Mojpe <br />
-        <b>Night Tulip</b> by pikist (royalty free website) <br />
-        <b>Head in the Clouds</b> by Jonathan Foerster <br />
-        <b>Strawman Bush</b> by Anan Kaewkhammul <br />
-        <b>Heart of the Forest</b> by thalion-art <br />
-        <b>Tear of a Goddess</b> by higyou <br />
-        <b>Tree of the Living Death</b> by Cat Burton <br />
-        <b>Fevered Dream</b> by  Hayden Williams <br />
-        <b>Blood Algae</b> by Petr Lerch <br />
-        <b>Scrying Beans</b> by Aleksey <br />
-        <b>Assimilation Plant</b> by aduantasu.com <br />
-        <b>Neck Breaker</b> by Gulsanam Shrestha <br />
-        <b>Immortal Lily</b> by UIDownload <br />
-        <b>Bond Breaker</b> by wallpaperacces <br />
-        <b>Symbiotic Death</b> by Amphitere <br />
-        <b>Oceans Test</b> by ISTOCK <br />
-        <b>Thiefs Dream</b> by  Dirk Wiersma <br />
-        <b>Giant Scales</b> by Wizards of the Coast <br />
-        <b>Sturdy Undergrowth</b> by Janine Baldwin <br />
-        <b>Snow Seeds</b> by Adam Gryko <br />
-        <b>Ancient Root</b> by Pikist <br />
-        <b>Warmth-Seeker</b> by Retro Lenses <br />
-        <b>Enchanted Branch</b> by Awen Fine Art Prints <br />
-        <b>Red on White</b> by peakpx <br />
-        <b>Mirror Moss</b> by Pixabay <br />
-        <b>Eternal Blizzard</b> by Mandy Disher <br />
-        <b>Parasite Mushroom</b> by u/CommonSchemeForYou <br />
-        <b>Firewood</b> by SydneyFirewood <br />
-        <b>Cached Nuts</b> by gyro <br />
-        <b>Dark Leaves</b> by Prince Abid <br />
-        <b>Exploding Pinecones</b> by Aaron Regez <br />
-        <b>Northern Evergreen</b> by Audrone Kelpsaite <br />
-        <b>Snow-White Blossom</b> by Susan Isakson <br />
-      </div>
-
     </div>
+
+    <div class="herbarium">
+
+      <div class=title_div>
+        <p class="title">Herbarium</p>
+      </div>
+
+      <div class="only_tall">
+          <button type="button" class="plant_search" onclick="read_form_b()">
+            Search for plants!
+          </button>
+
+          <p id="hand_full-b" class="hand"></p>
+
+          <form name=radios onclick="saveSettings()">
+            <div style="padding: 1em">
+              Terrain:
+              <input type="radio" id="terrain1-b"
+               name="terrain" value="Forest">
+              <label class="radio">Forest</label>
+
+              <input type="radio" id="terrain2-b"
+               name="terrain" value="Plains">
+              <label class="radio">Plains</label>
+
+              <input type="radio" id="terrain4-b"
+               name="terrain" value="Cave">
+              <label class="radio">Cave</label>
+
+              <input type="radio" id="terrain3-b"
+               name="terrain" value="Mountain">
+              <label class="radio">Mountain</label>
+
+              <br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+              <input type="radio" id="terrain5-b"
+               name="terrain" value="Coast">
+              <label class="radio">Coast</label>
+
+              <input type="radio" id="terrain6-b"
+               name="terrain" value="Arctic">
+              <label class="radio">Arctic</label>
+
+              <input type="radio" id="terrain7-b"
+               name="terrain" value="Arid">
+              <label class="radio">Arid</label>
+
+              <input type="radio" id="terrain8-b"
+               name="terrain" value="Tropics">
+              <label class="radio">Tropics</label>
+
+              <input type="radio" id="terrain9-b"
+               name="terrain" value="Urban" checked="checked">
+              <label class="radio">Urban</label>
+
+            </div>
+            <div style="padding: 1em"  onclick="saveSettings()">
+                Proficiency:
+                <input type="radio" id="proff1-b"
+                 name="proff" value="0">
+                <label class="radio">0</label>
+
+                <input type="radio" id="proff2-b"
+                 name="proff" value="2">
+                <label class="radio">2</label>
+
+                <input type="radio" id="proff3-b"
+                 name="proff" value="3">
+                <label  class="radio">3</label>
+
+                <input type="radio" id="proff4-b"
+                 name="proff" value="4"  checked="checked">
+                <label  class="radio">4</label>
+
+                <input type="radio" id="proff5-b"
+                 name="proff" value="5">
+                <label class="radio">5</label>
+
+                <input type="radio" id="proff6-b"
+                 name="proff" value="6">
+                <label class="radio">6</label>
+              </div>
+            </form>
+          </div>
+
+      <div  id="plant_container">
+
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
