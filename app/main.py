@@ -19,6 +19,28 @@ def diff_name():
 def index():
     return render_template("index.html")
 
+
+@app.route("/gallery")
+def gallery():
+    names = ['Sunflower', 'Chamomile',
+             "Cobblecap Moss", "Magpie Nest",
+             "Willow Bark", "Moving Nest",
+             "Fertile Fields", "Marker Moss",
+             "Spell Drinker", "Cleanser",
+             "Empyrean Yeast", "Tracker",
+             "event-Curse Bleeder", "Curse Bleeder",
+             "event-Twirling Piper", "Twirling Piper",
+             "event-Sludge Flower", "Sludge Flower",
+             "event-Cinderleaf", "Cinderleaf",
+             "Living Web", "Size Changer",
+             "Blabbeler", "Thief",
+             "event-Symbiotic Succulents", "Symbiotic Succulents",
+             "event-Thorny Prison", "Thorny Prison",
+             "event-The Hanging Tree", "The Hanging Tree",
+             "Under_facade"]
+    columns = 2
+    return render_template("gallery.html", names=names, columns=columns)
+
 @app.route("/about")
 def about():
     return "All about Flask"
@@ -41,6 +63,11 @@ def generate_plant():
     terrain = request.args.get('terrain')
     proff = request.args.get('proff')
     name_arg = request.args.get("plant_name")
+
+    return_event = False
+    if name_arg is not None and name_arg.startswith("event-"):
+        name_arg = name_arg[6:]
+        return_event = True
 
     plants_all = pd.read_csv("plant_list.csv", sep=";").fillna("")
     plants_all["t2a"] = plants_all["t2a"].apply(format_text)
@@ -69,7 +96,7 @@ def generate_plant():
 
     event = selected["Event"]
 
-    if len(event.strip()) <= 1 or (name_arg is not None):
+    if not return_event and (len(event.strip()) <= 1 or (name_arg is not None)):
         return plant_template
 
     event_template = render_template("single_event.html",

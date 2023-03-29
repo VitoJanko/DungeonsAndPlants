@@ -1,0 +1,10 @@
+
+.grid {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.plant {
+  margin-bottom: 0.1em;
+}
+

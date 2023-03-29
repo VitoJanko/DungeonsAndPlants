@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rosarivo&display=swap" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/plant.css') }}" rel="stylesheet" />
+    <link href="{{ url_for('static', filename='css/gallery.css') }}" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="grid" style="grid-template-columns: repeat({{ columns }}, 1fr);">
+        {% for name in names %}
+            <div class="grid-item" data-name="{{ name }}"></div>
+        {% endfor %}
+    </div>
+    <script>
+        let getUrl = window.location;
+        let baseUrl = getUrl .protocol + "//" + getUrl.host + "/";
+
+        function createElementFromHTML(htmlString) {
+        const div = document.createElement('div');
+        div.innerHTML = htmlString.trim();
+        return div.firstChild;
+      }
+
+      function addNode(element, htmlString) {
+        if (htmlString.length <= 1) {
+          return;
+        }
+        const newElement = createElementFromHTML(htmlString);
+        element.appendChild(newElement);
+        return newElement;
+      }
+
+
+        $(document).ready(function() {
+            $('.grid-item').each(function() {
+                const name = $(this).data('name');
+                const url = baseUrl+'/generate_plant?terrain=Forest&proff=2&plant_name='+name;
+                const element = $(this);
+                fetch(url)
+                    .then(response => response.text())
+                    .then(data => addNode(element[0], data));
+            });
+        });
+    </script>
+</body>
+</html>
