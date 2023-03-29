@@ -25,7 +25,7 @@ def gallery():
     names = ['Sunflower', 'Chamomile',
              "Cobblecap Moss", "Magpie Nest",
              "Willow Bark", "Moving Nest",
-             "Fertile Fields", "Marker Moss",
+             "event-Fertile Fields", "Fertile Fields",
              "Spell Drinker", "Cleanser",
              "Empyrean Yeast", "Tracker",
              "event-Curse Bleeder", "Curse Bleeder",
@@ -33,11 +33,12 @@ def gallery():
              "event-Sludge Flower", "Sludge Flower",
              "event-Cinderleaf", "Cinderleaf",
              "Living Web", "Size Changer",
-             "Blabbeler", "Thief",
+             "Marker Moss", "Blabbeler",
              "event-Symbiotic Succulents", "Symbiotic Succulents",
              "event-Thorny Prison", "Thorny Prison",
+             "Thief", "Facade",
              "event-The Hanging Tree", "The Hanging Tree",
-             "Under_facade"]
+             ]
     columns = 2
     return render_template("gallery.html", names=names, columns=columns)
 
