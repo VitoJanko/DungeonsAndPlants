@@ -26,19 +26,45 @@ def gallery():
              "Cobblecap Moss", "Magpie Nest",
              "Willow Bark", "Moving Nest",
              "event-Fertile Fields", "Fertile Fields",
-             "Spell Drinker", "Cleanser",
-             "Empyrean Yeast", "Tracker",
+             "Marker Moss", "Spell Drinker",
+             "Empyrean Yeast", "Cleanser",
              "event-Curse Bleeder", "Curse Bleeder",
              "event-Twirling Piper", "Twirling Piper",
              "event-Sludge Flower", "Sludge Flower",
              "event-Cinderleaf", "Cinderleaf",
              "Living Web", "Size Changer",
-             "Marker Moss", "Blabbeler",
+             "Tracker", "Blabbeler",
              "event-Symbiotic Succulents", "Symbiotic Succulents",
              "event-Thorny Prison", "Thorny Prison",
-             "Thief", "Facade",
+             "Name Thief", "Facade",
              "event-The Hanging Tree", "The Hanging Tree",
              ]
+    columns = 2
+    return render_template("gallery.html", names=names, columns=columns)
+
+@app.route("/galleryAll")
+def galleryAll():
+    plants_all = pd.read_csv("plant_list.csv", sep=";").fillna("")
+    plants_all = plants_all.sort_values(by="Profficiency")
+    queue = []
+    proficiency = -1
+    names = []
+    for i, row in plants_all.iterrows():
+        if len(names) % 2 == 0 or row["Profficiency"] != proficiency:
+            for name in queue:
+                names.append("event-" + name)
+                names.append(name)
+            queue = []
+            proficiency = row["Profficiency"]
+        if len(row["Event"].strip()) > 1:
+            if len(names) % 2 == 0:
+                names.append("event-"+row["Name"])
+                names.append(row["Name"])
+            else:
+                queue.append(row["Name"])
+        else:
+            names.append(row["Name"])
+    # names = list(plants_all["Name"])
     columns = 2
     return render_template("gallery.html", names=names, columns=columns)
 
