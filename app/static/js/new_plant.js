@@ -9,8 +9,10 @@ function test(times){
 
 function extractName(string){
   if (string.includes("EVENT:")){
+    // console.log(string);
     let name = string.substring(7)
-    return name
+    // console.log("event-"+name);
+    return "event-"+name
     //alert(name)
   }
   return string
@@ -128,13 +130,24 @@ function replacePlant(event, htmlString){
   target.parentNode.replaceChild(element, target);
 }
 
+
+function replaceName(old_name, new_name){
+    // console.log(old_name);
+    // console.log(new_name);
+    deletePlant(old_name)
+    savePlant(new_name);
+}
+
+
 function resolvePlant(event, name){
   let address = window.location.href;
   let getUrl = window.location;
   let baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+  let old_name = "event-"+name
   fetch(baseUrl+'/generate_plant?terrain=Forest&proff=2&plant_name='+name)
   .then(response => response.text())
-  .then(data => replacePlant(event, data));
+  .then(data => replacePlant(event, data))
+  .then(() => replaceName(old_name, name));
 }
 
 function fetchSpecificPlant(name){
@@ -166,7 +179,7 @@ function deletePlant(name){
   let current = currentCards()
   let plants = current.split(";");
   let result = ""
-  for (let i=0; i<plants.length; i++){
+  for (let i=1; i<plants.length; i++){
     let plant = plants[i]
     if (plant == name){
       name = "placeholder" // No further copies will be removed
@@ -184,7 +197,7 @@ function deleteAllPlants(name){
 
 function loadPlants(){
   let current = currentCards()
-  //alert(current)
+  // alert(current)
   let plants = current.split(";");
   plants.forEach(fetchSpecificPlant);
 }
