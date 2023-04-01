@@ -31,71 +31,7 @@
 \chapter{Plant list}\section{Proficiency +0}
 
 
-\subsection{Black Chilli}
-\small\emph{Arid, Plains} \\ 
-\paragraph{Consumed}
-Has a very spicy taste.
-\paragraph{Combines with Corpse flower}
-Creates a rare spice, that sells for 50g.
-
-\subsection{Wild Rose}
-\small\emph{Arid, Forest, Plains, Mountain, Coast} \\ 
-\noindent
-Intrinsically beautiful.
-\begin{DndReadAloud}
-Sometimes a flower is just a flower.
-\end{DndReadAloud}
-
-\subsection{Berry}
-\small\emph{Forest, Plains, Mountain, Coast, Tropics} \\ 
-\paragraph{Consumed}
-Regain 1 hp.
-
-\subsection{Fast-growing Ivy}
-\small\emph{Forest, Tropics} \\ 
-\paragraph{Trimmed}
-Can be shaped into a hat.
-\paragraph{Trimmed (3 days)}
-Can be shaped into basic clothing.
-
-\subsection{Carrot}
-\small\emph{Plains} \\ 
-\paragraph{Consumed}
-Acts as daily ration of food.
-\paragraph{Carved}
-A makeshift whistle.
-
-\subsection{Sturdy Vine}
-\small\emph{Forest, Mountain, Tropics} \\ 
-\paragraph{Carried}
-Acts as 10 ft of rope.
-
-\subsection{Crystal Flower}
-\small\emph{Arctic, Cave} \\ 
-\paragraph{Inspiring}
-Your first roll after collecting this petal, has an additional +1 modifier.
-\begin{DndReadAloud}
-Life from stone should not exist. And yet...
-\end{DndReadAloud}
-
-\subsection{Firewood}
-\small\emph{Arctic, Forest} \\ 
-\noindent
-Ignites easily, burns for a long time.
-
-\subsection{Cached Nuts}
-\small\emph{Arctic, Mountain} \\ 
-\noindent
-Serves as one food ration.
-\begin{DndReadAloud}
-A feast for some. Famine for others.
-\end{DndReadAloud}
-
-\subsection{Dark Leaves}
-\small\emph{Arctic, Cave, Coast} \\ 
-\noindent
-Bitter taste, but can be chewed for hours.
-
+\begin{samepage}
 \subsection{Barrel Cactus}
 \small\emph{Arid} \\ 
 \noindent
@@ -103,24 +39,91 @@ Full of drinkable juice.
 \begin{DndReadAloud}
 Some say it rolls towards water when no one is watching.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Scorching Grass}
+\begin{samepage}
+\subsection{Berry}
+\small\emph{Forest, Plains, Mountain, Coast, Tropics} \\ 
+\paragraph{Consumed}
+Regain 1 hp.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Black Chilli}
 \small\emph{Arid, Plains} \\ 
-\noindent
-A large patch of dry grass, hot to the touch.
-\paragraph{Sewn into clothing}
-+1 stealth when in the same biome.
+\paragraph{Consumed}
+Has a very spicy taste.
+\paragraph{Combines with Corpse flower}
+Creates a rare spice, that sells for 50g.
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Cached Nuts}
+\small\emph{Arctic, Mountain} \\ 
+\noindent
+Serves as one food ration.
+\begin{DndReadAloud}
+A feast for some. Famine for others.
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Carrot}
+\small\emph{Plains, Urban} \\ 
+\paragraph{Consumed}
+Acts as daily ration of food.
+\paragraph{Carved}
+A makeshift whistle.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Chamomile}
+\small\emph{Urban} \\ 
+\paragraph{Dried (for 7 days)}
+Makes excellent tea.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Crystal Flower}
+\small\emph{Arctic, Cave} \\ 
+\paragraph{Inspiring}
+Your first roll after collecting this petal, has an additional +1 modifier.
+\begin{DndReadAloud}
+Life from stone should not exist. And yet...
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Dark Leaves}
+\small\emph{Arctic, Cave, Coast} \\ 
+\noindent
+Bitter taste, but can be chewed for hours.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Desert Jasmine}
 \small\emph{Arid} \\ 
 \paragraph{Applied on skin}
 You smell nice until the end of the day.
+\end{samepage} 
 
-\subsection{Tall Palm}
-\small\emph{Tropics} \\ 
-\paragraph{Climbed}
-Roll Dex. DC 12. If you succeed, you reach the top of the palm and get a vantage point view of the surroundings.
+\begin{samepage}
+\subsection{Fast-growing Ivy}
+\small\emph{Forest, Tropics} \\ 
+\paragraph{Trimmed}
+Can be shaped into a hat.
+\paragraph{Trimmed (3 days)}
+Can be shaped into basic clothing.
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Firewood}
+\small\emph{Arctic, Forest, Urban} \\ 
+\noindent
+Ignites easily, burns for a long time.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Rainbane}
 \small\emph{Tropics} \\ 
 \paragraph{Worn while dancing}
@@ -128,110 +131,52 @@ An ancient ritual for chasing rain away.
 \begin{DndReadAloud}
 Its effect has yet to be proven. 
 \end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Scorching Grass}
+\small\emph{Arid, Plains} \\ 
+\noindent
+A large patch of dry grass, hot to the touch.
+\paragraph{Sewn into clothing}
++1 stealth when in the same biome.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Sturdy Vine}
+\small\emph{Forest, Mountain, Tropics} \\ 
+\paragraph{Carried}
+Acts as 10 ft of rope.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Sunflower}
+\small\emph{Plains, Urban} \\ 
+\noindent
+Its seeds can be used to extract a small amount of oil or to feed local birds. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Tall Palm}
+\small\emph{Tropics} \\ 
+\paragraph{Climbed}
+Roll Dex. DC 12. If you succeed, you reach the top of the palm and get a vantage point view of the surroundings.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Wild Rose}
+\small\emph{Arid, Forest, Plains, Mountain, Coast} \\ 
+\noindent
+Intrinsically beautiful.
+\begin{DndReadAloud}
+Sometimes a flower is just a flower.
+\end{DndReadAloud}
+\end{samepage} 
 
 \section{Proficiency +2}
 
 
-\subsection{Medical Leaves}
-\small\emph{Forest, Cave, Tropics} \\ 
-\paragraph{Bonus action}
-Stabilizes an unconscious creature.
-\paragraph{Alchemy kit, 1g material}
-Creates a healing potion.
-
-\subsection{Gas-filled Pumpkin}
-\small\emph{Plains, Coast} \\ 
-\paragraph{Inhaled}
-Your voice becomes high-pitched (10 min.).
-\paragraph{Inhaled, Attuned}
-To attune a vial of this gas, it must be carried by a person for 1 day. Whoever inhales this gas, gets the voice of the attuned person (10 min.)
-
-\subsection{White Lotus}
-\small\emph{Arctic, Mountain} \\ 
-\paragraph{Carried}
-A recognizing sign of a political or criminal organization (at DM's discretion).
-\paragraph{Carried, Sharpened, Dried (3 days)}
-The stem of this flower can be dried and sharpened into a small dagger.
-
-\subsection{Shaking Chestnuts}
-\small\emph{Arid, Forest, Mountain} \\ 
-\paragraph{Consumed}
-Cures common cold.
-\paragraph{Dried}
-An alchemistic ingredient that sells for 1g.
-
-\subsection{Dry Tumbleweed}
-\small\emph{Arid, Plains, Coast} \\ 
-\paragraph{Encounter}
-A tumbleweed rolls past you. You may catch it with a DC 12 Dexterity skill check.
-\paragraph{Ignited, Thrown}
-Each creature in the 60 ft. line must make a DC 12 Dex saving throw. A creature takes 2d6+3 fire damage on a failed save. Flammable targets ignite.
-
-\subsection{Corpse Flower}
-\small\emph{Cave, Tropics} \\ 
-\paragraph{Applied on skin}
-Emits a subtle smell that can be tracked by dogs or trained trackers in a 10 mile radius (3 days).
-\paragraph{Combines with Black chili}
-Creates a rare spice, that sells for 50g.
-
-\subsection{Bell Bush}
-\small\emph{Forest, Plains, Mountain, Coast} \\ 
-\paragraph{Planted}
-Ten flowers that can be planted in an area. Stepping on them makes a loud sound (DC 14 Dexterity saving throw).
-\paragraph{Dried (2 days)}
-A bag of seeds that makes a loud noise when thrown, all creatures in 10 ft radius go deaf for 15 seconds.
-
-\subsection{Animal Nip}
-\small\emph{Arctic, Forest, Plains, Mountain, Cave, Coast} \\ 
-\paragraph{Applied on skin}
-+2 to animal handling (1 day).
-\paragraph{Consumed by a beast}
-The beast understands your verbal commands, but is not forced to follow them.
-
-\subsection{Copycat Fertilizer}
-\small\emph{Cave, Tropics} \\ 
-\paragraph{Use on any other plant}
-After a day this fertilizer transforms into any other plant. It must be used on the same day or it decays into nothing.
-\begin{DndReadAloud}
-Hope you don't mind the smell.
-\end{DndReadAloud}
-
-\subsection{Tea Leaves}
-\small\emph{Forest, Plains, Mountain} \\ 
-\paragraph{Prepare tea}
-Roll d4. On 4, recover one step of exhaustion. On 3, recover 5 hp. On 2, remember a childhood memory. On 1, fall asleep.
-
-\subsection{Goodberry Bush}
-\small\emph{Forest, Plains, Mountain} \\ 
-\paragraph{Expands/Contracts}
-The branch can repeatedly expand into a bush or contract back to a branch on command. If hidden inside, +3 to stealth.
-\paragraph{Planted}
-After a week, you can collect 1 goodberry (see Druid) per day. Bush lasts for 1 month.
-
-\subsection{Four-leaf clover}
-\small\emph{Plains, Mountain, Coast} \\ 
-\paragraph{Squish}
-After any roll, but before you know if it succeeds or fails, squish the four-leaf clover to add +1 to the result.
-
-\subsection{Oily shrubbery}
-\small\emph{Arid, Plains, Mountain, Coast} \\ 
-\paragraph{Applied on skin}
-Cannot be grappled (1 hour).
-\paragraph{Applied on weapon}
-Cannot be disarmed (1 hour).
-
-\subsection{Dandelion Light}
-\small\emph{Plains, Coast} \\ 
-\paragraph{Consumed}
-You float 5 feet above the surface. Your moving speed otherwise remains the same. (1 hour)
-\paragraph{Release}
-The Dandelion light raises high into the air and emits yellow light like a flare. (10 minutes)
-
-\subsection{Spotted Mushroom}
-\small\emph{Forest, Tropics} \\ 
-\paragraph{Eaten}
-Roll DC 12 Constitution. On success become inspired by the dish, and get advantage on the first roll you make in the next 30 minutes. On failure you have heavy digestion problems for the next 12 hours.
-
+\begin{samepage}
 \subsection{10 Feet Branch}
 \small\emph{Arctic, Forest, Plains} \\ 
 \paragraph{Carried}
@@ -239,14 +184,254 @@ Can be used as a 10 feet pole.
 \begin{DndReadAloud}
 An elegant weapon for a more civilized age.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Sturdy Undergrowth}
-\small\emph{Arctic, Plains, Coast} \\ 
-\paragraph{Cooked (3 hours)}
-Restore 1d4 hp when eaten.
+\begin{samepage}
+\subsection{Acoustic Pitcher}
+\small\emph{Tropics} \\ 
+\paragraph{Planted}
+All sounds in 10 ft. radius are swallowed by this plant. No one can hear them.
+\paragraph{Squeeze}
+The plant exactly reproduces the last 1 hour of sound captured. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Animal Nip}
+\small\emph{Arctic, Forest, Plains, Mountain, Cave, Coast, Urban} \\ 
+\paragraph{Applied on skin}
++2 to animal handling (1 day).
+\paragraph{Consumed by a beast}
+The beast understands your verbal commands, but is not forced to follow them.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Bell Bush}
+\small\emph{Forest, Plains, Mountain, Coast} \\ 
+\paragraph{Planted}
+Ten flowers that can be planted in an area. Stepping on them makes a loud sound (DC 14 Dexterity saving throw).
+\paragraph{Dried (2 days)}
+A bag of seeds that makes a loud noise when thrown, all creatures in 10 ft radius go deaf for 15 seconds.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Cobblecap Moss}
+\small\emph{Urban} \\ 
+\paragraph{Wrapped around feet or shoes}
+You make less noise (+1 to stealth) when walking.
+\paragraph{Burned, Smoke inhaled}
+Your eyes turn yellow. You have no disadvantage on perception checks in dim light (1 hour). 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Coconut}
+\small\emph{Tropics} \\ 
+\paragraph{Consumed}
+Acts as one daily ration.
+\paragraph{Thrown}
+Make a ranged attack that deals 1d4 damage on hit. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Copycat Fertilizer}
+\small\emph{Cave, Tropics} \\ 
+\paragraph{Use on any other plant}
+After a day this fertilizer transforms into any other plant. It must be used on the same day or it decays into nothing.
+\begin{DndReadAloud}
+Hope you don't mind the smell.
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Corpse Flower}
+\small\emph{Cave, Tropics} \\ 
+\paragraph{Applied on skin}
+Emits a subtle smell that can be tracked by dogs or trained trackers in a 10 mile radius (3 days).
+\paragraph{Combines with Black chili}
+Creates a rare spice, that sells for 50g.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Dandelion Light}
+\small\emph{Plains, Coast} \\ 
+\paragraph{Consumed}
+You float 5 feet above the surface. Your moving speed otherwise remains the same. (1 hour)
+\paragraph{Release}
+The Dandelion light raises high into the air and emits yellow light like a flare. (10 minutes)
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Dry Tumbleweed}
+\small\emph{Arid, Plains, Coast} \\ 
+\paragraph{Encounter}
+A tumbleweed rolls past you. You may catch it with a DC 12 Dexterity skill check.
+\paragraph{Ignited, Thrown}
+Each creature in the 60 ft. line must make a DC 12 Dex saving throw. A creature takes 2d6+3 fire damage on a failed save. Flammable targets ignite.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Fertile Fields}
+\small\emph{Urban} \\ 
+\paragraph{Encounter}
+A farmer is collecting produce from the field. If you find a way to distract him (Persuasion DC 10) and sneak by (Stealth DC 10) you may steal the food.
+\noindent
+You find produce (salad, potatoes, etc) equivalent to 5 daily rations. Taking it angers the owner if seen. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Four-leaf clover}
+\small\emph{Plains, Mountain, Coast, Urban} \\ 
+\paragraph{Squish}
+After any roll, but before you know if it succeeds or fails, squish the four-leaf clover to add +1 to the result.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Gas-filled Pumpkin}
+\small\emph{Plains, Coast} \\ 
+\paragraph{Inhaled}
+Your voice becomes high-pitched (10 min.).
+\paragraph{Inhaled, Attuned}
+To attune a vial of this gas, it must be carried by a person for 1 day. Whoever inhales this gas, gets the voice of the attuned person (10 min.)
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Giant Palm Leaves}
+\small\emph{Tropics} \\ 
 \paragraph{Trimmed}
-An elementary snare for small animals.
+A makeshift umbrella. 
+\paragraph{Assembled around a tree (1 day)}
+A makeshift shelter.
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Goodberry Bush}
+\small\emph{Forest, Plains, Mountain, Urban} \\ 
+\paragraph{Expands/Contracts}
+The branch can repeatedly expand into a bush or contract back to a branch on command. If hidden inside, +3 to stealth.
+\paragraph{Planted}
+After a week, you can collect 1 goodberry (see Druid) per day. Bush lasts for 1 month.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Guttator}
+\small\emph{Forest, Cave, Tropics} \\ 
+\noindent
+This plant gets wet when it is raining, regardless of any shelter it may have.
+\begin{DndReadAloud}
+There is no explanation for this phenomenon. Nor is there any known use. 
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Hard-shelled Beans}
+\small\emph{Arid, Plains, Coast} \\ 
+\paragraph{Chewed}
+Roll Const. DC 15. On success, acts as one food ration. On failure, take 1d4 damage.
+\paragraph{Left in water (7 days)}
+Softens and can be used as three food rations.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Lichen Shroud}
+\small\emph{Cave, Urban} \\ 
+\paragraph{Consumed}
+Your voice becomes silky smooth for one hour. You get +1 to charisma for the duration. 
+\paragraph{Vowen (5 days)}
+You create silky strings that can be sold for 5g. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Lucky Charm}
+\small\emph{Forest, Mountain, Tropics} \\ 
+\paragraph{Burned as an offering}
+Pray for the safety of another creature. The next time that creature is attacked, it gets +2 bonus AC (for that attack only).
+\paragraph{Enchanted (5g materials), Worn as necklace}
+If you fall unconscious, your first death-saving throw automatically succeeds. The Lucky Charm vanishes into thin air. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Magpie Nest}
+\small\emph{Urban} \\ 
+\paragraph{Search the nest}
+You find d6 bronze coins and d4 silver coins. If you roll 6 and 4 respectively, you also find a piece of jewelry belonging to a local noble.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Marker Moss}
+\small\emph{Urban} \\ 
+\noindent
+The Marker Moss bruises easily when touched and remains so for its lifetime.
+\paragraph{Consumed}
+Your skin marks on touch (1 day).
+\begin{DndReadAloud}
+Line marks a house with valuables. Dot for guarded. Cross for already robbed.  
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Medical Leaves}
+\small\emph{Forest, Cave, Tropics} \\ 
+\paragraph{Bonus action}
+Stabilizes an unconscious creature.
+\paragraph{Alchemy kit, 1g material}
+Creates a healing potion.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Moving Nest}
+\small\emph{Mountain, Tropics, Urban} \\ 
+\paragraph{Placed in hair or in fur}
+Will grow into a 2 feet tall bush over the next week, sustaining only from the fibers in the hair and skin oils.  
+\begin{DndReadAloud}
+Most bushes rely on wind to spread their seeds... not this one.
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Needler}
+\small\emph{Arid} \\ 
+\paragraph{Stick its spikes into the ground}
+Any creature that steps on them (5 ft. area) takes 1 piercing damage.
+\paragraph{Eat the spikes}
+Over the next four hours all sunburns and heat exhaustion fade away. You take 1 piercing damage whenever you make a step.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Northern Evergreen}
+\small\emph{Arctic, Mountain} \\ 
+\paragraph{Branch carried}
+Your hair and facial hair grow with five times their natural speed.
+\paragraph{Distilled, Alchemy kit}
+A potion widely regarded as a cure for baldness that can be sold for up to 5g. The alchemy guild classifies it as a scam.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Oily shrubbery}
+\small\emph{Arid, Plains, Mountain, Coast} \\ 
+\paragraph{Applied on skin}
+Cannot be grappled (1 hour).
+\paragraph{Applied on weapon}
+Cannot be disarmed (1 hour).
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Pheromoner}
+\small\emph{Arid} \\ 
+\paragraph{First 7 days}
+Its smell attracts a constant swarm of insects.
+\paragraph{After 7 days}
+Its smell repels insects in a 15 ft. radius.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Shaking Chestnuts}
+\small\emph{Arid, Forest, Mountain} \\ 
+\paragraph{Consumed}
+Cures common cold.
+\paragraph{Dried}
+An alchemistic ingredient that sells for 1g.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Snow Seeds}
 \small\emph{Arctic} \\ 
 \paragraph{Encounter}
@@ -255,51 +440,16 @@ They pass by you, almost indistinguishable from snowflakes. Can only be captured
 The first time you would be surprised in combat, negate the 'surprised' status and consume this plant (24h).
 \paragraph{Alchemy kit, 50g materials}
 You may release this plant to summon a snowstorm that reduces visibility of all creatures in 30 ft. radius to 10 ft. (1 min).
+\end{samepage} 
 
-\subsection{Warmth-Seeker}
-\small\emph{Arctic} \\ 
-\noindent
-This flower always grows turned to the nearest fire, regardless of its distance. No effect after being collected.
-\begin{DndReadAloud}
-It doesn't point north, but you are not trying to find north.
-\end{DndReadAloud}
+\begin{samepage}
+\subsection{Spotted Mushroom}
+\small\emph{Forest, Tropics} \\ 
+\paragraph{Eaten}
+Roll DC 12 Constitution. On success become inspired by the dish, and get advantage on the first roll you make in the next 30 minutes. On failure you have heavy digestion problems for the next 12 hours.
+\end{samepage} 
 
-\subsection{Northern Evergreen}
-\small\emph{Arctic, Mountain} \\ 
-\paragraph{Branch carried}
-Your hair and facial hair grow with five times their natural speed.
-\paragraph{Distilled, Alchemy kit}
-A potion widely regarded as a cure for baldness that can be sold for up to 5g. The alchemy guild classifies it as a scam.
-
-\subsection{Needler}
-\small\emph{Arid} \\ 
-\paragraph{Stick its spikes into the ground}
-Any creature that steps on them (5 ft. area) takes 1 piercing damage.
-\paragraph{Eat the spikes}
-Over the next four hours all sunburns and heat exhaustion fade away. You take 1 piercing damage whenever you make a step.
-
-\subsection{Hard-shelled Beans}
-\small\emph{Arid, Plains, Coast} \\ 
-\paragraph{Chewed}
-Roll Const. DC 15. On success, acts as one food ration. On failure, take 1d4 damage.
-\paragraph{Left in water (7 days)}
-Softens and can be used as three food rations.
-
-\subsection{Pheromoner}
-\small\emph{Arid} \\ 
-\paragraph{First 7 days}
-Its smell attracts a constant swarm of insects.
-\paragraph{After 7 days}
-Its smell repels insects in a 15 ft. radius.
-
-\subsection{Unidentifiable Scrub}
-\small\emph{Arid, Plains, Mountain, Coast} \\ 
-\paragraph{Boil in water and drink}
-Roll Nature: On 18+, recover 1d6d hp, on 14+ you enjoy a delicious and unique tea. On 6 or less, it’s a poison that covers you in rashes.
-\begin{DndReadAloud}
-Its really hard to guess which it is.
-\end{DndReadAloud}
-
+\begin{samepage}
 \subsection{Stump Canal}
 \small\emph{Arid, Arctic} \\ 
 \noindent
@@ -307,229 +457,94 @@ Forms a forking underground tube with multiple tree-stump-like visible ends in a
 \begin{DndReadAloud}
 We do not know who else may be listening.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Coconut}
-\small\emph{Tropics} \\ 
-\paragraph{Consumed}
-Acts as one daily ration.
-\paragraph{Thrown}
-Make a ranged attack that deals 1d4 damage on hit. 
-
-\subsection{Giant Palm Leaves}
-\small\emph{Tropics} \\ 
+\begin{samepage}
+\subsection{Sturdy Undergrowth}
+\small\emph{Arctic, Plains, Coast} \\ 
+\paragraph{Cooked (3 hours)}
+Restore 1d4 hp when eaten.
 \paragraph{Trimmed}
-A makeshift umbrella. 
-\paragraph{Assembled around a tree (1 day)}
-A makeshift shelter.
+An elementary snare for small animals.
+\end{samepage} 
 
-\subsection{Acoustic Pitcher}
-\small\emph{Tropics} \\ 
-\paragraph{Planted}
-All sounds in 10 ft. radius are swallowed by this plant. No one can hear them.
-\paragraph{Squeeze}
-The plant exactly reproduces the last 1 hour of sound captured. 
+\begin{samepage}
+\subsection{Tea Leaves}
+\small\emph{Forest, Plains, Mountain} \\ 
+\paragraph{Prepare tea}
+Roll d4. On 4, recover one step of exhaustion. On 3, recover 5 hp. On 2, remember a childhood memory. On 1, fall asleep.
+\end{samepage} 
 
-\subsection{Guttator}
-\small\emph{Forest, Cave, Tropics} \\ 
-\noindent
-This plant gets wet when it is raining, regardless of any shelter it may have.
+\begin{samepage}
+\subsection{Unidentifiable Scrub}
+\small\emph{Arid, Plains, Mountain, Coast} \\ 
+\paragraph{Boil in water and drink}
+Roll Nature: On 18+, recover 1d6d hp, on 14+ you enjoy a delicious and unique tea. On 6 or less, it’s a poison that covers you in rashes.
 \begin{DndReadAloud}
-There is no explanation for this phenomenon. Nor is there any known use. 
+Its really hard to guess which it is.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Lucky Charm}
-\small\emph{Forest, Mountain, Tropics} \\ 
-\paragraph{Burned as an offering}
-Pray for the safety of another creature. The next time that creature is attacked, it gets +2 bonus AC (for that attack only).
-\paragraph{Enchanted (5g materials), Worn as necklace}
-If you fall unconscious, your first death-saving throw automatically succeeds. The Lucky Charm vanishes into thin air. 
+\begin{samepage}
+\subsection{Warmth-Seeker}
+\small\emph{Arctic} \\ 
+\noindent
+This flower always grows turned to the nearest fire, regardless of its distance. No effect after being collected.
+\begin{DndReadAloud}
+It doesn't point north, but you are not trying to find north.
+\end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Lichen Shroud}
-\small\emph{Cave} \\ 
-\paragraph{Consumed}
-Your voice becomes silky smooth for one hour. You get +1 to charisma for the duration. 
-\paragraph{Vowen (5 days)}
-You create silky strings that can be sold for 5g. 
+\begin{samepage}
+\subsection{White Lotus}
+\small\emph{Arctic, Mountain} \\ 
+\paragraph{Carried}
+A recognizing sign of a political or criminal organization (at DM's discretion).
+\paragraph{Carried, Sharpened, Dried (3 days)}
+The stem of this flower can be dried and sharpened into a small dagger.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Willow Bark}
+\small\emph{Coast, Urban} \\ 
+\paragraph{Ground into powder, Ingested}
+Lessens pain.  
+\paragraph{Alchemy kit, 1g ingredients}
+Potion that provides 2d4 temporary hit points for 1 minute. 
+\end{samepage} 
 
 \section{Proficiency +3}
 
 
-\subsection{Good-Luck Lily Pad}
-\small\emph{Coast} \\ 
-\paragraph{Carried}
-When carried, it gives +1 to nature skill.
-\paragraph{Alchemy kit, 10g materials}
-When doused with a special substance, enlarges into a boat that can carry one creature (medium or smaller). Loses previous benefit.
-
-\subsection{Thorned Nectar}
-\small\emph{Arid, Plains} \\ 
-\paragraph{Consume}
-DC 14 Wisdom saving throw or become aggressive against all targets. Lose any social restraint. (1 min)
-\paragraph{Peel, Inhale}
-When peeling receive 1d4 damage. All who inhale (10 feet radius) get Calm emotion cast on them.
-
-\subsection{Nightshade}
-\small\emph{Arctic, Mountain, Cave} \\ 
-\paragraph{Consume}
-The next long rest can be 4 hour shorter.
-\paragraph{Alchemy kit, Consume}
-In addition to the previous effect, gain darkvision for 4 hours.
-
-\subsection{Homeopathic Mold}
-\small\emph{Arctic, Mountain, Cave} \\ 
-\paragraph{3 charges, Consume 1 charge}
-For the next day, become immune to poison.
-\paragraph{Name a specific poison, Consume all charges}
-Roll a DC 15 Con saving throw, on success become permanently immune to the named poison. Else become poisoned by it.
-
+\begin{samepage}
 \subsection{Amortentia}
 \small\emph{Tropics} \\ 
 \paragraph{Applied on skin}
 +1 persuasion when talking to a creature attracted to your sex (1 hour).
 \paragraph{Mixed with a hair, Potion, Consumed}
 +5 to persuasion when talking to the person who owned the hair strand. (1 day)
+\end{samepage} 
 
-\subsection{Tentacle Weed}
-\small\emph{Coast} \\ 
-\paragraph{Carried}
-Counts as a simple weapon that only the herbalist is proficient with.
-\paragraph{Consumed}
-DC 6 Dexterity to eat. If successful, you can breath underwater for 1 hour, else take 1d4 damage.
-
-\subsection{Spreading Roots}
-\small\emph{Forest, Tropics} \\ 
-\paragraph{Consumed}
-Get +1 strength (1 hour).
-\paragraph{Alchemy kit, 10g materials}
-Cast Spike growth spell.
-
-\subsection{Living Ice Crystal}
-\small\emph{Arctic, Cave} \\ 
-\paragraph{Carried}
-Emits dim light.
-\paragraph{Carried, Grows for 1 month}
-Emits bright light. Can be sold for 100g to collectors.
-
-\subsection{Poison Leaves}
-\small\emph{Arctic, Forest, Mountain, Cave, Coast, Tropics} \\ 
-\paragraph{Consumed}
-DC 10 Constitution saving throw or inflicts poisonous condition that lasts for 1 hour.
-\paragraph{Alchemy lab (X days, 20X materials)}
-Liquid with DC 15 Constitution saving throw or inflicts poisonous condition for X hours and Xd8 damage.
-
-\subsection{Once-in-the-lifetime Pumpkin}
-\small\emph{Forest, Plains, Coast} \\ 
-\paragraph{Roll d20}
-On 18+ the pumpkin becomes a carriage, else it can be used as 10 food rations.
-
-\subsection{Truffles}
-\small\emph{Plains, Cave, Coast} \\ 
-\paragraph{Consumed}
-Gain 1d4 hp.
-\paragraph{Consumed, Out of combat}
-Create a dish that heals for 4d4 hp.
-
-\subsection{Ghost Melon}
-\small\emph{Cave} \\ 
-\paragraph{Applied on weapon}
-+1 to hit and +1 damage to undead (24h).
-\paragraph{Squish}
-You can see all undead in 60 ft. radius, even through walls. Make a Wisdom skill check, on 12 or lower, all undead in 60 ft. radius see you.
-
-\subsection{Lightning Flower}
-\small\emph{Arid, Forest, Plains} \\ 
-\paragraph{Encounter}
-As you touch the flower, a lightning bolt strikes you from the clear sky. DC 12 Dexterity saving throw or take 1d12 thunder damage.
-\paragraph{Used as a spell casting component}
-If the spell deals thunder/lightning damage, roll two additional dice of the same type.
-\paragraph{Drawn during a thunder}
-Each 6 seconds, for 1 minute, a lightning hits the flower (if possible), dealing 1d12 to all creatures in 5 ft radius.
-
-\subsection{Pale-blue Flower}
-\small\emph{Arctic, Mountain} \\ 
-\paragraph{Encounter}
-When you tear the flower from its stem, your arm freezes and cannot be moved for 30 minutes.
-\paragraph{Consumed}
-Naturally cold weather has no effect on you (1 day).
-\paragraph{Alchemy kit, Consumed}
-Resistance to cold damage (1 hour).
-
-\subsection{Salamander Flower}
-\small\emph{Arid, Forest, Mountain} \\ 
-\paragraph{Encounter}
-As you approach the flower, a ring of fire erupts all around it, 10 feet in diameter. Touching it causes 1d8 fire damage.
-\paragraph{Apply on a melee weapon}
-Your next 5 hits with the weapon deal an additional 1d4 fire damage.
-\paragraph{Thrown into a fire}
-The fire expands in size 3 fold in all directions. All touched by this fire receive 3d12 fire damage.
-
-\subsection{Half-White, Half-Black Flower}
-\small\emph{Arctic, Forest, Plains} \\ 
-\paragraph{If collected during the day}
-The next time you deal radiant damage increase it by d12. The next time you receive necrotic damage, reduce it by d12 (1 day).
-\paragraph{If collected during the night}
-The next time you deal necrotic damage increase it by d12. The next time you receive radiant damage, reduce it by d12 (1 day).
-
-\subsection{Power-infused Thistle}
-\small\emph{Arid, Plains, Mountain, Coast} \\ 
-\paragraph{Consumed}
-Recovers one expanded level 1 spell slot.
-\paragraph{10 gold materials, Alchemy kit, Consumed}
-Recovers one expanded level 3 spell slot.
-
-\subsection{Harmonica Fruit}
-\small\emph{Forest, Plains, Mountain, Cave, Coast} \\ 
-\paragraph{Consumed}
-Casts Misty step.
-\paragraph{100 gold materials, Alchemy kit, Consumed}
-Casts Gaseous form.
-
-\subsection{Cryptic beans}
-\small\emph{Forest, Plains, Coast} \\ 
-\paragraph{Consumed}
-Contains 5 beans in a pod. All who consume 1 bean can talk telepathically for 1 hour.
-
-\subsection{Oak bark}
-\small\emph{Arctic, Forest} \\ 
-\paragraph{Carved (3 days), Carried}
-A shield, + 3 AC.
-\paragraph{Carved (7 days), Carried}
-A medium armor, AC 15 + Dex (max 2).
-
+\begin{samepage}
 \subsection{Ancient Root}
 \small\emph{Arctic} \\ 
 \paragraph{Carried}
 Continually whispers secrets in a language no one understands.
 \paragraph{Boil the root (3 days)}
 A potion that can be used to gain 2d6 temporary hit points for 10 minutes.
+\end{samepage} 
 
-\subsection{Enchanted Branch}
-\small\emph{Arctic, Mountain} \\ 
-\paragraph{Thrown}
-Acts as a thrown dagger, dealing 2d4 cold damage on hit.
-\paragraph{Trimmed}
-Acts as a sword dealing 3d6 cold damage on hit. Shatters on first miss, dealing 1d4 cold damage to the wielder.
-
-\subsection{Exploding Pinecones}
-\small\emph{Arctic, Forest} \\ 
-\paragraph{Ignited, Thrown, (5 pinecones total)}
-Throw an additional d4 when making the ranged attack. On 4, pinecone deals 2d4+2 damage on hit, and ignites the target. On 3, it deals 1d4+1 on hit. On 2, deals 1 damage. On 1, it explodes in your hand, dealing you 1d4 damage.
-
-\subsection{False Hope}
-\small\emph{Arid} \\ 
-\paragraph{Encounter}
-On a night with the full moon this plant will start blooming, and the domain of the living and the dead will intertwine around it. You may return to this location then.
-\paragraph{Bury an item belonging to a dead creature}
-A ghost of that creature appears and you may have a 30-minute conversation with it. The next time you fall unconscious, start with two failed death-saving throws. 
+\begin{samepage}
+\subsection{Bad Omen}
+\small\emph{Plains, Tropics} \\ 
+\paragraph{Carried}
+When you collect this leaf, choose a creature type. If approached by the creature of the named type (500 ft. radius or less), the leaf becomes darker and darker. If that creature enters a 30 ft. radius around you, the leaf crumbles and becomes unusable.
 \begin{DndReadAloud}
-Those who seek the company of the dead, often unexpectedly find it. 
+Death of the leaf is often followed by the death of the owner.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Date of Love}
-\small\emph{Arid, Forest} \\ 
-\noindent
-Two dates grow on a tree. If two creatures willingly eat one each, they will not find anyone else attractive until the same date next year. Can be sold. 
-
+\begin{samepage}
 \subsection{Baobab Tower}
 \small\emph{Arid} \\ 
 \paragraph{Encounter}
@@ -538,7 +553,9 @@ The air in the area around the tree is distorted so that it looks much closer th
 The roots of this tree form a map of the local area. 
 \paragraph{Carve (3 days)}
 The upper part of the tree is hollow and can be carved into a lookout tower, fitting 5 medium creatures.  
+\end{samepage} 
 
+\begin{samepage}
 \subsection{Blood in the Wind}
 \small\emph{Arid, Plains} \\ 
 \paragraph{Encounter}
@@ -547,67 +564,181 @@ The tree is surrounded by a constant spiraling wind, carrying razor sharp leaves
 You may use it to cast “Control winds” spell once. 
 \paragraph{Follow the tunnel at its roots}
 Leads to a secret location at DMs discretion. 
+\end{samepage} 
 
-\subsection{Shadow Peyote}
-\small\emph{Arid, Mountain} \\ 
-\paragraph{Ground, dried (7 days), smoked}
-Share a pipe with this leaf in a social gathering with the locals. Roll Con. DC 12: On success you earn their respect, on failure fall asleep. 
+\begin{samepage}
+\subsection{Cinderleaf}
+\small\emph{Arid, Urban} \\ 
+\paragraph{Encounter}
+When two cinderleaf tree leaves collide, they ignite and deal 3 damage to everything within a 5 ft. radius. To safely collect a leaf, make a Sleight of Hand check with a DC of 13 or higher. Wind or similar effects increase the DC. You need two leaves.
+\paragraph{Slowly drag leaves past each other}
+This action creates a spark that can ignite a fire and can be used repeatedly.
+\paragraph{Slam the leaves together}
+This action creates a fireball that deals 6d6 damage to all creatures within a 10-foot radius. The leaves are consumed in the process.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Cleanser}
+\small\emph{Cave, Urban} \\ 
+\paragraph{Left in the room (1 day)}
+Fills the space with a pleasant, relaxing aroma.
+\paragraph{Chant an ancient ritual (2 hours)}
+Roll a Wisdom check. With 18+, ghosts in the house are banished. With 12+, they appear and attack. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Cryptic beans}
+\small\emph{Forest, Plains, Coast} \\ 
+\paragraph{Consumed}
+Contains 5 beans in a pod. All who consume 1 bean can talk telepathically for 1 hour.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Curse Bleeder}
+\small\emph{Forest, Urban} \\ 
+\paragraph{Encounter}
+When the tree is cut, it bleeds an ink-like resin. Each time a creature inflicts a cut, they permanently lose 1 max HP, and sinister, demonic tattoos materialize on their hands. These tattoos expand with every subsequent incision. Each cut grants one additional use of the plant.
+\paragraph{Write with your finger}
+You may write any warlock spell (level 2 or lower) on an object. That object acts as a scroll for that spell.  
+\paragraph{Action, Touch a hostile creature}
+Deal 3d6 necrotic damage. Both uses of Curse Bleeder shrink the tattoos at the same rate as they appeared.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Date of Love}
+\small\emph{Arid, Forest, Urban} \\ 
+\noindent
+Two dates grow on a tree. If two creatures willingly eat one each, they will not find anyone else attractive until the same date next year. Can be sold. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Empyrean Yeast}
+\small\emph{Urban} \\ 
+\paragraph{Store in a container, add 10g of ingredients}
+Yeast grows for 10 days. After this time you may extract the container into a Potion of Fermentation.   
+\paragraph{Drop this potion in any alcoholic beverage}
+After 15 minutes, it doubles the alcoholic content of the beverage (up to 90%), without changing its taste.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Enchanted Branch}
+\small\emph{Arctic, Mountain} \\ 
+\paragraph{Thrown}
+Acts as a thrown dagger, dealing 2d4 cold damage on hit.
+\paragraph{Trimmed}
+Acts as a sword dealing 3d6 cold damage on hit. Shatters on first miss, dealing 1d4 cold damage to the wielder.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Exploding Pinecones}
+\small\emph{Arctic, Forest} \\ 
+\paragraph{Ignited, Thrown, (5 pinecones total)}
+Throw an additional d4 when making the ranged attack. On 4, pinecone deals 2d4+2 damage on hit, and ignites the target. On 3, it deals 1d4+1 on hit. On 2, deals 1 damage. On 1, it explodes in your hand, dealing you 1d4 damage.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{False Hope}
+\small\emph{Arid, Urban} \\ 
+\paragraph{Encounter}
+On a night with the full moon this plant will start blooming, and the domain of the living and the dead will intertwine around it. You may return to this location then.
+\paragraph{Bury an item belonging to a dead creature}
+A ghost of that creature appears and you may have a 30-minute conversation with it. The next time you fall unconscious, start with two failed death-saving throws. 
 \begin{DndReadAloud}
-Now you are one of us. 
+Those who seek the company of the dead, often unexpectedly find it. 
 \end{DndReadAloud}
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Ghost Melon}
+\small\emph{Cave} \\ 
+\paragraph{Applied on weapon}
++1 to hit and +1 damage to undead (24h).
+\paragraph{Squish}
+You can see all undead in 60 ft. radius, even through walls. Make a Wisdom skill check, on 12 or lower, all undead in 60 ft. radius see you.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Gnome Tree}
+\small\emph{Coast, Tropics, Urban} \\ 
+\paragraph{Consumed (effect last for an hour)}
+Every time you lose HP, roll a d4: On a 1, your body size becomes Tiny; on a 2, Small; on a 3, Large; and on a 4, Huge. Your stats and hit points remain unaffected.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Good-Luck Lily Pad}
+\small\emph{Coast} \\ 
+\paragraph{Carried}
+When carried, it gives +1 to nature skill.
+\paragraph{Alchemy kit, 10g materials}
+When doused with a special substance, enlarges into a boat that can carry one creature (medium or smaller). Loses previous benefit.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Half-White, Half-Black Flower}
+\small\emph{Arctic, Forest, Plains} \\ 
+\paragraph{If collected during the day}
+The next time you deal radiant damage increase it by d12. The next time you receive necrotic damage, reduce it by d12 (1 day).
+\paragraph{If collected during the night}
+The next time you deal necrotic damage increase it by d12. The next time you receive radiant damage, reduce it by d12 (1 day).
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Harmonica Fruit}
+\small\emph{Forest, Plains, Mountain, Cave, Coast} \\ 
+\paragraph{Consumed}
+Casts Misty step.
+\paragraph{100 gold materials, Alchemy kit, Consumed}
+Casts Gaseous form.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Homeopathic Mold}
+\small\emph{Arctic, Mountain, Cave} \\ 
+\paragraph{3 charges, Consume 1 charge}
+For the next day, become immune to poison.
+\paragraph{Name a specific poison, Consume all charges}
+Roll a DC 15 Con saving throw, on success become permanently immune to the named poison. Else become poisoned by it.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Lightning Flower}
+\small\emph{Arid, Forest, Plains} \\ 
+\paragraph{Encounter}
+As you touch the flower, a lightning bolt strikes you from the clear sky. DC 12 Dexterity saving throw or take 1d12 thunder damage.
+\paragraph{Used as a spell casting component}
+If the spell deals thunder/lightning damage, roll two additional dice of the same type.
+\paragraph{Drawn during a thunder}
+Each 6 seconds, for 1 minute, a lightning hits the flower (if possible), dealing 1d12 to all creatures in 5 ft radius.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Living Ice Crystal}
+\small\emph{Arctic, Cave} \\ 
+\paragraph{Carried}
+Emits dim light.
+\paragraph{Carried, Grows for 1 month}
+Emits bright light. Can be sold for 100g to collectors.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Living Vine}
 \small\emph{Tropics} \\ 
 \paragraph{Cut into a 10 feet whip}
 Can be used as a melee, finesse weapon that deals 1d4 damage. It is strong enough to carry the weight of two medium creatures. 
 \paragraph{Expand one level 1 spell slot}
 For the next hour, you can command the whip to wrap around any object or creature it successfully hits. 
+\end{samepage} 
 
-\subsection{Traveler}
-\small\emph{Tropics} \\ 
-\paragraph{Encounter}
-On pick-up, make a Wis. saving throw, DC 7, or you hear a voice in your head commanding you to plant it at least 30 feet away. You must obey (and lose this plant).
-\paragraph{Pass the Traveler}
-The recipient must succeed in a Wis. saving throw DC 7, or is commanded to plant the Traveler at least 30 feet away. 
-\paragraph{Brewed into potion, Alchemy kit}
-If consumed, advatange on wisdom saving throws for 30 min. If spilled, Traveler grows back from that spot in the next 14 days. 
+\begin{samepage}
+\subsection{Living Web}
+\small\emph{Forest, Cave, Urban} \\ 
+\paragraph{Wrap around hands and feet}
+Your hands and feet stick to any surface, allowing you to climb vertical terrain.
+\paragraph{Consumed}
+Your mouth is glued closed, and you can’t speak for the next hour. 
+\end{samepage} 
 
-\subsection{Bad Omen}
-\small\emph{Plains, Tropics} \\ 
-\paragraph{Carried}
-When you collect this leaf, choose a creature type. If approached by the creature of the named type (500 ft. radius or less), the leaf becomes darker and darker. If that creature enters a 30 ft. radius around you, the leaf crumbles and becomes unusable.
-\begin{DndReadAloud}
-Death of the leaf is often followed by the death of the owner.
-\end{DndReadAloud}
-
-\subsection{Phantom Feast}
-\small\emph{Arctic, Tropics} \\ 
-\paragraph{Until midnight}
-You stumble into a tropical garden with all sorts of exotic fruits. Any number of creatures may partake in this delicious feast.
-\paragraph{After midnight}
-The garden and all its food disappear. All who partook in the feast fall asleep. There may be other consequences at DM’s discretion. 
-
-\subsection{Oddly Specific Tree}
-\small\emph{Mountain, Tropics} \\ 
-\noindent
-You feel like you walked past this tree before…
-\paragraph{Collect three of this plant}
-You are completely and utterly lost. Coincidentally, you find an item or location that was lost for centuries (at DMs discretion). 
-
-\subsection{Pocket Paradise}
-\small\emph{Tropics} \\ 
-\paragraph{Consumed (contains three bites)}
-Enter a blissful state (one hour). After three days, you get disadvantage on every roll until you consume another bite or a week passes. 
-\paragraph{Sold (from 30-60g per bite)}
-The transaction may get attention of local authorities, other consumers, or sellers, at DM’s discretion. 
-
-\subsection{Soulswap}
-\small\emph{Mountain, Coast, Tropics} \\ 
-\paragraph{Bark chewed, Touch someone's eyes}
-You now see through their eyes, and vice versa. The effect lasts for 30 minutes or until one of you dies. 
-\paragraph{Bark chewed, Touch someone's chest}
-You now feel their physical pain and vice versa. This effect does not affect hit points and lasts for 30 minutes or until one of you dies. 
-
+\begin{samepage}
 \subsection{Nightmare Flower}
 \small\emph{Cave, Tropics} \\ 
 \paragraph{Encounter}
@@ -616,7 +747,203 @@ As you approach the flower, you start seeing visions of your deepest fears. Roll
 The first creature to meet your eyes becomes terrified of you and has disadvantage on all attacks against you on its next turn. 
 \paragraph{100g materials, Poison, Consumed}
 Plagued by nightmares. On your next long rest, make a Wis. DC 17 saving throw. On failure you cannot sleep and take 2d6 psychic damage.
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Nightshade}
+\small\emph{Arctic, Mountain, Cave} \\ 
+\paragraph{Consume}
+The next long rest can be 4 hour shorter.
+\paragraph{Alchemy kit, Consume}
+In addition to the previous effect, gain darkvision for 4 hours.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Oak bark}
+\small\emph{Arctic, Forest, Urban} \\ 
+\paragraph{Carved (3 days), Carried}
+A shield, + 3 AC.
+\paragraph{Carved (7 days), Carried}
+A medium armor, AC 15 + Dex (max 2).
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Oddly Specific Tree}
+\small\emph{Mountain, Tropics} \\ 
+\noindent
+You feel like you walked past this tree before…
+\paragraph{Collect three of this plant}
+You are completely and utterly lost. Coincidentally, you find an item or location that was lost for centuries (at DMs discretion). 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Once-in-the-lifetime Pumpkin}
+\small\emph{Forest, Plains, Coast} \\ 
+\paragraph{Roll d20}
+On 18+ the pumpkin becomes a carriage, else it can be used as 10 food rations.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Pale-blue Flower}
+\small\emph{Arctic, Mountain} \\ 
+\paragraph{Encounter}
+When you tear the flower from its stem, your arm freezes and cannot be moved for 30 minutes.
+\paragraph{Consumed}
+Naturally cold weather has no effect on you (1 day).
+\paragraph{Alchemy kit, Consumed}
+Resistance to cold damage (1 hour).
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Phantom Feast}
+\small\emph{Arctic, Tropics} \\ 
+\paragraph{Until midnight}
+You stumble into a tropical garden with all sorts of exotic fruits. Any number of creatures may partake in this delicious feast.
+\paragraph{After midnight}
+The garden and all its food disappear. All who partook in the feast fall asleep. There may be other consequences at DM’s discretion. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Pocket Paradise}
+\small\emph{Tropics} \\ 
+\paragraph{Consumed (contains three bites)}
+Enter a blissful state (one hour). After three days, you get disadvantage on every roll until you consume another bite or a week passes. 
+\paragraph{Sold (from 30-60g per bite)}
+The transaction may get attention of local authorities, other consumers, or sellers, at DM’s discretion. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Poison Leaves}
+\small\emph{Arctic, Forest, Mountain, Cave, Coast, Tropics} \\ 
+\paragraph{Consumed}
+DC 10 Constitution saving throw or inflicts poisonous condition that lasts for 1 hour.
+\paragraph{Alchemy lab (X days, 20X materials)}
+Liquid with DC 15 Constitution saving throw or inflicts poisonous condition for X hours and Xd8 damage.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Power-infused Thistle}
+\small\emph{Arid, Plains, Mountain, Coast} \\ 
+\paragraph{Consumed}
+Recovers one expanded level 1 spell slot.
+\paragraph{10 gold materials, Alchemy kit, Consumed}
+Recovers one expanded level 3 spell slot.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Salamander Flower}
+\small\emph{Arid, Forest, Mountain} \\ 
+\paragraph{Encounter}
+As you approach the flower, a ring of fire erupts all around it, 10 feet in diameter. Touching it causes 1d8 fire damage.
+\paragraph{Apply on a melee weapon}
+Your next 5 hits with the weapon deal an additional 1d4 fire damage.
+\paragraph{Thrown into a fire}
+The fire expands in size 3 fold in all directions. All touched by this fire receive 3d12 fire damage.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Shadow Peyote}
+\small\emph{Arid, Mountain, Urban} \\ 
+\paragraph{Ground, dried (7 days), smoked}
+Share a pipe with this leaf in a social gathering with the locals. Roll Con. DC 12: On success you earn their respect, on failure fall asleep. 
+\begin{DndReadAloud}
+Now you are one of us. 
+\end{DndReadAloud}
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Sludge Flower}
+\small\emph{Cave, Urban} \\ 
+\paragraph{Encounter}
+The flower is surrounded by a 60 ft. area filled with an overwhelming smell of decay. If you end your turn within this area, make a Const. saving throw (DC 10). On a failed save, take 2d6 damage. The smell does not dissipate when the flower is collected.
+\paragraph{Apply on arrowheads (max 15)}
+Your arrows deal an additional d4 poison damage.  
+\paragraph{Distill into a potion, Disgusting taste}
+Lose your sense of smell and taste for a week, but gain a +3 bonus on Perception checks related to sight and hearing during this time.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Soulswap}
+\small\emph{Mountain, Coast, Tropics} \\ 
+\paragraph{Bark chewed, Touch someone's eyes}
+You now see through their eyes, and vice versa. The effect lasts for 30 minutes or until one of you dies. 
+\paragraph{Bark chewed, Touch someone's chest}
+You now feel their physical pain and vice versa. This effect does not affect hit points and lasts for 30 minutes or until one of you dies. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Spell Drinker}
+\small\emph{Arid, Urban} \\ 
+\noindent
+Grows from almost any terrain and sticks to any surface when growing. Can be climbed. 
+\paragraph{Expand a spell slot}
+Spell Drinker almost instantly grows 10 ft. for each level of the expended slot. Growth may be accelerated multiple times.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Spreading Roots}
+\small\emph{Forest, Tropics} \\ 
+\paragraph{Consumed}
+Get +1 strength (1 hour).
+\paragraph{Alchemy kit, 10g materials}
+Cast Spike growth spell.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Tentacle Weed}
+\small\emph{Coast} \\ 
+\paragraph{Carried}
+Counts as a simple weapon that only the herbalist is proficient with.
+\paragraph{Consumed}
+DC 6 Dexterity to eat. If successful, you can breath underwater for 1 hour, else take 1d4 damage.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Thorned Nectar}
+\small\emph{Arid, Plains} \\ 
+\paragraph{Consume}
+DC 14 Wisdom saving throw or become aggressive against all targets. Lose any social restraint. (1 min)
+\paragraph{Peel, Inhale}
+When peeling receive 1d4 damage. All who inhale (10 feet radius) get Calm emotion cast on them.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Tracker}
+\small\emph{Plains, Urban} \\ 
+\paragraph{Place the petal into a puddle}
+The petal dissolves in the water. One by one, the reflections of every creature that has stepped in the puddle within the last 24 hours appear.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Traveler}
+\small\emph{Tropics} \\ 
+\paragraph{Encounter}
+On pick-up, make a Wis. saving throw, DC 7, or you hear a voice in your head commanding you to plant it at least 30 feet away. You must obey (and lose this plant).
+\paragraph{Pass the Traveler}
+The recipient must succeed in a Wis. saving throw DC 7, or is commanded to plant the Traveler at least 30 feet away. 
+\paragraph{Brewed into potion, Alchemy kit}
+If consumed, advatange on wisdom saving throws for 30 min. If spilled, Traveler grows back from that spot in the next 14 days. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Truffles}
+\small\emph{Plains, Cave, Coast} \\ 
+\paragraph{Consumed}
+Gain 1d4 hp.
+\paragraph{Consumed, Out of combat}
+Create a dish that heals for 4d4 hp.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Twirling Piper}
+\small\emph{Plains, Coast, Urban} \\ 
+\paragraph{Encounter}
+A leaf twirls in the wind, never quite falling to the ground. It's moving back and forth, from you to the nearby forest. You feel inclined to follow it, but may choose not to do so.
+\paragraph{Delve deep into the forest}
+Roll a d4. On a 1, you are ambushed by a group of Satyrs. On a 2, you become lost. On a 3, nothing happens. On a 4, you find a chest containing 30 gold coins and a magical scroll of the DM's choosing.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Valley Kraken}
 \small\emph{Plains, Cave, Tropics} \\ 
 \paragraph{Encounter}
@@ -625,69 +952,84 @@ You see equipment overgrown by an old tree trunk. Roll Nature DC 8. On failure, 
 Find equipment belonging to past travelers (at DM discretion). 
 \paragraph{Carefully slice the tentacles}
 You collect 1d6+1 ounces of extremely strong glue. One ounce of the glue can cover a 1-foot square surface.
+\end{samepage} 
 
 \section{Proficiency +4}
 
 
-\subsection{Invasive Plant}
-\small\emph{Forest, Plains, Mountain, Cave, Coast} \\ 
-\paragraph{Planted}
-If planted far from its native region, can quickly spread and if not controlled, overwhelm the local ecosystem.
-\paragraph{Alchemy kit (2 days), 50 gold materials}
-Cast Entangle spell (3 charges).
+\begin{samepage}
+\subsection{Assimilation Plant}
+\small\emph{Forest, Cave} \\ 
+\paragraph{Consumed}
+Your skin hardens and thorns cover your body. Choose two effects from the list: +3 AC, +7 stealth in forest areas, +2 damage on melee attacks, melee attackers get hit for 1d6 when they hit you, advantage on concentration checks, +2 strength. (1 hour)
+\end{samepage} 
 
-\subsection{Tree of Paradise}
+\begin{samepage}
+\subsection{Blabbeler}
+\small\emph{Tropics, Urban} \\ 
+\noindent
+You can ferment the fruit into a potion. The brewer must remain silent for the entire 7 day duration of brewing. 
+\paragraph{Potion, Odorless, Tasteless}
+Roll Wis. Saving throw (DC 18). On failure you are unable to stop speaking out every one of your thoughts for the duration (1 hour).
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Corrosive Leaves}
 \small\emph{Tropics} \\ 
-\paragraph{Planted}
-In an hour after being planted, it grows 100 feet in height. After a month bears very rare fruits that can be sold for 1000g to certain collectors. The height and colors of the tree attracts (unwanted) attention of all sort of individuals.
+\paragraph{Consumed, bonus action}
+Lose all hit points, but one. Gain twice that number of temporary hit points. They last until the end of next round.
+\paragraph{Worn on skin for one month, Permanent}
+You lose 2d6 max hp. After one month you gain natural armor AC 15 when unarmored and resistance to poison and necrotic damage. 
+\end{samepage} 
 
-\subsection{Hallucinogenic Mushroom}
+\begin{samepage}
+\subsection{Dead or Alive}
+\small\emph{Plains, Tropics} \\ 
+\paragraph{Encounter}
+Whisper to the plant a secret that only a few people know. You forget it.
+\noindent
+Choose one person you can name, and one of the three questions: are they alive, do they like me, is their name real. Pick petals one by one, and the color of the last remaining one tells you the true answer. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Desert Siren}
+\small\emph{Arid} \\ 
+\paragraph{Encounter}
+An irresistible song lures you towards the plant, and you soon find yourself trapped in the quicksand, and slowly start sinking in. Quicksand surrounds 30 ft. area around the plant.
+\paragraph{Consumed}
+You ignore penalties for difficult terrain when walking on sand and are unaffected by the sun’s heat. 
+\paragraph{Alchemy kit, 500g materials, refine into oil}
+When this oil is applied to a melee weapon, its next three attacks melt opponent’s armor, reducing their AC by 1 each hit.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Devil Whisperer}
 \small\emph{Coast, Tropics} \\ 
-\paragraph{Consumed}
-Your vision blurs. DC 10 Constitution saving throw or disadvantage on all rolls. Dispels on any damage taken. (1 hour)
-\paragraph{Alchemy kit, 10g materials, Consumed}
-Halucination begins. On DC 18 Wisdom, cast Commune spell. All other rolls automatically fail. Dispels on any damage taken. (1 hour)
+\paragraph{Encounter}
+When you collect leaves from this plant, you become blindingly overconfident and believe you will succeed in everything you try. Lasts for one hour.
+\paragraph{X days brewed, 100X gold,  Potion}
+You become blindingly overconfident. Your next X rolls are automatically 20. Lasts for one hour. (X can be 0-10)
+\end{samepage} 
 
-\subsection{Soothing Petals}
-\small\emph{Arctic, Forest, Mountain} \\ 
-\paragraph{Consumed}
-+4 against intimidation and fear effects (10 minutes).
-\paragraph{Dried (3 days), Consumed}
-DC 14 Constitution or the target immediately falls asleep (6 hours). Dispels on any damage taken.
+\begin{samepage}
+\subsection{Dragon Coffee}
+\small\emph{Tropics} \\ 
+\paragraph{Consumed, Bonus action}
+During this round you have +15 movement speed and an unlimited number of reactions.
+\paragraph{Roasted, 200g materials,  Alchemy lab}
+The above effect lasts for 3 days, after which you get 3 points of exhaustion.  During this time you don't need nor benefit from long rests.
+\end{samepage} 
 
+\begin{samepage}
 \subsection{Euphoric Grapes}
-\small\emph{Forest, Plains, Coast} \\ 
+\small\emph{Forest, Plains, Coast, Urban} \\ 
 \paragraph{Consumed}
 +8 to Charisma when doing public speeches (1 minute).
 \paragraph{Dried (3 days), Consumed}
 You have 3 d12 inspiration dice that you can use on any throw made by you or your allies (1 day).
+\end{samepage} 
 
-\subsection{Corn of Doom}
-\small\emph{} \\ 
-\paragraph{Consumed}
-Looks like regular corn. If consumed attempt a DC 15 Constitution saving throw and take 6d6 fire dmg on failure.
-\paragraph{Dried (1 week), Ignited}
-If ignited, the corn explodes, dealing 6d6 to all creatures in a 5 feet radius and half the damage to all creatures in 10 feet radius.
-
-\subsection{Night Tulip}
-\small\emph{Cave} \\ 
-\paragraph{Consumed}
-Removes one point of exhaustion.
-\paragraph{Alchemy kit (3 days), Inhaled (10 ft range)}
-Attempt a Constitution saving throw. On less than 18, fall asleep, on less than 14 forget all events of the past hour.
-
-\subsection{Head in the Clouds}
-\small\emph{Arctic, Forest, Plains, Mountain, Cave, Coast} \\ 
-\paragraph{Consumed}
-Gain Flying. Roll (Int) with an extra -5 modifier, then your Int stat becomes the result of the roll. Repeat for Wisdom and Charisma. (10 minutes)
-
-\subsection{Strawman Bush}
-\small\emph{Arid, Plains, Mountain} \\ 
-\paragraph{Planted}
-Repels away (30 ft) all wild beasts of CR 3 or less.
-\paragraph{Alchemy kit (1 hour), 10g materials}
-Strawman awakens into a friendly NPC with the Guard stat block. It obeys all verbal commands. After 1 day it becomes a plant again.
-
+\begin{samepage}
 \subsection{Guardians}
 \small\emph{Forest} \\ 
 \paragraph{Encounter}
@@ -696,33 +1038,68 @@ When you try cutting a branch, the tree starts to move. You become surrounded by
 Each contains a 200g gem inside them.
 \paragraph{Negotiated with the treants}
 They can help you with directions and lore of the current area.
+\end{samepage} 
 
-\subsection{Tear of a Goddess}
-\small\emph{Arid, Arctic, Coast} \\ 
+\begin{samepage}
+\subsection{Hallucinogenic Mushroom}
+\small\emph{Coast, Tropics} \\ 
 \paragraph{Consumed}
-Cures blinded, deafened, paralyzed, or petrified.
-\paragraph{Combined with Charcoal-black plant}
-You gain Supreme healing potion.
+Your vision blurs. DC 10 Constitution saving throw or disadvantage on all rolls. Dispels on any damage taken. (1 hour)
+\paragraph{Alchemy kit, 10g materials, Consumed}
+Halucination begins. On DC 18 Wisdom, cast Commune spell. All other rolls automatically fail. Dispels on any damage taken. (1 hour)
+\end{samepage} 
 
-\subsection{Scrying Beans}
-\small\emph{Arid, Forest, Plains, Coast} \\ 
+\begin{samepage}
+\subsection{Head in the Clouds}
+\small\emph{Arctic, Forest, Plains, Mountain, Cave, Coast} \\ 
 \paragraph{Consumed}
-Get 3 divination dice for the rest of the day (look up Divination wizard - Portent).
-\paragraph{Burned}
-Cast Scrying spell.
+Gain Flying. Roll (Int) with an extra -5 modifier, then your Int stat becomes the result of the roll. Repeat for Wisdom and Charisma. (10 minutes)
+\end{samepage} 
 
-\subsection{Assimilation Plant}
-\small\emph{Forest, Cave} \\ 
-\paragraph{Consumed}
-Your skin hardens and thorns cover your body. Choose two effects from the list: +3 AC, +7 stealth in forest areas, +2 damage on melee attacks, melee attackers get hit for 1d6 when they hit you, advantage on concentration checks, +2 strength. (1 hour)
+\begin{samepage}
+\subsection{Invasive Plant}
+\small\emph{Forest, Plains, Mountain, Cave, Coast} \\ 
+\paragraph{Planted}
+If planted far from its native region, can quickly spread and if not controlled, overwhelm the local ecosystem.
+\paragraph{Alchemy kit (2 days), 50 gold materials}
+Cast Entangle spell (3 charges).
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Mirror Moss}
+\small\emph{Arctic, Forest, Cave} \\ 
+\paragraph{Encounter}
+The moss reflects your image. After a few seconds the image emerges with the player's exact stats, hostile, and controlled by the DM. It returns to moss if not defeated.
+\noindent
+Your hand can cross the moss into its own pocket dimension. You may place a non-magical object (or up to 100 gold) into it. A day later you may retrieve two copies out it. The moss is destroyed in the process.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Name Thief}
+\small\emph{Plains, Urban} \\ 
+\noindent
+When two people each consume half of a conjoined walnut-like nut, they begin to believe they possess the other's name. Their memories are altered accordingly, and this effect lasts for 24 hours.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Neck Breaker}
 \small\emph{Mountain} \\ 
 \paragraph{Encounter}
 The Neck Breaker Plant grows out of a thin peak, surrounded by a 100 feet deep and 30 feet wide pit. The pit is invisible and appears as solid terrain. When this card is drawn make DC 18 Perception check or start falling in the pit.
 \paragraph{Planted}
 Wherever the plant is currently planted it emits the Hallucinatory Terrain effect centered around it (of the herbalist choice). The plant can be moved and replanted at a different place.
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Night Tulip}
+\small\emph{Cave} \\ 
+\paragraph{Consumed}
+Removes one point of exhaustion.
+\paragraph{Alchemy kit (3 days), Inhaled (10 ft range)}
+Attempt a Constitution saving throw. On less than 18, fall asleep, on less than 14 forget all events of the past hour.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Red on White}
 \small\emph{Arctic} \\ 
 \paragraph{Encounter}
@@ -732,21 +1109,65 @@ For the next 24h you can only step on snow or fall unconscious (1 hour) failing 
 \begin{DndReadAloud}
 It requires both blood and snow to grow. Fortunately, its life cycle provides both.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Mirror Moss}
-\small\emph{Arctic, Forest, Cave} \\ 
-\paragraph{Encounter}
-The moss reflects your image. After a few seconds the image emerges with the player's exact stats, hostile, and controlled by the DM. It returns to moss if not defeated.
-\noindent
-Your hand can cross the moss into its own pocket dimension. You may place a non-magical object (or up to 100 gold) into it. A day later you may retrieve two copies out it. The moss is destroyed in the process.
+\begin{samepage}
+\subsection{Scrying Beans}
+\small\emph{Arid, Forest, Plains, Coast} \\ 
+\paragraph{Consumed}
+Get 3 divination dice for the rest of the day (look up Divination wizard - Portent).
+\paragraph{Burned}
+Cast Scrying spell.
+\end{samepage} 
 
+\begin{samepage}
 \subsection{Snow-White Blossom}
 \small\emph{Arctic, Plains, Mountain} \\ 
 \paragraph{Eaten immediately after collecting}
 The next time you would fail an Int or Wis saving throw you succeed instead (6h).
 \paragraph{Applied on skin immediately after collecting}
 The next time you would fail a Str or Con saving throw you succeed instead (6h).
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Soothing Petals}
+\small\emph{Arctic, Forest, Mountain} \\ 
+\paragraph{Consumed}
++4 against intimidation and fear effects (10 minutes).
+\paragraph{Dried (3 days), Consumed}
+DC 14 Constitution or the target immediately falls asleep (6 hours). Dispels on any damage taken.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Strawman Bush}
+\small\emph{Arid, Plains, Mountain, Urban} \\ 
+\paragraph{Planted}
+Repels away (30 ft) all wild beasts of CR 3 or less.
+\paragraph{Alchemy kit (1 hour), 10g materials}
+Strawman awakens into a friendly NPC with the Guard stat block. It obeys all verbal commands. After 1 day it becomes a plant again.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Symbiotic Succulents}
+\small\emph{Arid, Urban} \\ 
+\paragraph{Encounter}
+As you step onto what seemed to be a rock, it closes around your foot like a bear trap. The rocky plant is very heavy, but seems to imbue you with power.
+\noindent
+As long as you leave the Symbiotic Succulent attached, you have -10 movement speed and +1 to Constitution. 
+\paragraph{Un-attach Symbiotic Succulent (1 action)}
+You feel very light and gain 5 movement speed for each 5 days you were carrying the plant (but not more than 30). Lasts for 24h. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Tear of a Goddess}
+\small\emph{Arid, Arctic, Coast} \\ 
+\paragraph{Consumed}
+Cures blinded, deafened, paralyzed, or petrified.
+\paragraph{Combined with Charcoal-black plant}
+You gain Supreme healing potion.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{The Forbidden Fruit}
 \small\emph{Arid, Cave} \\ 
 \paragraph{Consumed}
@@ -754,16 +1175,27 @@ Gain +4 to Int. until the end of the day. If you fail an Int. check or saving th
 \begin{DndReadAloud}
 Only the wise know how much they do not know.
 \end{DndReadAloud}
+\end{samepage} 
 
-\subsection{Desert Siren}
-\small\emph{Arid} \\ 
+\begin{samepage}
+\subsection{Thorny Prison}
+\small\emph{Urban} \\ 
 \paragraph{Encounter}
-An irresistible song lures you towards the plant, and you soon find yourself trapped in the quicksand, and slowly start sinking in. Quicksand surrounds 30 ft. area around the plant.
-\paragraph{Consumed}
-You ignore penalties for difficult terrain when walking on sand and are unaffected by the sun’s heat. 
-\paragraph{Alchemy kit, 500g materials, refine into oil}
-When this oil is applied to a melee weapon, its next three attacks melt opponent’s armor, reducing their AC by 1 each hit.
+A grave is covered with forty thorny roses and guarded with human NPCs at DM’d discretion. You lose 1 hp, for each rose you pluck out. When the last one is uprooted, a CR 13 hostile Vampire crawls out the grave (see Monster Manual).
+\paragraph{Forty roses planted in a 15 ft circle}
+Roses form a magical barrier. Anything can enter it, but nothing can pass out of it. Can be disenchanted or destroyed from outside.  
+\paragraph{Eat ten roses, Lose 10 hp}
+Cast Wall of Force.  
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Tree of Paradise}
+\small\emph{Tropics} \\ 
+\paragraph{Planted}
+In an hour after being planted, it grows 100 feet in height. After a month bears very rare fruits that can be sold for 1000g to certain collectors. The height and colors of the tree attracts (unwanted) attention of all sort of individuals.
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Vanisher}
 \small\emph{Arid, Arctic, Cave} \\ 
 \paragraph{Encounter}
@@ -772,94 +1204,66 @@ Collecting the spores requires massive manual dexterity. Roll Slight of hand, DC
 The spell is invisible until it reaches the target. 
 \paragraph{Spores added when forging a weapon}
 The weapon becomes permanently invisible. 
-
-\subsection{Dead or Alive}
-\small\emph{Plains, Tropics} \\ 
-\paragraph{Encounter}
-Whisper to the plant a secret that only a few people know. You forget it.
-\noindent
-Choose one person you can name, and one of the three questions: are they alive, do they like me, is their name real. Pick petals one by one, and the color of the last remaining one tells you the true answer. 
-
-\subsection{Dragon Coffee}
-\small\emph{Tropics} \\ 
-\paragraph{Consumed, Bonus action}
-During this round you have +15 movement speed and an unlimited number of reactions.
-\paragraph{Roasted, 200g materials,  Alchemy lab}
-The above effect lasts for 3 days, after which you get 3 points of exhaustion.  During this time you don't need nor benefit from long rests.
-
-\subsection{Devil Whisperer}
-\small\emph{Coast, Tropics} \\ 
-\paragraph{Encounter}
-When you collect leaves from this plant, you become blindingly overconfident and believe you will succeed in everything you try. Lasts for one hour.
-\paragraph{X days brewed, 100X gold,  Potion}
-You become blindingly overconfident. Your next X rolls are automatically 20. Lasts for one hour. (X can be 0-10)
-
-\subsection{Corrosive Leaves}
-\small\emph{Tropics} \\ 
-\paragraph{Consumed, bonus action}
-Lose all hit points, but one. Gain twice that number of temporary hit points. They last until the end of next round.
-\paragraph{Worn on skin for one month, Permanent}
-You lose 2d6 max hp. After one month you gain natural armor AC 15 when unarmored and resistance to poison and necrotic damage. 
+\end{samepage} 
 
 \section{Proficiency +5}
 
 
-\subsection{Charcoal-Black Plant}
-\small\emph{Coast} \\ 
-\paragraph{Consumed}
-Cures any poison.
-\paragraph{Combined with Tear of the goddess}
-You gain Supreme healing potion.
-
-\subsection{Tree of the Living Death}
-\small\emph{Arid, Arctic, Forest, Mountain, Cave} \\ 
-\paragraph{Consumed}
-You appear dead to all outward inspection and to spells used to determine your status. You are blinded and incapacitated. (6 hours)
-\paragraph{Alchemy kit (3 days), 500g materials}
-Potion. After exactly 6 hours, if the creature that consumed this potion has 100 hp or fewer, it dies with no discernible signs.
-
-\subsection{Fevered Dream}
-\small\emph{Plains, Mountain} \\ 
-\paragraph{Consumed}
-If willing, transform into a random beast for 10 minutes (DM chooses).
-\paragraph{Alchemy kit, 100g materials, Inhaled}
-All creatures in 30 ft radius that inhale the smoke make DC 15 Wis saving throw or transform into random beasts (10 min).
-
+\begin{samepage}
 \subsection{Blood Algae}
 \small\emph{Coast} \\ 
 \paragraph{Applied on weapon}
 +3 to hit and +3 to damage against demons and devils (1 hour).
 \paragraph{Draw ritualistic signs on the floor}
 Make an Int skill check. On 12 or more a random hostile demon appears. On 18 or more it obeys your orders for a day.
+\end{samepage} 
 
+\begin{samepage}
 \subsection{Bond Breaker}
 \small\emph{Mountain} \\ 
 \paragraph{Encounter}
 To get the effect you must meditate under the tree. Roll d4. On 4 forget all your childhood memories, on 3 lose interest in any earthly possessions, on 2 abandon your life ambitions, on 1 you will never again feel happiness or sadness.
 \paragraph{Permanent}
 You are spiritually free of earthly bonds. You gain flying speed of 60 feet and cannot be charmed or frightened. You get +3 to Wisdom.
+\end{samepage} 
 
-\subsection{Symbiotic Death}
-\small\emph{Tropics} \\ 
+\begin{samepage}
+\subsection{Burning Temptation}
+\small\emph{Arid} \\ 
 \paragraph{Encounter}
-An old inscription dares you to eat as many petals as you can in order to get an ancient power. Choose a number X and eat X petals. Take Xd12 + 3 damage. If this damage would make you unconscious, it kills you instead.
+You must remain seated uninterrupted for six days. Every day the plant tempts you to move: by offering you food (Str, DC 5), water (Con, DC 8), inflicting thorny pain (Dex, DC 11), telling lies (Int, DC 14), false promises (Cha, DC 17) and offering real riches (Wis, DC 20).
 \paragraph{Permanent}
-Your skin gets a slightly greenish hue. Once per turn, if a creature touches your bare skin, you may have it take Xd4+2 poison damage.
+The tale of this trial becomes widespread and many start considering you a spiritual leader. You may cast the following spells at will (3 times/day): Skywrite, Charm person, Command, Calm Emotions and Fear. 
+\end{samepage} 
 
-\subsection{Oceans Test}
+\begin{samepage}
+\subsection{Charcoal-Black Plant}
 \small\emph{Coast} \\ 
-\paragraph{Encounter}
-A plant grows at the bottom of a 3000 ft. deep underwater fissure and is guarded at DM discretion. Your worthiness is proved by pulling it out of the rock (Strength check, DC 18).
-\paragraph{Permanent}
-The sea considers you worthy. You gain swimming speed of 120 feet and can breath underwater. Most sea creatures (DM discretion) are friendly to you and can understand your verbal commands.
+\paragraph{Consumed}
+Cures any poison.
+\paragraph{Combined with Tear of the goddess}
+You gain Supreme healing potion.
+\end{samepage} 
 
-\subsection{Thiefs Dream}
-\small\emph{Cave} \\ 
+\begin{samepage}
+\subsection{Eternal Blizzard}
+\small\emph{Arctic} \\ 
 \paragraph{Encounter}
-You have tracked the general location of this plant, but it grows in the middle of a rock, with no visible outwards signs. Choose a spot (Wisdom skill check). A mining team (or similar) can excavate this spot in one day. If the result of the roll was 20 or higher, find the plant. Can be repeated each day.
+There is a 1 sq. mile region always covered in snowstorms. Any creature within it gets visibility reduced to 5 ft and takes 1d4 damage at the end of each of their turns. Any spot within is equally likely as the plant location. There may be monsters hiding in the storm (at DM discretion).
 \paragraph{Permanent}
-Wood and stone obstacles that are up to 10 ft. thick appear transparent to you. You may freely walk through them, as long as you end your turn outside.
+The snowstorm stops. You become immune to cold damage.  Whenever you are attacked by a non-magical source while standing in the snow, you may use your reaction to evade it. When doing so, your body melts into the snow and re-appears from snow in an un-occupied spot in 10 ft radius.
+\end{samepage} 
 
+\begin{samepage}
+\subsection{Fevered Dream}
+\small\emph{Plains, Mountain} \\ 
+\paragraph{Consumed}
+If willing, transform into a random beast for 10 minutes (DM chooses).
+\paragraph{Alchemy kit, 100g materials, Inhaled}
+All creatures in 30 ft radius that inhale the smoke make DC 15 Wis saving throw or transform into random beasts (10 min).
+\end{samepage} 
+
+\begin{samepage}
 \subsection{Giant Scales}
 \small\emph{Plains} \\ 
 \paragraph{Encounter}
@@ -868,52 +1272,95 @@ A pair of Storm Giants roam the area. On their backs grow rare scales that are r
 You gain +2 to Strength, +2 to Constitution and +3 to all thunder damage dealt.
 \paragraph{Permanent (Giant B)}
 You gain +10 to movement speed, cannot be paralyzed or petrified and +3 to all thunder damage dealt.
+\end{samepage} 
 
-\subsection{Eternal Blizzard}
-\small\emph{Arctic} \\ 
-\paragraph{Encounter}
-There is a 1 sq. mile region always covered in snowstorms. Any creature within it gets visibility reduced to 5 ft and takes 1d4 damage at the end of each of their turns. Any spot within is equally likely as the plant location. There may be monsters hiding in the storm (at DM discretion).
-\paragraph{Permanent}
-The snowstorm stops. You become immune to cold damage.  Whenever you are attacked by a non-magical source while standing in the snow, you may use your reaction to evade it. When doing so, your body melts into the snow and re-appears from snow in an un-occupied spot in 10 ft radius.
-
-\subsection{Parasite Mushroom}
-\small\emph{Arctic, Forest, Tropics} \\ 
-\paragraph{Planted in skin}
-At the end of each day make a DC 10 Wisdom saving throw and get 3 points of exhaustion on failure.
-\paragraph{Planted for 7 days}
-Until removed, all other Wisdom saving throws automatically succeed. Previous effect still applies.
-
-\subsection{Last Stand}
-\small\emph{Arid, Cave} \\ 
-\paragraph{Inhaled}
-All sleeping creatures in 15 ft. radius get instantly awake and can’t get back to sleep for the next 4 hours. 
-\paragraph{Alchemy kit, 100g materials, Consumed}
-Regain all hit points. Gain 30 movement speed and advantage on all attacks. At the end of every turn gain a point of exhaustion. (6 turns)
-
-\subsection{Burning Temptation}
-\small\emph{Arid} \\ 
-\paragraph{Encounter}
-You must remain seated uninterrupted for six days. Every day the plant tempts you to move: by offering you food (Str, DC 5), water (Con, DC 8), inflicting thorny pain (Dex, DC 11), telling lies (Int, DC 14), false promises (Cha, DC 17) and offering real riches (Wis, DC 20).
-\paragraph{Permanent}
-The tale of this trial becomes widespread and many start considering you a spiritual leader. You may cast the following spells at will (3 times/day): Skywrite, Charm person, Command, Calm Emotions and Fear. 
-
-\subsection{Jungle King}
-\small\emph{Tropics} \\ 
-\paragraph{Fruit burned}
-The smoke lures in all kinds of wildlife in a 1-mile radius. 
-\paragraph{Refined, 100g materials,  Applied on skin}
-All beasts with CR 3 or lower obey your commands, as best as they can understand them. Lasts one day. 
-
+\begin{samepage}
 \subsection{Heart of the Forest}
 \small\emph{Forest} \\ 
 \paragraph{Encounter}
 You may convince any number of humanoid creatures to be sacrificed on the altar in  the heart of the forest. These creatures must be willing to die, and must not be coerced, magically or otherwise. They cannot be resurrected.
 \paragraph{Permanent}
 For each creature sacrificed this way, you may draw a face on a tree. At any time you can concentrate to see and hear everything one of these faces would sense, regardless of your distance. Whenever you touch a tree with a face, you may teleport to any other such tree. You can control who can see the faces at any time.  
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Jungle King}
+\small\emph{Tropics} \\ 
+\paragraph{Fruit burned}
+The smoke lures in all kinds of wildlife in a 1-mile radius. 
+\paragraph{Refined, 100g materials,  Applied on skin}
+All beasts with CR 3 or lower obey your commands, as best as they can understand them. Lasts one day. 
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Last Stand}
+\small\emph{Arid, Cave} \\ 
+\paragraph{Inhaled}
+All sleeping creatures in 15 ft. radius get instantly awake and can’t get back to sleep for the next 4 hours. 
+\paragraph{Alchemy kit, 100g materials, Consumed}
+Regain all hit points. Gain 30 movement speed and advantage on all attacks. At the end of every turn gain a point of exhaustion. (6 turns)
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Oceans Test}
+\small\emph{Coast} \\ 
+\paragraph{Encounter}
+A plant grows at the bottom of a 3000 ft. deep underwater fissure and is guarded at DM discretion. Your worthiness is proved by pulling it out of the rock (Strength check, DC 18).
+\paragraph{Permanent}
+The sea considers you worthy. You gain swimming speed of 120 feet and can breath underwater. Most sea creatures (DM discretion) are friendly to you and can understand your verbal commands.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Parasite Mushroom}
+\small\emph{Arctic, Forest, Tropics} \\ 
+\paragraph{Planted in skin}
+At the end of each day make a DC 10 Wisdom saving throw and get 3 points of exhaustion on failure.
+\paragraph{Planted for 7 days}
+Until removed, all other Wisdom saving throws automatically succeed. Previous effect still applies.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Symbiotic Death}
+\small\emph{Tropics} \\ 
+\paragraph{Encounter}
+An old inscription dares you to eat as many petals as you can in order to get an ancient power. Choose a number X and eat X petals. Take Xd12 + 3 damage. If this damage would make you unconscious, it kills you instead.
+\paragraph{Permanent}
+Your skin gets a slightly greenish hue. Once per turn, if a creature touches your bare skin, you may have it take Xd4+2 poison damage.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{The Hanging Tree}
+\small\emph{Urban} \\ 
+\paragraph{Encounter}
+You may choose to hang yourself on the world's oldest hanging tree. If you do, the DM selects a sequence of progressively stronger humanoids who died there. You must battle their spirits one by one in your mind, using your own and their real stat blocks. You may wake up after any fight, but if you continue and lose, you die and cannot be resurrected.
+\noindent
+You wake up, winning the allegiance of the spirits. 
+\paragraph{Summon spirits}
+Any number of spirits you previously defeated come to help you in one encounter. Each spirit may only be summoned once.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Thiefs Dream}
+\small\emph{Cave} \\ 
+\paragraph{Encounter}
+You have tracked the general location of this plant, but it grows in the middle of a rock, with no visible outwards signs. Choose a spot (Wisdom skill check). A mining team (or similar) can excavate this spot in one day. If the result of the roll was 20 or higher, find the plant. Can be repeated each day.
+\paragraph{Permanent}
+Wood and stone obstacles that are up to 10 ft. thick appear transparent to you. You may freely walk through them, as long as you end your turn outside.
+\end{samepage} 
+
+\begin{samepage}
+\subsection{Tree of the Living Death}
+\small\emph{Arid, Arctic, Forest, Mountain, Cave} \\ 
+\paragraph{Consumed}
+You appear dead to all outward inspection and to spells used to determine your status. You are blinded and incapacitated. (6 hours)
+\paragraph{Alchemy kit (3 days), 500g materials}
+Potion. After exactly 6 hours, if the creature that consumed this potion has 100 hp or fewer, it dies with no discernible signs.
+\end{samepage} 
 
 \section{Proficiency +6}
 
 
+\begin{samepage}
 \subsection{Immortal Lily}
 \small\emph{Arid, Arctic, Forest, Plains, Mountain, Cave, Coast, Tropics} \\ 
 \paragraph{Encounter}
@@ -925,5 +1372,1601 @@ You do not age for the next 25 years.
 \begin{DndReadAloud}
 Forever unchanging. Forever beautiful.
 \end{DndReadAloud}
+\end{samepage} 
 
+\newpage
+\section*{Roll Tables}
+This project is designed for use with the online generator (https://www.dungeonsandplants.net/). 
+    For offline games, utilize one of the generated roll tables. Each terrain/proficiency features its own table, 
+    so choose and print the most suitable one for your current level and location. 
+    Some tables require you to roll multiple dice, in this cases not all plants are found with equal probability. // //
+    The abundance of tables makes the system somewhat cumbersome, so a more streamlined version is currently under development.
+    \subsection*{Arid 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d6} & \textbf{Item} \\
+  1 & No plant found \\
+  2 & Black Chilli \\
+  3 & Wild Rose \\
+  4 & Barrel Cactus \\
+  5 & Scorching Grass \\
+  6 & Desert Jasmine \\
+\end{DndTable}
+\subsection*{Arid 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d8/d6} & \textbf{Item} \\
+  2 & Black Chilli \\
+  3 & Wild Rose \\
+  4 & Shaking Chestnuts \\
+  5 & Dry Tumbleweed \\
+  6 & Oily shrubbery \\
+  7 & Barrel Cactus \\
+  8 & Scorching Grass \\
+  9 & Desert Jasmine \\
+  10 & Needler \\
+  11 & Hard-shelled Beans \\
+  12 & Pheromoner \\
+  13 & Unidentifiable Scrub \\
+  14 & Stump Canal \\
+\end{DndTable}
+\subsection*{Arid 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d6} & \textbf{Item} \\
+  2 & No plant found \\
+  3 & Black Chilli \\
+  4 & Wild Rose \\
+  5 & Shaking Chestnuts \\
+  6 & Dry Tumbleweed \\
+  7 & Oily shrubbery \\
+  8 & Thorned Nectar \\
+  9 & Lightning Flower \\
+  10 & Salamander Flower \\
+  11 & Power-infused Thistle \\
+  12 & Barrel Cactus \\
+  13 & Scorching Grass \\
+  14 & Desert Jasmine \\
+  15 & Needler \\
+  16 & Hard-shelled Beans \\
+  17 & Pheromoner \\
+  18 & Unidentifiable Scrub \\
+  19 & Stump Canal \\
+  20 & False Hope \\
+  21 & Date of Love \\
+  22 & Baobab Tower \\
+  23 & Blood in the Wind \\
+  24 & Shadow Peyote \\
+  25 & Spell Drinker \\
+  26 & Cinderleaf \\
+\end{DndTable}
+\subsection*{Arid 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12} & \textbf{Item} \\
+  2 & Black Chilli \\
+  3 & Wild Rose \\
+  4 & Shaking Chestnuts \\
+  5 & Dry Tumbleweed \\
+  6 & Oily shrubbery \\
+  7 & Thorned Nectar \\
+  8 & Lightning Flower \\
+  9 & Salamander Flower \\
+  10 & Power-infused Thistle \\
+  11 & Strawman Bush \\
+  12 & Tear of a Goddess \\
+  13 & Scrying Beans \\
+  14 & Barrel Cactus \\
+  15 & Scorching Grass \\
+  16 & Desert Jasmine \\
+  17 & Needler \\
+  18 & Hard-shelled Beans \\
+  19 & Pheromoner \\
+  20 & Unidentifiable Scrub \\
+  21 & Stump Canal \\
+  22 & False Hope \\
+  23 & Date of Love \\
+  24 & Baobab Tower \\
+  25 & Blood in the Wind \\
+  26 & Shadow Peyote \\
+  27 & The Forbidden Fruit \\
+  28 & Desert Siren \\
+  29 & Vanisher \\
+  30 & Spell Drinker \\
+  31 & Cinderleaf \\
+  32 & Symbiotic Succulents \\
+\end{DndTable}
+\subsection*{Arid 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8/d8} & \textbf{Item} \\
+  3 & Black Chilli \\
+  4 & Wild Rose \\
+  5 & Shaking Chestnuts \\
+  6 & Dry Tumbleweed \\
+  7 & Oily shrubbery \\
+  8 & Thorned Nectar \\
+  9 & Lightning Flower \\
+  10 & Salamander Flower \\
+  11 & Power-infused Thistle \\
+  12 & Strawman Bush \\
+  13 & Tear of a Goddess \\
+  14 & Tree of the Living Death \\
+  15 & Scrying Beans \\
+  16 & Barrel Cactus \\
+  17 & Scorching Grass \\
+  18 & Desert Jasmine \\
+  19 & Needler \\
+  20 & Hard-shelled Beans \\
+  21 & Pheromoner \\
+  22 & Unidentifiable Scrub \\
+  23 & Stump Canal \\
+  24 & False Hope \\
+  25 & Date of Love \\
+  26 & Baobab Tower \\
+  27 & Blood in the Wind \\
+  28 & Shadow Peyote \\
+  29 & The Forbidden Fruit \\
+  30 & Desert Siren \\
+  31 & Vanisher \\
+  32 & Last Stand \\
+  33 & Burning Temptation \\
+  34 & Spell Drinker \\
+  35 & Cinderleaf \\
+  36 & Symbiotic Succulents \\
+\end{DndTable}
+\subsection*{Arid 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Black Chilli \\
+  5 & Wild Rose \\
+  6 & Shaking Chestnuts \\
+  7 & Dry Tumbleweed \\
+  8 & Oily shrubbery \\
+  9 & Thorned Nectar \\
+  10 & Lightning Flower \\
+  11 & Salamander Flower \\
+  12 & Power-infused Thistle \\
+  13 & Strawman Bush \\
+  14 & Tear of a Goddess \\
+  15 & Tree of the Living Death \\
+  16 & Scrying Beans \\
+  17 & Immortal Lily \\
+  18 & Barrel Cactus \\
+  19 & Scorching Grass \\
+  20 & Desert Jasmine \\
+  21 & Needler \\
+  22 & Hard-shelled Beans \\
+  23 & Pheromoner \\
+  24 & Unidentifiable Scrub \\
+  25 & Stump Canal \\
+  26 & False Hope \\
+  27 & Date of Love \\
+  28 & Baobab Tower \\
+  29 & Blood in the Wind \\
+  30 & Shadow Peyote \\
+  31 & The Forbidden Fruit \\
+  32 & Desert Siren \\
+  33 & Vanisher \\
+  34 & Last Stand \\
+  35 & Burning Temptation \\
+  36 & Spell Drinker \\
+  37 & Cinderleaf \\
+  38 & Symbiotic Succulents \\
+\end{DndTable}
+\subsection*{Arctic 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d4} & \textbf{Item} \\
+  1 & Crystal Flower \\
+  2 & Firewood \\
+  3 & Cached Nuts \\
+  4 & Dark Leaves \\
+\end{DndTable}
+\subsection*{Arctic 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12} & \textbf{Item} \\
+  1 & Crystal Flower \\
+  2 & White Lotus \\
+  3 & Animal Nip \\
+  4 & 10 Feet Branch \\
+  5 & Sturdy Undergrowth \\
+  6 & Snow Seeds \\
+  7 & Warmth-Seeker \\
+  8 & Firewood \\
+  9 & Cached Nuts \\
+  10 & Dark Leaves \\
+  11 & Northern Evergreen \\
+  12 & Stump Canal \\
+\end{DndTable}
+\subsection*{Arctic 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d12} & \textbf{Item} \\
+  2 & Crystal Flower \\
+  3 & White Lotus \\
+  4 & Animal Nip \\
+  5 & 10 Feet Branch \\
+  6 & Nightshade \\
+  7 & Homeopathic Mold \\
+  8 & Living Ice Crystal \\
+  9 & Poison Leaves \\
+  10 & Pale-blue Flower \\
+  11 & Half-White, Half-Black Flower \\
+  12 & Oak bark \\
+  13 & Sturdy Undergrowth \\
+  14 & Snow Seeds \\
+  15 & Ancient Root \\
+  16 & Warmth-Seeker \\
+  17 & Enchanted Branch \\
+  18 & Firewood \\
+  19 & Cached Nuts \\
+  20 & Dark Leaves \\
+  21 & Exploding Pinecones \\
+  22 & Northern Evergreen \\
+  23 & Stump Canal \\
+  24 & Phantom Feast \\
+\end{DndTable}
+\subsection*{Arctic 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12} & \textbf{Item} \\
+  2 & No plant found \\
+  3 & Crystal Flower \\
+  4 & White Lotus \\
+  5 & Animal Nip \\
+  6 & 10 Feet Branch \\
+  7 & Nightshade \\
+  8 & Homeopathic Mold \\
+  9 & Living Ice Crystal \\
+  10 & Poison Leaves \\
+  11 & Pale-blue Flower \\
+  12 & Half-White, Half-Black Flower \\
+  13 & Oak bark \\
+  14 & Soothing Petals \\
+  15 & Head in the Clouds \\
+  16 & Tear of a Goddess \\
+  17 & Sturdy Undergrowth \\
+  18 & Snow Seeds \\
+  19 & Ancient Root \\
+  20 & Warmth-Seeker \\
+  21 & Enchanted Branch \\
+  22 & Red on White \\
+  23 & Mirror Moss \\
+  24 & Firewood \\
+  25 & Cached Nuts \\
+  26 & Dark Leaves \\
+  27 & Exploding Pinecones \\
+  28 & Northern Evergreen \\
+  29 & Snow-White Blossom \\
+  30 & Stump Canal \\
+  31 & Vanisher \\
+  32 & Phantom Feast \\
+\end{DndTable}
+\subsection*{Arctic 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d4} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Crystal Flower \\
+  5 & White Lotus \\
+  6 & Animal Nip \\
+  7 & 10 Feet Branch \\
+  8 & Nightshade \\
+  9 & Homeopathic Mold \\
+  10 & Living Ice Crystal \\
+  11 & Poison Leaves \\
+  12 & Pale-blue Flower \\
+  13 & Half-White, Half-Black Flower \\
+  14 & Oak bark \\
+  15 & Soothing Petals \\
+  16 & Head in the Clouds \\
+  17 & Tear of a Goddess \\
+  18 & Tree of the Living Death \\
+  19 & Sturdy Undergrowth \\
+  20 & Snow Seeds \\
+  21 & Ancient Root \\
+  22 & Warmth-Seeker \\
+  23 & Enchanted Branch \\
+  24 & Red on White \\
+  25 & Mirror Moss \\
+  26 & Eternal Blizzard \\
+  27 & Parasite Mushroom \\
+  28 & Firewood \\
+  29 & Cached Nuts \\
+  30 & Dark Leaves \\
+  31 & Exploding Pinecones \\
+  32 & Northern Evergreen \\
+  33 & Snow-White Blossom \\
+  34 & Stump Canal \\
+  35 & Vanisher \\
+  36 & Phantom Feast \\
+\end{DndTable}
+\subsection*{Arctic 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8/d8} & \textbf{Item} \\
+  3 & Crystal Flower \\
+  4 & White Lotus \\
+  5 & Animal Nip \\
+  6 & 10 Feet Branch \\
+  7 & Nightshade \\
+  8 & Homeopathic Mold \\
+  9 & Living Ice Crystal \\
+  10 & Poison Leaves \\
+  11 & Pale-blue Flower \\
+  12 & Half-White, Half-Black Flower \\
+  13 & Oak bark \\
+  14 & Soothing Petals \\
+  15 & Head in the Clouds \\
+  16 & Tear of a Goddess \\
+  17 & Tree of the Living Death \\
+  18 & Immortal Lily \\
+  19 & Sturdy Undergrowth \\
+  20 & Snow Seeds \\
+  21 & Ancient Root \\
+  22 & Warmth-Seeker \\
+  23 & Enchanted Branch \\
+  24 & Red on White \\
+  25 & Mirror Moss \\
+  26 & Eternal Blizzard \\
+  27 & Parasite Mushroom \\
+  28 & Firewood \\
+  29 & Cached Nuts \\
+  30 & Dark Leaves \\
+  31 & Exploding Pinecones \\
+  32 & Northern Evergreen \\
+  33 & Snow-White Blossom \\
+  34 & Stump Canal \\
+  35 & Vanisher \\
+  36 & Phantom Feast \\
+\end{DndTable}
+\subsection*{Forest 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d6} & \textbf{Item} \\
+  1 & No plant found \\
+  2 & Wild Rose \\
+  3 & Berry \\
+  4 & Fast-growing Ivy \\
+  5 & Sturdy Vine \\
+  6 & Firewood \\
+\end{DndTable}
+\subsection*{Forest 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d8/d8} & \textbf{Item} \\
+  2 & Wild Rose \\
+  3 & Medical Leaves \\
+  4 & Berry \\
+  5 & Fast-growing Ivy \\
+  6 & Sturdy Vine \\
+  7 & Shaking Chestnuts \\
+  8 & Bell Bush \\
+  9 & Animal Nip \\
+  10 & Tea Leaves \\
+  11 & Goodberry Bush \\
+  12 & Spotted Mushroom \\
+  13 & 10 Feet Branch \\
+  14 & Firewood \\
+  15 & Guttator \\
+  16 & Lucky Charm \\
+\end{DndTable}
+\subsection*{Forest 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d12/d6} & \textbf{Item} \\
+  3 & Wild Rose \\
+  4 & Medical Leaves \\
+  5 & Berry \\
+  6 & Fast-growing Ivy \\
+  7 & Sturdy Vine \\
+  8 & Shaking Chestnuts \\
+  9 & Bell Bush \\
+  10 & Animal Nip \\
+  11 & Tea Leaves \\
+  12 & Goodberry Bush \\
+  13 & Spotted Mushroom \\
+  14 & 10 Feet Branch \\
+  15 & Spreading Roots \\
+  16 & Poison Leaves \\
+  17 & Once-in-the-lifetime Pumpkin \\
+  18 & Lightning Flower \\
+  19 & Salamander Flower \\
+  20 & Half-White, Half-Black Flower \\
+  21 & Harmonica Fruit \\
+  22 & Cryptic beans \\
+  23 & Oak bark \\
+  24 & Firewood \\
+  25 & Exploding Pinecones \\
+  26 & Date of Love \\
+  27 & Guttator \\
+  28 & Lucky Charm \\
+  29 & Living Web \\
+  30 & Curse Bleeder \\
+\end{DndTable}
+\subsection*{Forest 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & Wild Rose \\
+  4 & Medical Leaves \\
+  5 & Berry \\
+  6 & Fast-growing Ivy \\
+  7 & Sturdy Vine \\
+  8 & Shaking Chestnuts \\
+  9 & Bell Bush \\
+  10 & Animal Nip \\
+  11 & Tea Leaves \\
+  12 & Goodberry Bush \\
+  13 & Spotted Mushroom \\
+  14 & 10 Feet Branch \\
+  15 & Spreading Roots \\
+  16 & Poison Leaves \\
+  17 & Once-in-the-lifetime Pumpkin \\
+  18 & Lightning Flower \\
+  19 & Salamander Flower \\
+  20 & Half-White, Half-Black Flower \\
+  21 & Harmonica Fruit \\
+  22 & Cryptic beans \\
+  23 & Oak bark \\
+  24 & Invasive Plant \\
+  25 & Soothing Petals \\
+  26 & Euphoric Grapes \\
+  27 & Head in the Clouds \\
+  28 & Guardians \\
+  29 & Scrying Beans \\
+  30 & Assimilation Plant \\
+  31 & Mirror Moss \\
+  32 & Firewood \\
+  33 & Exploding Pinecones \\
+  34 & Date of Love \\
+  35 & Guttator \\
+  36 & Lucky Charm \\
+  37 & Living Web \\
+  38 & Curse Bleeder \\
+\end{DndTable}
+\subsection*{Forest 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d20} & \textbf{Item} \\
+  2 & Wild Rose \\
+  3 & Medical Leaves \\
+  4 & Berry \\
+  5 & Fast-growing Ivy \\
+  6 & Sturdy Vine \\
+  7 & Shaking Chestnuts \\
+  8 & Bell Bush \\
+  9 & Animal Nip \\
+  10 & Tea Leaves \\
+  11 & Goodberry Bush \\
+  12 & Spotted Mushroom \\
+  13 & 10 Feet Branch \\
+  14 & Spreading Roots \\
+  15 & Poison Leaves \\
+  16 & Once-in-the-lifetime Pumpkin \\
+  17 & Lightning Flower \\
+  18 & Salamander Flower \\
+  19 & Half-White, Half-Black Flower \\
+  20 & Harmonica Fruit \\
+  21 & Cryptic beans \\
+  22 & Oak bark \\
+  23 & Invasive Plant \\
+  24 & Soothing Petals \\
+  25 & Euphoric Grapes \\
+  26 & Head in the Clouds \\
+  27 & Guardians \\
+  28 & Tree of the Living Death \\
+  29 & Scrying Beans \\
+  30 & Assimilation Plant \\
+  31 & Mirror Moss \\
+  32 & Parasite Mushroom \\
+  33 & Firewood \\
+  34 & Exploding Pinecones \\
+  35 & Date of Love \\
+  36 & Guttator \\
+  37 & Lucky Charm \\
+  38 & Heart of the Forest \\
+  39 & Living Web \\
+  40 & Curse Bleeder \\
+\end{DndTable}
+\subsection*{Forest 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6/d6} & \textbf{Item} \\
+  4 & No plant found \\
+  5 & Wild Rose \\
+  6 & Medical Leaves \\
+  7 & Berry \\
+  8 & Fast-growing Ivy \\
+  9 & Sturdy Vine \\
+  10 & Shaking Chestnuts \\
+  11 & Bell Bush \\
+  12 & Animal Nip \\
+  13 & Tea Leaves \\
+  14 & Goodberry Bush \\
+  15 & Spotted Mushroom \\
+  16 & 10 Feet Branch \\
+  17 & Spreading Roots \\
+  18 & Poison Leaves \\
+  19 & Once-in-the-lifetime Pumpkin \\
+  20 & Lightning Flower \\
+  21 & Salamander Flower \\
+  22 & Half-White, Half-Black Flower \\
+  23 & Harmonica Fruit \\
+  24 & Cryptic beans \\
+  25 & Oak bark \\
+  26 & Invasive Plant \\
+  27 & Soothing Petals \\
+  28 & Euphoric Grapes \\
+  29 & Head in the Clouds \\
+  30 & Guardians \\
+  31 & Tree of the Living Death \\
+  32 & Scrying Beans \\
+  33 & Assimilation Plant \\
+  34 & Immortal Lily \\
+  35 & Mirror Moss \\
+  36 & Parasite Mushroom \\
+  37 & Firewood \\
+  38 & Exploding Pinecones \\
+  39 & Date of Love \\
+  40 & Guttator \\
+  41 & Lucky Charm \\
+  42 & Heart of the Forest \\
+  43 & Living Web \\
+  44 & Curse Bleeder \\
+\end{DndTable}
+\subsection*{Plains 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d6} & \textbf{Item} \\
+  1 & Black Chilli \\
+  2 & Wild Rose \\
+  3 & Berry \\
+  4 & Carrot \\
+  5 & Scorching Grass \\
+  6 & Sunflower \\
+\end{DndTable}
+\subsection*{Plains 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20} & \textbf{Item} \\
+  1 & No plant found \\
+  2 & Black Chilli \\
+  3 & Wild Rose \\
+  4 & Berry \\
+  5 & Carrot \\
+  6 & Gas-filled Pumpkin \\
+  7 & Dry Tumbleweed \\
+  8 & Bell Bush \\
+  9 & Animal Nip \\
+  10 & Tea Leaves \\
+  11 & Goodberry Bush \\
+  12 & Four-leaf clover \\
+  13 & Oily shrubbery \\
+  14 & Dandelion Light \\
+  15 & 10 Feet Branch \\
+  16 & Sturdy Undergrowth \\
+  17 & Scorching Grass \\
+  18 & Hard-shelled Beans \\
+  19 & Unidentifiable Scrub \\
+  20 & Sunflower \\
+\end{DndTable}
+\subsection*{Plains 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8/d6} & \textbf{Item} \\
+  3 & Black Chilli \\
+  4 & Wild Rose \\
+  5 & Berry \\
+  6 & Carrot \\
+  7 & Gas-filled Pumpkin \\
+  8 & Dry Tumbleweed \\
+  9 & Bell Bush \\
+  10 & Animal Nip \\
+  11 & Tea Leaves \\
+  12 & Goodberry Bush \\
+  13 & Four-leaf clover \\
+  14 & Oily shrubbery \\
+  15 & Dandelion Light \\
+  16 & 10 Feet Branch \\
+  17 & Thorned Nectar \\
+  18 & Once-in-the-lifetime Pumpkin \\
+  19 & Truffles \\
+  20 & Lightning Flower \\
+  21 & Half-White, Half-Black Flower \\
+  22 & Power-infused Thistle \\
+  23 & Harmonica Fruit \\
+  24 & Cryptic beans \\
+  25 & Sturdy Undergrowth \\
+  26 & Scorching Grass \\
+  27 & Hard-shelled Beans \\
+  28 & Unidentifiable Scrub \\
+  29 & Blood in the Wind \\
+  30 & Bad Omen \\
+  31 & Valley Kraken \\
+  32 & Sunflower \\
+  33 & Tracker \\
+  34 & Twirling Piper \\
+\end{DndTable}
+\subsection*{Plains 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6/d6} & \textbf{Item} \\
+  4 & No plant found \\
+  5 & Black Chilli \\
+  6 & Wild Rose \\
+  7 & Berry \\
+  8 & Carrot \\
+  9 & Gas-filled Pumpkin \\
+  10 & Dry Tumbleweed \\
+  11 & Bell Bush \\
+  12 & Animal Nip \\
+  13 & Tea Leaves \\
+  14 & Goodberry Bush \\
+  15 & Four-leaf clover \\
+  16 & Oily shrubbery \\
+  17 & Dandelion Light \\
+  18 & 10 Feet Branch \\
+  19 & Thorned Nectar \\
+  20 & Once-in-the-lifetime Pumpkin \\
+  21 & Truffles \\
+  22 & Lightning Flower \\
+  23 & Half-White, Half-Black Flower \\
+  24 & Power-infused Thistle \\
+  25 & Harmonica Fruit \\
+  26 & Cryptic beans \\
+  27 & Invasive Plant \\
+  28 & Euphoric Grapes \\
+  29 & Head in the Clouds \\
+  30 & Strawman Bush \\
+  31 & Scrying Beans \\
+  32 & Sturdy Undergrowth \\
+  33 & Snow-White Blossom \\
+  34 & Scorching Grass \\
+  35 & Hard-shelled Beans \\
+  36 & Unidentifiable Scrub \\
+  37 & Blood in the Wind \\
+  38 & Bad Omen \\
+  39 & Valley Kraken \\
+  40 & Dead or Alive \\
+  41 & Sunflower \\
+  42 & Tracker \\
+  43 & Twirling Piper \\
+  44 & Name Thief \\
+\end{DndTable}
+\subsection*{Plains 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d12} & \textbf{Item} \\
+  3 & Black Chilli \\
+  4 & Wild Rose \\
+  5 & Berry \\
+  6 & Carrot \\
+  7 & Gas-filled Pumpkin \\
+  8 & Dry Tumbleweed \\
+  9 & Bell Bush \\
+  10 & Animal Nip \\
+  11 & Tea Leaves \\
+  12 & Goodberry Bush \\
+  13 & Four-leaf clover \\
+  14 & Oily shrubbery \\
+  15 & Dandelion Light \\
+  16 & 10 Feet Branch \\
+  17 & Thorned Nectar \\
+  18 & Once-in-the-lifetime Pumpkin \\
+  19 & Truffles \\
+  20 & Lightning Flower \\
+  21 & Half-White, Half-Black Flower \\
+  22 & Power-infused Thistle \\
+  23 & Harmonica Fruit \\
+  24 & Cryptic beans \\
+  25 & Invasive Plant \\
+  26 & Euphoric Grapes \\
+  27 & Head in the Clouds \\
+  28 & Strawman Bush \\
+  29 & Fevered Dream \\
+  30 & Scrying Beans \\
+  31 & Giant Scales \\
+  32 & Sturdy Undergrowth \\
+  33 & Snow-White Blossom \\
+  34 & Scorching Grass \\
+  35 & Hard-shelled Beans \\
+  36 & Unidentifiable Scrub \\
+  37 & Blood in the Wind \\
+  38 & Bad Omen \\
+  39 & Valley Kraken \\
+  40 & Dead or Alive \\
+  41 & Sunflower \\
+  42 & Tracker \\
+  43 & Twirling Piper \\
+  44 & Name Thief \\
+\end{DndTable}
+\subsection*{Plains 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d8/d6} & \textbf{Item} \\
+  4 & Black Chilli \\
+  5 & Wild Rose \\
+  6 & Berry \\
+  7 & Carrot \\
+  8 & Gas-filled Pumpkin \\
+  9 & Dry Tumbleweed \\
+  10 & Bell Bush \\
+  11 & Animal Nip \\
+  12 & Tea Leaves \\
+  13 & Goodberry Bush \\
+  14 & Four-leaf clover \\
+  15 & Oily shrubbery \\
+  16 & Dandelion Light \\
+  17 & 10 Feet Branch \\
+  18 & Thorned Nectar \\
+  19 & Once-in-the-lifetime Pumpkin \\
+  20 & Truffles \\
+  21 & Lightning Flower \\
+  22 & Half-White, Half-Black Flower \\
+  23 & Power-infused Thistle \\
+  24 & Harmonica Fruit \\
+  25 & Cryptic beans \\
+  26 & Invasive Plant \\
+  27 & Euphoric Grapes \\
+  28 & Head in the Clouds \\
+  29 & Strawman Bush \\
+  30 & Fevered Dream \\
+  31 & Scrying Beans \\
+  32 & Immortal Lily \\
+  33 & Giant Scales \\
+  34 & Sturdy Undergrowth \\
+  35 & Snow-White Blossom \\
+  36 & Scorching Grass \\
+  37 & Hard-shelled Beans \\
+  38 & Unidentifiable Scrub \\
+  39 & Blood in the Wind \\
+  40 & Bad Omen \\
+  41 & Valley Kraken \\
+  42 & Dead or Alive \\
+  43 & Sunflower \\
+  44 & Tracker \\
+  45 & Twirling Piper \\
+  46 & Name Thief \\
+\end{DndTable}
+\subsection*{Mountain 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d4} & \textbf{Item} \\
+  1 & Wild Rose \\
+  2 & Berry \\
+  3 & Sturdy Vine \\
+  4 & Cached Nuts \\
+\end{DndTable}
+\subsection*{Mountain 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d6} & \textbf{Item} \\
+  2 & No plant found \\
+  3 & Wild Rose \\
+  4 & Berry \\
+  5 & Sturdy Vine \\
+  6 & White Lotus \\
+  7 & Shaking Chestnuts \\
+  8 & Bell Bush \\
+  9 & Animal Nip \\
+  10 & Tea Leaves \\
+  11 & Goodberry Bush \\
+  12 & Four-leaf clover \\
+  13 & Oily shrubbery \\
+  14 & Cached Nuts \\
+  15 & Northern Evergreen \\
+  16 & Unidentifiable Scrub \\
+  17 & Lucky Charm \\
+  18 & Moving Nest \\
+\end{DndTable}
+\subsection*{Mountain 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8} & \textbf{Item} \\
+  2 & Wild Rose \\
+  3 & Berry \\
+  4 & Sturdy Vine \\
+  5 & White Lotus \\
+  6 & Shaking Chestnuts \\
+  7 & Bell Bush \\
+  8 & Animal Nip \\
+  9 & Tea Leaves \\
+  10 & Goodberry Bush \\
+  11 & Four-leaf clover \\
+  12 & Oily shrubbery \\
+  13 & Nightshade \\
+  14 & Homeopathic Mold \\
+  15 & Poison Leaves \\
+  16 & Pale-blue Flower \\
+  17 & Salamander Flower \\
+  18 & Power-infused Thistle \\
+  19 & Harmonica Fruit \\
+  20 & Enchanted Branch \\
+  21 & Cached Nuts \\
+  22 & Northern Evergreen \\
+  23 & Unidentifiable Scrub \\
+  24 & Shadow Peyote \\
+  25 & Lucky Charm \\
+  26 & Oddly Specific Tree \\
+  27 & Soulswap \\
+  28 & Moving Nest \\
+\end{DndTable}
+\subsection*{Mountain 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d4} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Wild Rose \\
+  5 & Berry \\
+  6 & Sturdy Vine \\
+  7 & White Lotus \\
+  8 & Shaking Chestnuts \\
+  9 & Bell Bush \\
+  10 & Animal Nip \\
+  11 & Tea Leaves \\
+  12 & Goodberry Bush \\
+  13 & Four-leaf clover \\
+  14 & Oily shrubbery \\
+  15 & Nightshade \\
+  16 & Homeopathic Mold \\
+  17 & Poison Leaves \\
+  18 & Pale-blue Flower \\
+  19 & Salamander Flower \\
+  20 & Power-infused Thistle \\
+  21 & Harmonica Fruit \\
+  22 & Invasive Plant \\
+  23 & Soothing Petals \\
+  24 & Head in the Clouds \\
+  25 & Strawman Bush \\
+  26 & Neck Breaker \\
+  27 & Enchanted Branch \\
+  28 & Cached Nuts \\
+  29 & Northern Evergreen \\
+  30 & Snow-White Blossom \\
+  31 & Unidentifiable Scrub \\
+  32 & Shadow Peyote \\
+  33 & Lucky Charm \\
+  34 & Oddly Specific Tree \\
+  35 & Soulswap \\
+  36 & Moving Nest \\
+\end{DndTable}
+\subsection*{Mountain 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & Wild Rose \\
+  4 & Berry \\
+  5 & Sturdy Vine \\
+  6 & White Lotus \\
+  7 & Shaking Chestnuts \\
+  8 & Bell Bush \\
+  9 & Animal Nip \\
+  10 & Tea Leaves \\
+  11 & Goodberry Bush \\
+  12 & Four-leaf clover \\
+  13 & Oily shrubbery \\
+  14 & Nightshade \\
+  15 & Homeopathic Mold \\
+  16 & Poison Leaves \\
+  17 & Pale-blue Flower \\
+  18 & Salamander Flower \\
+  19 & Power-infused Thistle \\
+  20 & Harmonica Fruit \\
+  21 & Invasive Plant \\
+  22 & Soothing Petals \\
+  23 & Head in the Clouds \\
+  24 & Strawman Bush \\
+  25 & Tree of the Living Death \\
+  26 & Fevered Dream \\
+  27 & Neck Breaker \\
+  28 & Bond Breaker \\
+  29 & Enchanted Branch \\
+  30 & Cached Nuts \\
+  31 & Northern Evergreen \\
+  32 & Snow-White Blossom \\
+  33 & Unidentifiable Scrub \\
+  34 & Shadow Peyote \\
+  35 & Lucky Charm \\
+  36 & Oddly Specific Tree \\
+  37 & Soulswap \\
+  38 & Moving Nest \\
+\end{DndTable}
+\subsection*{Mountain 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d8} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Wild Rose \\
+  5 & Berry \\
+  6 & Sturdy Vine \\
+  7 & White Lotus \\
+  8 & Shaking Chestnuts \\
+  9 & Bell Bush \\
+  10 & Animal Nip \\
+  11 & Tea Leaves \\
+  12 & Goodberry Bush \\
+  13 & Four-leaf clover \\
+  14 & Oily shrubbery \\
+  15 & Nightshade \\
+  16 & Homeopathic Mold \\
+  17 & Poison Leaves \\
+  18 & Pale-blue Flower \\
+  19 & Salamander Flower \\
+  20 & Power-infused Thistle \\
+  21 & Harmonica Fruit \\
+  22 & Invasive Plant \\
+  23 & Soothing Petals \\
+  24 & Head in the Clouds \\
+  25 & Strawman Bush \\
+  26 & Tree of the Living Death \\
+  27 & Fevered Dream \\
+  28 & Neck Breaker \\
+  29 & Immortal Lily \\
+  30 & Bond Breaker \\
+  31 & Enchanted Branch \\
+  32 & Cached Nuts \\
+  33 & Northern Evergreen \\
+  34 & Snow-White Blossom \\
+  35 & Unidentifiable Scrub \\
+  36 & Shadow Peyote \\
+  37 & Lucky Charm \\
+  38 & Oddly Specific Tree \\
+  39 & Soulswap \\
+  40 & Moving Nest \\
+\end{DndTable}
+\subsection*{Cave 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d4} & \textbf{Item} \\
+  1 & No plant found \\
+  2 & No plant found \\
+  3 & Crystal Flower \\
+  4 & Dark Leaves \\
+\end{DndTable}
+\subsection*{Cave 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d8} & \textbf{Item} \\
+  1 & Medical Leaves \\
+  2 & Crystal Flower \\
+  3 & Corpse Flower \\
+  4 & Animal Nip \\
+  5 & Copycat Fertilizer \\
+  6 & Dark Leaves \\
+  7 & Guttator \\
+  8 & Lichen Shroud \\
+\end{DndTable}
+\subsection*{Cave 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20} & \textbf{Item} \\
+  1 & Medical Leaves \\
+  2 & Crystal Flower \\
+  3 & Corpse Flower \\
+  4 & Animal Nip \\
+  5 & Copycat Fertilizer \\
+  6 & Nightshade \\
+  7 & Homeopathic Mold \\
+  8 & Living Ice Crystal \\
+  9 & Poison Leaves \\
+  10 & Truffles \\
+  11 & Ghost Melon \\
+  12 & Harmonica Fruit \\
+  13 & Dark Leaves \\
+  14 & Guttator \\
+  15 & Lichen Shroud \\
+  16 & Nightmare Flower \\
+  17 & Valley Kraken \\
+  18 & Cleanser \\
+  19 & Living Web \\
+  20 & Sludge Flower \\
+\end{DndTable}
+\subsection*{Cave 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8} & \textbf{Item} \\
+  2 & Medical Leaves \\
+  3 & Crystal Flower \\
+  4 & Corpse Flower \\
+  5 & Animal Nip \\
+  6 & Copycat Fertilizer \\
+  7 & Nightshade \\
+  8 & Homeopathic Mold \\
+  9 & Living Ice Crystal \\
+  10 & Poison Leaves \\
+  11 & Truffles \\
+  12 & Ghost Melon \\
+  13 & Harmonica Fruit \\
+  14 & Invasive Plant \\
+  15 & Night Tulip \\
+  16 & Head in the Clouds \\
+  17 & Assimilation Plant \\
+  18 & Mirror Moss \\
+  19 & Dark Leaves \\
+  20 & The Forbidden Fruit \\
+  21 & Vanisher \\
+  22 & Guttator \\
+  23 & Lichen Shroud \\
+  24 & Nightmare Flower \\
+  25 & Valley Kraken \\
+  26 & Cleanser \\
+  27 & Living Web \\
+  28 & Sludge Flower \\
+\end{DndTable}
+\subsection*{Cave 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12} & \textbf{Item} \\
+  2 & No plant found \\
+  3 & Medical Leaves \\
+  4 & Crystal Flower \\
+  5 & Corpse Flower \\
+  6 & Animal Nip \\
+  7 & Copycat Fertilizer \\
+  8 & Nightshade \\
+  9 & Homeopathic Mold \\
+  10 & Living Ice Crystal \\
+  11 & Poison Leaves \\
+  12 & Truffles \\
+  13 & Ghost Melon \\
+  14 & Harmonica Fruit \\
+  15 & Invasive Plant \\
+  16 & Night Tulip \\
+  17 & Head in the Clouds \\
+  18 & Tree of the Living Death \\
+  19 & Assimilation Plant \\
+  20 & Thiefs Dream \\
+  21 & Mirror Moss \\
+  22 & Dark Leaves \\
+  23 & The Forbidden Fruit \\
+  24 & Vanisher \\
+  25 & Last Stand \\
+  26 & Guttator \\
+  27 & Lichen Shroud \\
+  28 & Nightmare Flower \\
+  29 & Valley Kraken \\
+  30 & Cleanser \\
+  31 & Living Web \\
+  32 & Sludge Flower \\
+\end{DndTable}
+\subsection*{Cave 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12} & \textbf{Item} \\
+  2 & Medical Leaves \\
+  3 & Crystal Flower \\
+  4 & Corpse Flower \\
+  5 & Animal Nip \\
+  6 & Copycat Fertilizer \\
+  7 & Nightshade \\
+  8 & Homeopathic Mold \\
+  9 & Living Ice Crystal \\
+  10 & Poison Leaves \\
+  11 & Truffles \\
+  12 & Ghost Melon \\
+  13 & Harmonica Fruit \\
+  14 & Invasive Plant \\
+  15 & Night Tulip \\
+  16 & Head in the Clouds \\
+  17 & Tree of the Living Death \\
+  18 & Assimilation Plant \\
+  19 & Immortal Lily \\
+  20 & Thiefs Dream \\
+  21 & Mirror Moss \\
+  22 & Dark Leaves \\
+  23 & The Forbidden Fruit \\
+  24 & Vanisher \\
+  25 & Last Stand \\
+  26 & Guttator \\
+  27 & Lichen Shroud \\
+  28 & Nightmare Flower \\
+  29 & Valley Kraken \\
+  30 & Cleanser \\
+  31 & Living Web \\
+  32 & Sludge Flower \\
+\end{DndTable}
+\subsection*{Coast 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d4} & \textbf{Item} \\
+  1 & No plant found \\
+  2 & Wild Rose \\
+  3 & Berry \\
+  4 & Dark Leaves \\
+\end{DndTable}
+\subsection*{Coast 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d4} & \textbf{Item} \\
+  2 & No plant found \\
+  3 & Wild Rose \\
+  4 & Berry \\
+  5 & Gas-filled Pumpkin \\
+  6 & Dry Tumbleweed \\
+  7 & Bell Bush \\
+  8 & Animal Nip \\
+  9 & Four-leaf clover \\
+  10 & Oily shrubbery \\
+  11 & Dandelion Light \\
+  12 & Sturdy Undergrowth \\
+  13 & Dark Leaves \\
+  14 & Hard-shelled Beans \\
+  15 & Unidentifiable Scrub \\
+  16 & Willow Bark \\
+\end{DndTable}
+\subsection*{Coast 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d6} & \textbf{Item} \\
+  2 & Wild Rose \\
+  3 & Berry \\
+  4 & Gas-filled Pumpkin \\
+  5 & Dry Tumbleweed \\
+  6 & Bell Bush \\
+  7 & Animal Nip \\
+  8 & Four-leaf clover \\
+  9 & Oily shrubbery \\
+  10 & Dandelion Light \\
+  11 & Good-Luck Lily Pad \\
+  12 & Tentacle Weed \\
+  13 & Poison Leaves \\
+  14 & Once-in-the-lifetime Pumpkin \\
+  15 & Truffles \\
+  16 & Power-infused Thistle \\
+  17 & Harmonica Fruit \\
+  18 & Cryptic beans \\
+  19 & Sturdy Undergrowth \\
+  20 & Dark Leaves \\
+  21 & Hard-shelled Beans \\
+  22 & Unidentifiable Scrub \\
+  23 & Soulswap \\
+  24 & Willow Bark \\
+  25 & Twirling Piper \\
+  26 & Gnome Tree \\
+\end{DndTable}
+\subsection*{Coast 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8/d6} & \textbf{Item} \\
+  3 & Wild Rose \\
+  4 & Berry \\
+  5 & Gas-filled Pumpkin \\
+  6 & Dry Tumbleweed \\
+  7 & Bell Bush \\
+  8 & Animal Nip \\
+  9 & Four-leaf clover \\
+  10 & Oily shrubbery \\
+  11 & Dandelion Light \\
+  12 & Good-Luck Lily Pad \\
+  13 & Tentacle Weed \\
+  14 & Poison Leaves \\
+  15 & Once-in-the-lifetime Pumpkin \\
+  16 & Truffles \\
+  17 & Power-infused Thistle \\
+  18 & Harmonica Fruit \\
+  19 & Cryptic beans \\
+  20 & Invasive Plant \\
+  21 & Hallucinogenic Mushroom \\
+  22 & Euphoric Grapes \\
+  23 & Head in the Clouds \\
+  24 & Tear of a Goddess \\
+  25 & Scrying Beans \\
+  26 & Sturdy Undergrowth \\
+  27 & Dark Leaves \\
+  28 & Hard-shelled Beans \\
+  29 & Unidentifiable Scrub \\
+  30 & Soulswap \\
+  31 & Devil Whisperer \\
+  32 & Willow Bark \\
+  33 & Twirling Piper \\
+  34 & Gnome Tree \\
+\end{DndTable}
+\subsection*{Coast 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Wild Rose \\
+  5 & Berry \\
+  6 & Gas-filled Pumpkin \\
+  7 & Dry Tumbleweed \\
+  8 & Bell Bush \\
+  9 & Animal Nip \\
+  10 & Four-leaf clover \\
+  11 & Oily shrubbery \\
+  12 & Dandelion Light \\
+  13 & Good-Luck Lily Pad \\
+  14 & Tentacle Weed \\
+  15 & Poison Leaves \\
+  16 & Once-in-the-lifetime Pumpkin \\
+  17 & Truffles \\
+  18 & Power-infused Thistle \\
+  19 & Harmonica Fruit \\
+  20 & Cryptic beans \\
+  21 & Invasive Plant \\
+  22 & Hallucinogenic Mushroom \\
+  23 & Euphoric Grapes \\
+  24 & Head in the Clouds \\
+  25 & Tear of a Goddess \\
+  26 & Charcoal-Black Plant \\
+  27 & Blood Algae \\
+  28 & Scrying Beans \\
+  29 & Oceans Test \\
+  30 & Sturdy Undergrowth \\
+  31 & Dark Leaves \\
+  32 & Hard-shelled Beans \\
+  33 & Unidentifiable Scrub \\
+  34 & Soulswap \\
+  35 & Devil Whisperer \\
+  36 & Willow Bark \\
+  37 & Twirling Piper \\
+  38 & Gnome Tree \\
+\end{DndTable}
+\subsection*{Coast 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & Wild Rose \\
+  4 & Berry \\
+  5 & Gas-filled Pumpkin \\
+  6 & Dry Tumbleweed \\
+  7 & Bell Bush \\
+  8 & Animal Nip \\
+  9 & Four-leaf clover \\
+  10 & Oily shrubbery \\
+  11 & Dandelion Light \\
+  12 & Good-Luck Lily Pad \\
+  13 & Tentacle Weed \\
+  14 & Poison Leaves \\
+  15 & Once-in-the-lifetime Pumpkin \\
+  16 & Truffles \\
+  17 & Power-infused Thistle \\
+  18 & Harmonica Fruit \\
+  19 & Cryptic beans \\
+  20 & Invasive Plant \\
+  21 & Hallucinogenic Mushroom \\
+  22 & Euphoric Grapes \\
+  23 & Head in the Clouds \\
+  24 & Tear of a Goddess \\
+  25 & Charcoal-Black Plant \\
+  26 & Blood Algae \\
+  27 & Scrying Beans \\
+  28 & Immortal Lily \\
+  29 & Oceans Test \\
+  30 & Sturdy Undergrowth \\
+  31 & Dark Leaves \\
+  32 & Hard-shelled Beans \\
+  33 & Unidentifiable Scrub \\
+  34 & Soulswap \\
+  35 & Devil Whisperer \\
+  36 & Willow Bark \\
+  37 & Twirling Piper \\
+  38 & Gnome Tree \\
+\end{DndTable}
+\subsection*{Tropics 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d6} & \textbf{Item} \\
+  1 & No plant found \\
+  2 & Berry \\
+  3 & Fast-growing Ivy \\
+  4 & Sturdy Vine \\
+  5 & Tall Palm \\
+  6 & Rainbane \\
+\end{DndTable}
+\subsection*{Tropics 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d8/d8} & \textbf{Item} \\
+  2 & Medical Leaves \\
+  3 & Berry \\
+  4 & Fast-growing Ivy \\
+  5 & Sturdy Vine \\
+  6 & Corpse Flower \\
+  7 & Copycat Fertilizer \\
+  8 & Spotted Mushroom \\
+  9 & Tall Palm \\
+  10 & Rainbane \\
+  11 & Coconut \\
+  12 & Giant Palm Leaves \\
+  13 & Acoustic Pitcher \\
+  14 & Guttator \\
+  15 & Lucky Charm \\
+  16 & Moving Nest \\
+\end{DndTable}
+\subsection*{Tropics 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d12/d6} & \textbf{Item} \\
+  3 & Medical Leaves \\
+  4 & Berry \\
+  5 & Fast-growing Ivy \\
+  6 & Sturdy Vine \\
+  7 & Corpse Flower \\
+  8 & Copycat Fertilizer \\
+  9 & Spotted Mushroom \\
+  10 & Amortentia \\
+  11 & Spreading Roots \\
+  12 & Poison Leaves \\
+  13 & Tall Palm \\
+  14 & Rainbane \\
+  15 & Coconut \\
+  16 & Giant Palm Leaves \\
+  17 & Acoustic Pitcher \\
+  18 & Guttator \\
+  19 & Lucky Charm \\
+  20 & Living Vine \\
+  21 & Traveler \\
+  22 & Bad Omen \\
+  23 & Phantom Feast \\
+  24 & Oddly Specific Tree \\
+  25 & Pocket Paradise \\
+  26 & Soulswap \\
+  27 & Nightmare Flower \\
+  28 & Valley Kraken \\
+  29 & Moving Nest \\
+  30 & Gnome Tree \\
+\end{DndTable}
+\subsection*{Tropics 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Medical Leaves \\
+  5 & Berry \\
+  6 & Fast-growing Ivy \\
+  7 & Sturdy Vine \\
+  8 & Corpse Flower \\
+  9 & Copycat Fertilizer \\
+  10 & Spotted Mushroom \\
+  11 & Amortentia \\
+  12 & Spreading Roots \\
+  13 & Poison Leaves \\
+  14 & Tree of Paradise \\
+  15 & Hallucinogenic Mushroom \\
+  16 & Tall Palm \\
+  17 & Rainbane \\
+  18 & Coconut \\
+  19 & Giant Palm Leaves \\
+  20 & Acoustic Pitcher \\
+  21 & Guttator \\
+  22 & Lucky Charm \\
+  23 & Living Vine \\
+  24 & Traveler \\
+  25 & Bad Omen \\
+  26 & Phantom Feast \\
+  27 & Oddly Specific Tree \\
+  28 & Pocket Paradise \\
+  29 & Soulswap \\
+  30 & Nightmare Flower \\
+  31 & Valley Kraken \\
+  32 & Dead or Alive \\
+  33 & Dragon Coffee \\
+  34 & Devil Whisperer \\
+  35 & Corrosive Leaves \\
+  36 & Moving Nest \\
+  37 & Gnome Tree \\
+  38 & Blabbeler \\
+\end{DndTable}
+\subsection*{Tropics 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d8} & \textbf{Item} \\
+  3 & Medical Leaves \\
+  4 & Berry \\
+  5 & Fast-growing Ivy \\
+  6 & Sturdy Vine \\
+  7 & Corpse Flower \\
+  8 & Copycat Fertilizer \\
+  9 & Spotted Mushroom \\
+  10 & Amortentia \\
+  11 & Spreading Roots \\
+  12 & Poison Leaves \\
+  13 & Tree of Paradise \\
+  14 & Hallucinogenic Mushroom \\
+  15 & Symbiotic Death \\
+  16 & Parasite Mushroom \\
+  17 & Tall Palm \\
+  18 & Rainbane \\
+  19 & Coconut \\
+  20 & Giant Palm Leaves \\
+  21 & Acoustic Pitcher \\
+  22 & Guttator \\
+  23 & Lucky Charm \\
+  24 & Living Vine \\
+  25 & Traveler \\
+  26 & Bad Omen \\
+  27 & Phantom Feast \\
+  28 & Oddly Specific Tree \\
+  29 & Pocket Paradise \\
+  30 & Soulswap \\
+  31 & Nightmare Flower \\
+  32 & Valley Kraken \\
+  33 & Dead or Alive \\
+  34 & Dragon Coffee \\
+  35 & Devil Whisperer \\
+  36 & Corrosive Leaves \\
+  37 & Jungle King \\
+  38 & Moving Nest \\
+  39 & Gnome Tree \\
+  40 & Blabbeler \\
+\end{DndTable}
+\subsection*{Tropics 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d20} & \textbf{Item} \\
+  2 & Medical Leaves \\
+  3 & Berry \\
+  4 & Fast-growing Ivy \\
+  5 & Sturdy Vine \\
+  6 & Corpse Flower \\
+  7 & Copycat Fertilizer \\
+  8 & Spotted Mushroom \\
+  9 & Amortentia \\
+  10 & Spreading Roots \\
+  11 & Poison Leaves \\
+  12 & Tree of Paradise \\
+  13 & Hallucinogenic Mushroom \\
+  14 & Immortal Lily \\
+  15 & Symbiotic Death \\
+  16 & Parasite Mushroom \\
+  17 & Tall Palm \\
+  18 & Rainbane \\
+  19 & Coconut \\
+  20 & Giant Palm Leaves \\
+  21 & Acoustic Pitcher \\
+  22 & Guttator \\
+  23 & Lucky Charm \\
+  24 & Living Vine \\
+  25 & Traveler \\
+  26 & Bad Omen \\
+  27 & Phantom Feast \\
+  28 & Oddly Specific Tree \\
+  29 & Pocket Paradise \\
+  30 & Soulswap \\
+  31 & Nightmare Flower \\
+  32 & Valley Kraken \\
+  33 & Dead or Alive \\
+  34 & Dragon Coffee \\
+  35 & Devil Whisperer \\
+  36 & Corrosive Leaves \\
+  37 & Jungle King \\
+  38 & Moving Nest \\
+  39 & Gnome Tree \\
+  40 & Blabbeler \\
+\end{DndTable}
+\subsection*{Urban 0}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d4} & \textbf{Item} \\
+  1 & Carrot \\
+  2 & Firewood \\
+  3 & Chamomile \\
+  4 & Sunflower \\
+\end{DndTable}
+\subsection*{Urban 2}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d4} & \textbf{Item} \\
+  2 & No plant found \\
+  3 & Carrot \\
+  4 & Animal Nip \\
+  5 & Goodberry Bush \\
+  6 & Four-leaf clover \\
+  7 & Firewood \\
+  8 & Lichen Shroud \\
+  9 & Chamomile \\
+  10 & Sunflower \\
+  11 & Cobblecap Moss \\
+  12 & Magpie Nest \\
+  13 & Willow Bark \\
+  14 & Moving Nest \\
+  15 & Fertile Fields \\
+  16 & Marker Moss \\
+\end{DndTable}
+\subsection*{Urban 3}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d12/d12/d6} & \textbf{Item} \\
+  3 & Carrot \\
+  4 & Animal Nip \\
+  5 & Goodberry Bush \\
+  6 & Four-leaf clover \\
+  7 & Oak bark \\
+  8 & Firewood \\
+  9 & False Hope \\
+  10 & Date of Love \\
+  11 & Shadow Peyote \\
+  12 & Lichen Shroud \\
+  13 & Chamomile \\
+  14 & Sunflower \\
+  15 & Cobblecap Moss \\
+  16 & Magpie Nest \\
+  17 & Willow Bark \\
+  18 & Moving Nest \\
+  19 & Fertile Fields \\
+  20 & Marker Moss \\
+  21 & Spell Drinker \\
+  22 & Cleanser \\
+  23 & Empyrean Yeast \\
+  24 & Tracker \\
+  25 & Living Web \\
+  26 & Curse Bleeder \\
+  27 & Twirling Piper \\
+  28 & Gnome Tree \\
+  29 & Sludge Flower \\
+  30 & Cinderleaf \\
+\end{DndTable}
+\subsection*{Urban 4}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d8/d8} & \textbf{Item} \\
+  3 & Carrot \\
+  4 & Animal Nip \\
+  5 & Goodberry Bush \\
+  6 & Four-leaf clover \\
+  7 & Oak bark \\
+  8 & Euphoric Grapes \\
+  9 & Strawman Bush \\
+  10 & Firewood \\
+  11 & False Hope \\
+  12 & Date of Love \\
+  13 & Shadow Peyote \\
+  14 & Lichen Shroud \\
+  15 & Chamomile \\
+  16 & Sunflower \\
+  17 & Cobblecap Moss \\
+  18 & Magpie Nest \\
+  19 & Willow Bark \\
+  20 & Moving Nest \\
+  21 & Fertile Fields \\
+  22 & Marker Moss \\
+  23 & Spell Drinker \\
+  24 & Cleanser \\
+  25 & Empyrean Yeast \\
+  26 & Tracker \\
+  27 & Living Web \\
+  28 & Curse Bleeder \\
+  29 & Twirling Piper \\
+  30 & Gnome Tree \\
+  31 & Sludge Flower \\
+  32 & Cinderleaf \\
+  33 & Blabbeler \\
+  34 & Name Thief \\
+  35 & Symbiotic Succulents \\
+  36 & Thorny Prison \\
+\end{DndTable}
+\subsection*{Urban 5}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Carrot \\
+  5 & Animal Nip \\
+  6 & Goodberry Bush \\
+  7 & Four-leaf clover \\
+  8 & Oak bark \\
+  9 & Euphoric Grapes \\
+  10 & Strawman Bush \\
+  11 & Firewood \\
+  12 & False Hope \\
+  13 & Date of Love \\
+  14 & Shadow Peyote \\
+  15 & Lichen Shroud \\
+  16 & Chamomile \\
+  17 & Sunflower \\
+  18 & Cobblecap Moss \\
+  19 & Magpie Nest \\
+  20 & Willow Bark \\
+  21 & Moving Nest \\
+  22 & Fertile Fields \\
+  23 & Marker Moss \\
+  24 & Spell Drinker \\
+  25 & Cleanser \\
+  26 & Empyrean Yeast \\
+  27 & Tracker \\
+  28 & Living Web \\
+  29 & Curse Bleeder \\
+  30 & Twirling Piper \\
+  31 & Gnome Tree \\
+  32 & Sludge Flower \\
+  33 & Cinderleaf \\
+  34 & Blabbeler \\
+  35 & Name Thief \\
+  36 & Symbiotic Succulents \\
+  37 & Thorny Prison \\
+  38 & The Hanging Tree \\
+\end{DndTable}
+\subsection*{Urban 6}
+\begin{DndTable}[color=PhbLightCyan]{cX}
+  \textbf{d20/d12/d6} & \textbf{Item} \\
+  3 & No plant found \\
+  4 & Carrot \\
+  5 & Animal Nip \\
+  6 & Goodberry Bush \\
+  7 & Four-leaf clover \\
+  8 & Oak bark \\
+  9 & Euphoric Grapes \\
+  10 & Strawman Bush \\
+  11 & Firewood \\
+  12 & False Hope \\
+  13 & Date of Love \\
+  14 & Shadow Peyote \\
+  15 & Lichen Shroud \\
+  16 & Chamomile \\
+  17 & Sunflower \\
+  18 & Cobblecap Moss \\
+  19 & Magpie Nest \\
+  20 & Willow Bark \\
+  21 & Moving Nest \\
+  22 & Fertile Fields \\
+  23 & Marker Moss \\
+  24 & Spell Drinker \\
+  25 & Cleanser \\
+  26 & Empyrean Yeast \\
+  27 & Tracker \\
+  28 & Living Web \\
+  29 & Curse Bleeder \\
+  30 & Twirling Piper \\
+  31 & Gnome Tree \\
+  32 & Sludge Flower \\
+  33 & Cinderleaf \\
+  34 & Blabbeler \\
+  35 & Name Thief \\
+  36 & Symbiotic Succulents \\
+  37 & Thorny Prison \\
+  38 & The Hanging Tree \\
+\end{DndTable}
 \end{document}

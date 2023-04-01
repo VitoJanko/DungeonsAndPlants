@@ -9,44 +9,27 @@
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" />
     <link href="{{ url_for('static', filename='css/plant.css') }}" rel="stylesheet" />
     <link href="{{ url_for('static', filename='css/gallery.css') }}" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/sample_icon5.ico') }}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body>
+<body onload="loadAll()">
+    <script src="{{ url_for('static', filename='js/gallery.js') }}"></script>
+    <div class="button-container">
+        <button onclick="selectTerrain('Forest')">Forest</button>
+        <button onclick="selectTerrain('Plains')">Plains</button>
+        <button onclick="selectTerrain('Cave')">Cave</button>
+        <button onclick="selectTerrain('Mountain')">Mountain</button>
+        <button onclick="selectTerrain('Coast')">Coast</button>
+        <button onclick="selectTerrain('Arctic')">Arctic</button>
+        <button onclick="selectTerrain('Arid')">Arid</button>
+        <button onclick="selectTerrain('Tropics')">Tropics</button>
+        <button onclick="selectTerrain('Urban')">Village</button>
+    </div>
     <div class="grid" style="grid-template-columns: repeat({{ columns }}, 1fr);">
         {% for name in names %}
             <div class="grid-item" data-name="{{ name }}"></div>
         {% endfor %}
     </div>
-    <script>
-        let getUrl = window.location;
-        let baseUrl = getUrl .protocol + "//" + getUrl.host + "/";
 
-        function createElementFromHTML(htmlString) {
-        const div = document.createElement('div');
-        div.innerHTML = htmlString.trim();
-        return div.firstChild;
-      }
-
-      function addNode(element, htmlString) {
-        if (htmlString.length <= 1) {
-          return;
-        }
-        const newElement = createElementFromHTML(htmlString);
-        element.appendChild(newElement);
-        return newElement;
-      }
-
-
-        $(document).ready(function() {
-            $('.grid-item').each(function() {
-                const name = $(this).data('name');
-                const url = baseUrl+'/generate_plant?terrain=Forest&proff=2&plant_name='+name;
-                const element = $(this);
-                fetch(url)
-                    .then(response => response.text())
-                    .then(data => addNode(element[0], data));
-            });
-        });
-    </script>
 </body>
 </html>

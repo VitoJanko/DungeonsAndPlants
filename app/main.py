@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, send_from_directory
 
 app = Flask(__name__)
 
@@ -42,9 +42,25 @@ def gallery():
     columns = 2
     return render_template("gallery.html", names=names, columns=columns)
 
+@app.route("/pdfView")
+def pdf_viewer():
+    return render_template('pdf_viewer.html', pdf_url=f'/pdf_files/plants.pdf')
+
+# Displays all plants in the pandas dataframe
+# If "habitat" is specified in get request, only plants from that habitat are displayed
+# (e.g. /galleryAll?terrain=Forest)
+
+
+@app.route('/pdf_list')
+def pdf_files():
+    return send_from_directory('static/pdf_files', "plants.pdf")
+
 @app.route("/galleryAll")
 def galleryAll():
+    terrain = request.args.get('terrain')
     plants_all = pd.read_csv("plant_list.csv", sep=";").fillna("")
+    if terrain is not None:
+        plants_all = plants_all[plants_all[terrain]]
     plants_all = plants_all.sort_values(by="Profficiency")
     queue = []
     proficiency = -1
@@ -64,6 +80,9 @@ def galleryAll():
                 queue.append(row["Name"])
         else:
             names.append(row["Name"])
+    for name in queue:
+        names.append("event-" + name)
+        names.append(name)
     # names = list(plants_all["Name"])
     columns = 2
     return render_template("gallery.html", names=names, columns=columns)
