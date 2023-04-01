@@ -32,11 +32,11 @@ def gallery():
              "event-Twirling Piper", "Twirling Piper",
              "event-Sludge Flower", "Sludge Flower",
              "event-Cinderleaf", "Cinderleaf",
-             "Living Web", "Size Changer",
+             "Living Web", "Gnome Tree",
              "Tracker", "Blabbeler",
              "event-Symbiotic Succulents", "Symbiotic Succulents",
              "event-Thorny Prison", "Thorny Prison",
-             "Name Thief", "Facade",
+             "Name Thief",
              "event-The Hanging Tree", "The Hanging Tree",
              ]
     columns = 2
