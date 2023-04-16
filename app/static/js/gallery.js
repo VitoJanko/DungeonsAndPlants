@@ -5,6 +5,12 @@ function selectTerrain(terrain){
     window.location.href = baseUrl + '?terrain=' + terrain;
  }
 
+ function getPDF(terrain){
+    let getUrl = window.location;
+    let baseUrl = getUrl .protocol + "//" + getUrl.host + "/"
+    window.location.href = baseUrl + 'pdf_list';
+ }
+
 function createElementFromHTML(htmlString) {
     const div = document.createElement('div');
     div.innerHTML = htmlString.trim();

@@ -22,29 +22,15 @@ def index():
 
 @app.route("/gallery")
 def gallery():
-    names = ['Sunflower', 'Chamomile',
-             "Cobblecap Moss", "Magpie Nest",
-             "Willow Bark", "Moving Nest",
-             "event-Fertile Fields", "Fertile Fields",
-             "Marker Moss", "Spell Drinker",
-             "Empyrean Yeast", "Cleanser",
-             "event-Curse Bleeder", "Curse Bleeder",
-             "event-Twirling Piper", "Twirling Piper",
-             "event-Sludge Flower", "Sludge Flower",
-             "event-Cinderleaf", "Cinderleaf",
-             "Living Web", "Gnome Tree",
-             "Tracker", "Blabbeler",
-             "event-Symbiotic Succulents", "Symbiotic Succulents",
-             "event-Thorny Prison", "Thorny Prison",
-             "Name Thief",
-             "event-The Hanging Tree", "The Hanging Tree",
+    names = ["event-Neck Breaker", "Neck Breaker",
+            "event-Burning Temptation", "Burning Temptation",
              ]
     columns = 2
     return render_template("gallery.html", names=names, columns=columns)
 
 @app.route("/pdfView")
 def pdf_viewer():
-    return render_template('pdf_viewer.html', pdf_url=f'/pdf_files/plants.pdf')
+    return render_template('pdf_viewer.html', pdf_url=f'/pdf_files/plants2.pdf')
 
 # Displays all plants in the pandas dataframe
 # If "habitat" is specified in get request, only plants from that habitat are displayed
@@ -53,7 +39,7 @@ def pdf_viewer():
 
 @app.route('/pdf_list')
 def pdf_files():
-    return send_from_directory('static/pdf_files', "plants.pdf")
+    return send_from_directory('static/pdf_files', "plants2.pdf")
 
 @app.route("/galleryAll")
 def galleryAll():

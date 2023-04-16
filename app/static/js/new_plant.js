@@ -80,6 +80,12 @@ function read_form_b(){
     fetch_plant(terrain, proff)
 }
 
+ function goToGallery(){
+    let getUrl = window.location;
+    let baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
+    window.location.href = baseUrl + 'galleryAll';
+ }
+
 function fetch_plant(terrain, proff){
   let address = window.location.href;
   let getUrl = window.location;

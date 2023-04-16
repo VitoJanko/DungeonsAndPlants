@@ -24,8 +24,9 @@
         <button onclick="selectTerrain('Arid')">Arid</button>
         <button onclick="selectTerrain('Tropics')">Tropics</button>
         <button onclick="selectTerrain('Urban')">Village</button>
+        <button onclick="getPDF()">PDF</button>
     </div>
-    <div class="grid" style="grid-template-columns: repeat({{ columns }}, 1fr);">
+    <div class="grid" style="grid-template-columns: repeat({{ columns }}, 1fr);" id="grid-container">
         {% for name in names %}
             <div class="grid-item" data-name="{{ name }}"></div>
         {% endfor %}
